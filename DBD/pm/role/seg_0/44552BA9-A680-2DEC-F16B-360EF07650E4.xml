@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Role class="oracle.dbtools.crest.model.design.process.Role" name="Role_1" directorySegmentName="seg_0" id="44552BA9-A680-2DEC-F16B-360EF07650E4">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-13 13:40:57 UTC</createdTime>
+<ownerDesignName>DBD</ownerDesignName>
+</Role>

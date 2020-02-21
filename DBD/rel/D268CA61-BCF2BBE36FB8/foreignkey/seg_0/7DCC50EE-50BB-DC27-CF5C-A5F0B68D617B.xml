@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7DCC50EE-50BB-DC27-CF5C-A5F0B68D617B" containerWithKeyObject="1326E38C-B4E1-BA2B-DF86-3EC1AEE8C48C" localFKIndex="D0F5A030-9EFD-A80F-069E-741AE313356C" name="Asistencia_Marcage_FK">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-13 16:21:23 UTC</createdTime>
+<generatorID>733D18E0-EB75-9F76-32CA-D75C304359C4</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<referredTableLongName>Marcage</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8A49804B-F725-54C5-0552-155EAC18715A</referredTableID>
+<keyObject>CC55151C-992C-C88C-8862-824E25237B93</keyObject>
+<referredKeyID>CC55151C-992C-C88C-8862-824E25237B93</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Marcage</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

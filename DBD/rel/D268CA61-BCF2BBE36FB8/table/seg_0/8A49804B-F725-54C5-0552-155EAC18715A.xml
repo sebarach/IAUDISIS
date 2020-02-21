@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A49804B-F725-54C5-0552-155EAC18715A" name="Marcages">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-13 16:21:23 UTC</createdTime>
+<generatorID>69644412-C6AA-5B2F-358B-81FB600BF186</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<ordsAlias>marcage</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Marcage" id="FD172C73-09F2-DD5C-58C3-6CBBA86D48D6">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-13 16:21:23 UTC</createdTime>
+<generatorID>2480D55B-4D8E-5FA8-3632-C333C244ACAB</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NombreMarcage" id="7CD98EBD-3B6F-0A80-1D0B-59B15EBA885D">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-13 16:21:23 UTC</createdTime>
+<generatorID>C6987BA6-0B15-7425-6C4B-D52FE14C4162</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="activo" id="8215F490-DC0E-F6EB-64E8-DE8B5D31DB1C">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-13 16:21:23 UTC</createdTime>
+<generatorID>AA0BDC1B-CE0E-A1D2-6934-65D6F5814714</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaRegistro" id="B3FDECC6-04DD-F083-2E48-9BC6B22D5C0E">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-13 16:21:23 UTC</createdTime>
+<generatorID>2C4926E7-C43D-BAF7-1670-C7D62DDC9FFD</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Creador" id="C4B508E3-4895-D43A-C919-2F03B7D736CF">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-13 16:21:23 UTC</createdTime>
+<generatorID>87FB19D8-C3B2-30AC-0F9C-BE2EF93DF719</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CC55151C-992C-C88C-8862-824E25237B93" name="Marcage_PK">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-13 16:21:23 UTC</createdTime>
+<generatorID>0B0816AD-A56E-A8DB-AB2A-5BEC7FF54B78</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD172C73-09F2-DD5C-58C3-6CBBA86D48D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

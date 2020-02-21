@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9CB3BFC1-3897-46B0-68A1-743A9A0E22B9" name="Cadenas">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-10 17:08:43 UTC</createdTime>
+<generatorID>115C88EA-9559-CF6A-F842-143BF878C72F</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<ordsAlias>cadena</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Cadena" id="91D366C1-2DF1-FCA7-0DFF-94389CF809B4">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-10 17:08:43 UTC</createdTime>
+<generatorID>E436A048-8EB0-0C9B-48FB-A39193B226CD</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NombreCadena" id="DEBC2457-0586-77CA-C22D-7172A277DB4E">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-10 17:08:43 UTC</createdTime>
+<generatorID>619BFA89-E1F3-7543-9E4E-32D759029E4A</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaRegistro" id="07D391A4-8222-8033-57E8-4AEFAC59BDFD">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-10 17:08:43 UTC</createdTime>
+<generatorID>42C97EF3-760F-898F-7FFB-8469588F50E5</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_UserCreador" id="347E2A9D-9732-245C-390B-D0590D91E228">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-10 17:08:43 UTC</createdTime>
+<generatorID>4CCF637C-38AA-DB2C-832F-1A00A650E477</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Activo" id="6B011424-F574-287A-B01F-06A43B24747D">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-10 17:08:43 UTC</createdTime>
+<generatorID>C056B817-9586-FD06-7A30-BFD52422AEAD</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A75F37C2-1B12-BDA6-61BE-B9D42E4D67E4" name="Cadena_PK">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-13 15:36:19 UTC</createdTime>
+<generatorID>745F3421-4B90-B175-8548-26ED0AE7352E</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91D366C1-2DF1-FCA7-0DFF-94389CF809B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

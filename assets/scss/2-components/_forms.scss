@@ -1,0 +1,71 @@
+//////////////////////////////////////////////////////
+//  Template Name: octAdmin
+//  Author: octathemes
+//  Email: octathemes@gmail.com
+//  File: forms.scss
+///////////////////////////////////////////////////
+
+
+input,
+select,
+textarea,
+
+{
+    @include shadow($gray-200);
+}
+
+.form-control:focus {
+    border-color: $theme-color;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px $theme-color;
+}
+
+input[type=text],
+input[type=email],
+select {
+    min-height: 40px;
+}
+
+input::placeholder {
+    color: $gray-300 !important;
+}
+
+textarea::-webkit-input-placeholder {
+    color: $gray-300 !important;
+    }
+    
+    textarea:-moz-placeholder { /* Firefox 18- */
+    color: $gray-300 !important;  
+    }
+    
+    textarea::-moz-placeholder {  /* Firefox 19+ */
+    color: $gray-300 !important;  
+    }
+    
+    textarea:-ms-input-placeholder {
+    color: $gray-300 !important;  
+    }
+
+.is-valid {
+    border: solid 1px $success !important;
+}
+
+.is-invalid {
+    border: solid 1px $danger !important;
+}
+
+.help-block {
+    color: $gray-300;
+}
+
+.input-group-addon {
+    border: none !important;
+    @include shadow($gray-300);
+}
+
+.input-group {
+    .input-group-btn {
+        .btn {
+            margin: 0px;
+        }
+    }
+}

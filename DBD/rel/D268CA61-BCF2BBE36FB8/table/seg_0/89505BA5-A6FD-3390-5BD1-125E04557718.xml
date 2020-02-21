@@ -1,0 +1,232 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="89505BA5-A6FD-3390-5BD1-125E04557718" name="Horarios">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-10 17:08:44 UTC</createdTime>
+<generatorID>22B0E5FE-8BFC-410D-D1D2-0EAD312D302A</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Horario" id="3CC702E2-85FD-DA1E-D9A2-12021BE31D67">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-10 17:08:44 UTC</createdTime>
+<generatorID>D5957793-E724-90DA-24C0-33CFEBADF674</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Usuario" id="E0BD1EAE-6A40-6CDC-49EB-1079D58EBFFB">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-10 17:08:44 UTC</createdTime>
+<generatorID>15B1A0E6-9BCC-6DC8-429C-5365B7349200</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dia" id="3E614601-E191-7E7C-6B57-D8D3C49B26CC">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-10 17:08:44 UTC</createdTime>
+<generatorID>45D16A9B-6FB1-921A-C64A-42933C808F1D</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Mes" id="622DEFB6-E898-1BE5-8FDB-DCC4F1BBA2C0">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-10 17:08:44 UTC</createdTime>
+<generatorID>90302321-389F-11F4-4BD5-97933355364A</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Anio" id="2D74BF9F-F584-FA04-A573-5B33B0F4C3D9">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-10 17:08:44 UTC</createdTime>
+<generatorID>CA706808-6871-4884-988D-11755C325A07</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Entrada" id="EC157219-7F92-779A-B8E7-3D26E55B1F01">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-10 17:08:44 UTC</createdTime>
+<generatorID>ECF49003-4287-E531-81F0-0A033CCDC4C2</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Salida" id="ED58B44A-7B52-502D-9A78-1DFCDD2E73F9">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-10 17:08:44 UTC</createdTime>
+<generatorID>785DB039-A88B-B4E5-7B67-45ED682CF11D</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Activo" id="15788766-E7B9-A34A-BA19-CC7CE5071395">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-13 15:36:20 UTC</createdTime>
+<generatorID>E48FF2A7-E46E-6EDE-0534-D7C818B72FF4</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_userCreador" id="8B087FDD-6E73-FE12-FEC8-966B5762B37B">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-13 15:36:20 UTC</createdTime>
+<generatorID>EAFFD59D-4BD6-E146-63BE-B86726F6C180</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaRegistro" id="880889A5-60CC-C385-884E-FDE5FFEF74C8">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-13 15:36:20 UTC</createdTime>
+<generatorID>B6F49BB6-27F5-D3F3-AE8A-D36E73C2DA38</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Jornadas_id_Jornada" id="115EE8CC-0AC6-7069-B10D-B61EE9E4634A">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-13 16:21:23 UTC</createdTime>
+<generatorID>1EF88BB4-E642-AA6F-2A3E-1AEAE85AE753</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D5278A25-03CE-3DBB-EBF8-154DF9E1E6A6" referredColumn="32064296-8495-9EA7-B9FE-68B1D8A69735"/>
+</associations>
+</Column>
+<Column name="Jornadas_Locales_ID_Local" id="F433DA35-E61F-1EF7-E2FB-F4E6E9778E67">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-13 16:21:23 UTC</createdTime>
+<generatorID>D5120A93-86C7-759D-E2CB-3EF1158D5F10</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D5278A25-03CE-3DBB-EBF8-154DF9E1E6A6" referredColumn="6CA8E73F-2D57-638B-B63C-0C8CF7814266"/>
+</associations>
+</Column>
+<Column name="Jornadas_Locales_Cadena_id_cadena" id="5C64E110-6E5B-46DB-A37D-521A4C6C3DFE">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-13 16:21:23 UTC</createdTime>
+<generatorID>89170231-1EB2-ECAB-3F12-74A6FB72B040</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D5278A25-03CE-3DBB-EBF8-154DF9E1E6A6" referredColumn="DC9EEE58-A17A-CCF6-18BE-77838314277E"/>
+</associations>
+</Column>
+<Column name="Jornadas_Locales_Comuna_ID_Comuna" id="44FBABF9-FAE0-F539-519E-9D09FFA32DE1">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-13 18:13:08 UTC</createdTime>
+<generatorID>FB404AFC-6E04-E701-C5A2-196C3BCB9B19</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D5278A25-03CE-3DBB-EBF8-154DF9E1E6A6" referredColumn="F6EBDF56-F5B7-6581-768A-E2DC894146DB"/>
+</associations>
+</Column>
+<Column name="Jornadas_Locales_Comuna_Regiones_ID_Region" id="D1258173-89E5-959E-FEA6-9236DB72F53A">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-13 18:13:08 UTC</createdTime>
+<generatorID>AF4E8A4C-0486-E282-E9C9-0EEB7C6AC799</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D5278A25-03CE-3DBB-EBF8-154DF9E1E6A6" referredColumn="033442EC-6178-F9F0-274C-1FDFE02E1882"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ED6989AE-E7C9-CA9A-038C-D815A124E69B" name="Horarios_PK">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-13 15:36:20 UTC</createdTime>
+<generatorID>2D6888E3-32D7-D537-9EC2-91F1B7137065</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3CC702E2-85FD-DA1E-D9A2-12021BE31D67"/>
+<colUsage columnID="115EE8CC-0AC6-7069-B10D-B61EE9E4634A"/>
+<colUsage columnID="F433DA35-E61F-1EF7-E2FB-F4E6E9778E67"/>
+<colUsage columnID="5C64E110-6E5B-46DB-A37D-521A4C6C3DFE"/>
+<colUsage columnID="44FBABF9-FAE0-F539-519E-9D09FFA32DE1"/>
+<colUsage columnID="D1258173-89E5-959E-FEA6-9236DB72F53A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FFB438D0-1F95-41DF-D0E6-7FD8793F5CA5" name="Horarios_Jornadas_FK">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-13 16:21:23 UTC</createdTime>
+<generatorID>F6C6ED28-07FD-9198-27F7-0F26AB6704F7</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="115EE8CC-0AC6-7069-B10D-B61EE9E4634A"/>
+<colUsage columnID="F433DA35-E61F-1EF7-E2FB-F4E6E9778E67"/>
+<colUsage columnID="5C64E110-6E5B-46DB-A37D-521A4C6C3DFE"/>
+<colUsage columnID="44FBABF9-FAE0-F539-519E-9D09FFA32DE1"/>
+<colUsage columnID="D1258173-89E5-959E-FEA6-9236DB72F53A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,21 @@
+//////////////////////////////////////////////////////
+//  Template Name: octAdmin
+//  Author: octathemes
+//  Email: octathemes@gmail.com
+//  File: badge.scss
+///////////////////////////////////////////////////
+
+
+.badge {
+    padding: 5px 8px;
+    border-radius: 100%;
+}
+
+.badge-boxed{
+    border-radius:0px !important;
+   
+}
+
+.badge-pill {
+    border-radius: $badge-pill-border-radius;
+}

@@ -1,0 +1,127 @@
+
+/* **************************************************************************
+**** OCTADMIN SIMPLE POWERFULL MINIMAL ULTIMATE BOOTSTRAP ADMIN TEAMPLATE
+**** OCTADMIN V-1.0.0 SASS / Main  ******************************************
+**** Author - OCTATHEMES *************************************************
+**** Email - octathemes@gmail.com *************************************************
+************************************************************************** */
+
+/* --- [Table Of Contents] ----
+:: 01. Bootstrap - V4 
+:: 02. Hamburger - plugin
+:: 03. Base
+:: 04. Layouts
+:: 05. Components
+:: 06. Themes
+:: 07. Utilities
+:: 08. Apps
+:: 09. Widgets
+:: 10. Pages
+:: 11. Landing page
+:: 12. Plugins
+-------------------------- */
+
+ 
+//Variables
+ @import '6-helpers/variables';
+
+//Mixins
+ @import '6-helpers/mixins';
+
+
+/*******************
+/*01. Bootstrap- V4*/
+/*******************/
+ @import'0-plugins/bootstrap-sass/bootstrap';
+
+
+/*******************
+/*02. Hamburger - plugin*/
+/*******************/
+ @import '0-plugins/hamburgers/hamburgers';
+
+
+/*******************
+/*03. Base*/
+/*******************/
+ @import '1-base/1_dirBase';
+
+
+ /*******************
+/*04. Layouts*/
+/*******************/
+ @import '3-layouts/1_dirLayouts';
+
+
+/*******************
+/*05. Components*/
+/*******************/
+ @import '2-components/1_dirComponent';
+
+
+/*******************
+/*06. Themes*/
+/*******************/
+ @import '5-themes/1_themeDir';
+
+
+/*******************
+/*07. Utilities*/
+/*******************/
+ @import '7-utilities/1_dirUtilities';
+
+
+/*******************
+/*08. Apps*/
+/*******************/
+ @import '8-apps/appsDir';
+
+
+/*******************
+/*09. Widgets*/
+/*******************/
+ @import '9-widgets/1_dirWidgets';
+
+
+/*******************
+/*10. Pages*/
+/*******************/
+@import '4-pages/1_pagesDir';
+
+/*******************
+/*11. Landing Page*/
+/*******************/
+@import '10-landing-page/dirLanding-page';
+
+/*******************
+/*12. Plugins*/
+/*******************/
+ @import '0-plugins/chart.js/chart';
+ @import '0-plugins/ihover/ihover';
+ @import '0-plugins/lightbox/lightbox';
+ @import '0-plugins/alertify/alertify';
+ @import '0-plugins/barrating/barratings';
+ @import '0-plugins/tooltipStylish/tooltipStylish';
+ @import '0-plugins/toastr/toastr';
+ @import '0-plugins/sweetalert/sweetalert';
+ @import '0-plugins/nestable/nestable';
+ @import '0-plugins/tabStylish/tab-stylish';
+ @import '0-plugins/bootstrap-switch/bootstrap-switch';
+ @import '0-plugins/awesome-bootstrap-checkboxes/awesome-bootstrap-checkbox';
+ @import '0-plugins/select2/core';
+ @import '0-plugins/tagsinput/tags-input';
+ @import '0-plugins/multiselect/multi-select';
+ @import '0-plugins/typeaheadjs/typeaheadjs';
+ @import '0-plugins/bootstrap-touchspin/bootstrap-touchspin';
+ @import '0-plugins/clockpicker/clockpicker';
+ @import '0-plugins/timepicker/timepicker';
+ @import '0-plugins/datepicker/datepicker';
+ @import '0-plugins/sliderrange/sliderrange';
+ @import '0-plugins/jquery-labelauty/jquery-labelauty';
+ @import '0-plugins/dropify/dropify';
+ @import '0-plugins/editor-markdown/bootstrap-markdown';
+ @import '0-plugins/chartistjs/chartist';
+ @import '0-plugins/fullcalendar/fullcalendar';
+
+
+

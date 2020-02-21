@@ -1,0 +1,35 @@
+//////////////////////////////////////////////////////
+//  Template Name: octAdmin
+//  Author: octathemes
+//  Email: octathemes@gmail.com
+//  File: appsDir.scss
+///////////////////////////////////////////////////
+
+/* --- [Table Of Contents] ----
+:: 08.01. Calendar-App
+:: 08.02. Mailbox-App
+:: 08.03. Message-App
+:: 08.04. PM-App
+-------------------------- */
+
+/*******************
+/*08.01. Calendar-App*/
+/*******************/
+@import 'calendar-app';
+
+
+/*******************
+/*08.02. Mailbox-App*/
+/*******************/
+@import 'mailbox-app';
+
+
+/*******************
+/*08.03. Message-App*/
+/*******************/
+@import 'message-app';
+
+/*******************
+/*08.04. PM-App*/
+/*******************/
+@import 'pm-app';

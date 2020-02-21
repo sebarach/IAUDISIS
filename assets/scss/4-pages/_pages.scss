@@ -1,0 +1,488 @@
+//////////////////////////////////////////////////////
+//  Template Name: octAdmin
+//  Author: octathemes
+//  Email: octathemes@gmail.com
+//  File: pages.scss
+///////////////////////////////////////////////////
+
+html,
+body,
+section {
+    height: 100%;
+}
+
+
+/* Pattern styles */
+
+.container-pages {
+    
+    display: flex;
+    background: $white;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, $theme-color 50%, #fff 50%);
+    ;
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, $theme-color 50%, #fff 50%);
+    ;
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left, $theme-color 50%, #fff 50%);
+    ;
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(left, $theme-color 50%, #fff 50%);
+    ;
+    /* Standard syntax */
+}
+
+.container-server-errors{
+    display: flex;
+    background: $white;
+}
+
+.pages-card {
+    z-index: 100;
+    max-width: 400px;
+    //display: flex;
+    margin: auto;
+    border-radius: 10px;
+    .card-body {
+        .small {
+            margin-top: -5px;
+            margin-bottom: 40px;
+            font-weight: 800;
+        }
+
+        .login-btn{
+            max-width: 300px;
+            display: flex;
+            margin: auto;
+           
+        }
+
+        .user-img{
+           padding-bottom: 20px;
+            img{
+                border-radius: 100%;
+                width: 100px;
+                height: 100px;
+                @include shadow($theme-color);
+            }
+            
+        }
+    }
+}
+
+.brand-logo{
+    position: absolute;
+    color: white !important;
+    font-family: $fontFamily-brand;
+    font-size: 1.5rem;
+    margin: 20px;
+
+    a{
+        color:white;
+        text-decoration: none;
+    }
+}
+
+.brand-logo-dark{
+    position: absolute;
+    color: $theme-color !important;
+    font-family: $fontFamily-brand;
+    font-size: 1.5rem;
+    margin: 20px;
+
+    a{
+        color:$theme-color;
+        text-decoration: none;
+    }
+}
+
+.pages-tag-line{
+    font-family: $fontFamily-brand;
+    position: absolute;
+    margin: 400px 20px 0;
+}
+
+.server-errors{
+    z-index: 9999!important;
+    margin-top: 100px;
+    .status-error{
+        font-size: 10rem;
+    }
+    .status-text-1{
+        text-align: center;
+        font-size: 5rem;
+        margin-bottom:-40px; 
+    }
+    .status-text-2{
+        text-align: center;
+        font-size: 2rem;
+    }
+}
+
+
+
+.half-circle {
+    width: 200px;
+    height: 400px;
+    background-color: $theme-color;
+    border-bottom-left-radius: 400px;
+    border-top-left-radius: 400px;
+    //border: 10px solid #000;
+    border-right: 0;
+    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    @include buttonShadow($theme-color);
+    position: fixed;
+    top: -50px;
+    right: 0px;
+    
+
+}
+
+.small-circle {
+    
+    width: 50px;
+    height: 50px;
+    background-color: $theme-color;
+    border-radius: 100px;
+    border-right: 0;
+    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    @include buttonShadow($theme-color);
+    position: fixed;
+    top: 300px;
+    right: 200px;
+    
+
+}
+
+.half-circle-bottom {
+    width: 300px;
+    height: 600px;
+    background-color: $theme-color;
+    border-bottom-right-radius: 400px;
+    border-top-right-radius: 400px;
+    border-right: 0;
+    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    @include buttonShadow($theme-color);
+    position: fixed;
+    bottom: -50px;
+    left: 0px;
+    
+
+}
+
+.small-circle-bottom {
+    
+    width: 50px;
+    height: 50px;
+    background-color: $theme-color;
+    border-radius: 100px;
+    border-right: 0;
+    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    @include buttonShadow($theme-color);
+    position: fixed;
+    bottom: 300px;
+    left: 350px;
+    
+
+}
+
+#mybutton {
+    z-index: 101!important;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+
+    .btn{
+        padding: 5px 14px!important;
+
+        i{
+            font-size: 2.5rem;
+        }
+    }
+
+.dropdown-menu{
+    margin-right: 50px;
+    border:none !important;
+    @include shadow($gray-200);
+    width: 400px;
+    h6{
+        padding: 20px;
+      }
+    .theme-colors{
+       // margin-top: 20px;
+        list-style: none;
+
+        li{
+          cursor: pointer;
+          display: inline-block;
+          background: $dark;
+          padding: 12px;
+          border-radius: 100px;
+         
+        }
+
+        
+        .theme-blue{
+          background-color: $blue !important;
+          @include buttonShadow($blue);
+        }
+        .theme-green{
+          background-color: $green !important;
+          @include buttonShadow($green);
+        }
+        .theme-red{
+          background-color: $red !important;
+          @include buttonShadow($red);
+        }
+        .theme-yellow{
+          background-color: $yellow !important;
+          @include buttonShadow($yellow);
+        }
+
+        .theme-orange{
+          background-color: $orange !important;
+          @include buttonShadow($orange);
+        }
+
+        .theme-teal{
+          background-color: $teal !important;
+          @include buttonShadow($teal);
+        }
+
+        .theme-cyan{
+          background-color: $cyan !important;
+          @include buttonShadow($cyan);
+        }
+
+        .theme-purple{
+          background-color: $purple !important;
+          @include buttonShadow($purple);
+        }
+
+        .theme-indigo{
+          background-color: $indigo !important;
+          @include buttonShadow($indigo);
+        }
+
+        .theme-pink{
+          background-color: $pink !important;
+          @include buttonShadow($pink);
+        }
+
+        // social Colors
+
+        .theme-facebook{
+          background-color: $facebook !important;
+          @include buttonShadow($facebook);
+        }
+        .theme-twitter{
+          background-color: $twitter !important;
+          @include buttonShadow($twitter);
+        }
+
+        .theme-linkedin{
+          background-color: $linkedin !important;
+          @include buttonShadow($linkedin);
+        }
+        .theme-google-plus{
+          background-color: $google-plus !important;
+          @include buttonShadow($google-plus);
+        }
+
+        .theme-flickr{
+          background-color: $flickr !important;
+          @include buttonShadow($flickr);
+        }
+
+        .theme-tumblr{
+          background-color: $tumblr !important;
+          @include buttonShadow($tumblr);
+        }
+
+        .theme-xing{
+          background-color: $xing !important;
+          @include buttonShadow($xing);
+        }
+
+        .theme-github{
+          background-color: $github !important;
+          @include buttonShadow($github);
+        }
+
+        .theme-html5{
+          background-color: $html5 !important;
+          @include buttonShadow($html5);
+        }
+
+        .theme-openid{
+          background-color: $openid !important;
+          @include buttonShadow($openid);
+        }
+
+        .theme-stack-overflow{
+          background-color: $stack-overflow !important;
+          @include buttonShadow($stack-overflow);
+        }
+
+        .theme-youtube{
+          background-color: $youtube !important;
+          @include buttonShadow($youtube);
+        }
+
+        .theme-css3{
+          background-color: $css3 !important;
+          @include buttonShadow($css3);
+        }
+
+        .theme-dribbble{
+          background-color: $dribbble !important;
+          @include buttonShadow($dribbble);
+        }
+
+        .theme-instagram{
+          background-color: $instagram !important;
+          @include buttonShadow($instagram);
+        }
+
+        .theme-pinterest{
+          background-color: $pinterest !important;
+          @include buttonShadow($pinterest);
+        }
+
+        .theme-vk{
+          background-color: $vk !important;
+          @include buttonShadow($vk);
+        }
+
+        .theme-yahoo{
+          background-color: $yahoo !important;
+          @include buttonShadow($yahoo);
+        }
+
+        .theme-behance{
+          background-color: $behance !important;
+          @include buttonShadow($behance);
+        }
+
+        .theme-dropbox{
+          background-color: $dropbox !important;
+          @include buttonShadow($dropbox);
+        }
+
+        .theme-reddit{
+          background-color: $reddit !important;
+          @include buttonShadow($reddit);
+        }
+
+        .theme-spotify{
+          background-color: $spotify !important;
+          @include buttonShadow($spotify);
+        }
+
+        .theme-vine{
+          background-color: $vine !important;
+          @include buttonShadow($vine);
+        }
+
+        .theme-foursquare{
+          background-color: $foursquare !important;
+          @include buttonShadow($foursquare);
+        }
+
+        .theme-vimeo{
+          background-color: $vimeo !important;
+          @include buttonShadow($vimeo);
+        }
+
+      }
+}
+    
+  }
+
+  #copyright {
+    position: fixed;
+    bottom: 50px;
+    left: 20px;
+    color: $white;
+    a{
+       
+        color: $white;
+        text-decoration: none;
+        
+    }
+  }
+
+
+  @include media-breakpoint-down(sm) {
+    .container-pages{
+        background:$white;
+    }
+
+    .brand-logo{
+        position: absolute;
+        color: white !important;
+        font-family: $fontFamily-brand;
+        font-size: 1.5rem;
+        margin: 50px;
+    
+        a{
+            color:$theme-color;
+            text-decoration: none;
+        }
+    }
+
+    .pages-tag-line{
+        display: none;
+    }
+
+
+    #copyright{
+        display: none;
+    }
+
+    .server-errors{
+        z-index: 9999!important;
+        margin-top: 100px;
+        .status-error{
+            text-align: center;
+            font-size: 6rem;
+            color: $dark !important;
+        }
+        .status-text-1{
+            text-align: center;
+            font-size: 5rem;
+            margin-bottom:-40px; 
+            color: $dark !important;
+        }
+        .status-text-2{
+            text-align: center;
+            font-size: 2rem;
+        }
+
+        .btn{
+            background-color: $dark !important;
+        }
+        small{
+            color: $dark !important;
+
+            a{
+                color: $dark !important;  
+            }
+        }
+    }
+
+  }
+

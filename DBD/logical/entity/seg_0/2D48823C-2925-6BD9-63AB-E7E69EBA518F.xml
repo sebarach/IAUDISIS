@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2D48823C-2925-6BD9-63AB-E7E69EBA518F" name="Comuna">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-13 18:10:29 UTC</createdTime>
+<ownerDesignName>DBD</ownerDesignName>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Comuna" id="22C7E119-950D-E302-F892-A1E97F543F55">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-13 18:10:35 UTC</createdTime>
+<ownerDesignName>DBD</ownerDesignName>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Comuna" id="E6C561E2-A97C-6A5B-D1E6-F83E656980F9">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-13 18:10:39 UTC</createdTime>
+<ownerDesignName>DBD</ownerDesignName>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Region" id="692459B1-AEB8-1710-98BB-AA5BD0E634B7">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-13 18:12:34 UTC</createdTime>
+<generatorID>F7B7AAAF-AD1A-8A27-4362-520B3925D1EC</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="true"/>
+</engineerTo>
+<referedAttribute>10FF3DD9-3872-5423-5D9A-7304C840B807</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AB8E02A8-7CB8-E989-5BF0-F3919FAA5EC8" name="Comuna PK">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-13 18:10:49 UTC</createdTime>
+<ownerDesignName>DBD</ownerDesignName>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>22C7E119-950D-E302-F892-A1E97F543F55</attributeRef>
+<attributeRef>692459B1-AEB8-1710-98BB-AA5BD0E634B7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

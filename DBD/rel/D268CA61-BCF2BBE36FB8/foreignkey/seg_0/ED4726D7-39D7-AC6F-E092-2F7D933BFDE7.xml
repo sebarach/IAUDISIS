@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="ED4726D7-39D7-AC6F-E092-2F7D933BFDE7" containerWithKeyObject="08A736BF-A344-02D6-E04A-18933487593A" localFKIndex="8D5E5AA6-37E9-A9DA-1F02-8C3AF79CB95A" name="TI_GCL_Grupo_Locales_FK">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-13 15:36:20 UTC</createdTime>
+<generatorID>9AF8FFE6-F52B-366D-3A3D-FADF0AE6EE43</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<referredTableLongName>Grupo_Locales</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0D9C5481-B3C1-6185-2F74-AB4A3C954204</referredTableID>
+<keyObject>4A44A3D1-3FEF-3D93-A332-CEED9A8446B3</keyObject>
+<referredKeyID>4A44A3D1-3FEF-3D93-A332-CEED9A8446B3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Grupolocal</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

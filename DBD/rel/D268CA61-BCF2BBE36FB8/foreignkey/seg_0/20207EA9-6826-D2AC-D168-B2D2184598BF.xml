@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="20207EA9-6826-D2AC-D168-B2D2184598BF" containerWithKeyObject="1326E38C-B4E1-BA2B-DF86-3EC1AEE8C48C" localFKIndex="0BA61403-ABC9-A0F4-29C1-D520A1679867" name="Asistencia_Incidencias_FK">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-13 15:36:20 UTC</createdTime>
+<generatorID>FE79448C-20BC-42C4-C10E-55F39003F121</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<referredTableLongName>Incidencias</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2E4D338D-5439-F47C-AD4A-A4FA08DA031B</referredTableID>
+<keyObject>866B78D1-D9C6-E1D7-A213-E244B4ECFA39</keyObject>
+<referredKeyID>866B78D1-D9C6-E1D7-A213-E244B4ECFA39</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_incidencias</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

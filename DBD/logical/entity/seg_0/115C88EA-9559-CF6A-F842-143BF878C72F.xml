@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="115C88EA-9559-CF6A-F842-143BF878C72F" name="Cadena">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-10 17:01:28 UTC</createdTime>
+<ownerDesignName>DBD</ownerDesignName>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id cadena" id="E436A048-8EB0-0C9B-48FB-A39193B226CD">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-10 17:01:45 UTC</createdTime>
+<ownerDesignName>DBD</ownerDesignName>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NombreCadena" id="619BFA89-E1F3-7543-9E4E-32D759029E4A">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-10 17:01:48 UTC</createdTime>
+<ownerDesignName>DBD</ownerDesignName>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FechaRegistro" id="42C97EF3-760F-898F-7FFB-8469588F50E5">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-10 17:01:52 UTC</createdTime>
+<ownerDesignName>DBD</ownerDesignName>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id userCreador" id="4CCF637C-38AA-DB2C-832F-1A00A650E477">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-10 17:01:57 UTC</createdTime>
+<ownerDesignName>DBD</ownerDesignName>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Activo" id="C056B817-9586-FD06-7A30-BFD52422AEAD">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-10 17:02:04 UTC</createdTime>
+<ownerDesignName>DBD</ownerDesignName>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="745F3421-4B90-B175-8548-26ED0AE7352E" name="Cadena PK">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-10 20:30:13 UTC</createdTime>
+<ownerDesignName>DBD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E436A048-8EB0-0C9B-48FB-A39193B226CD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

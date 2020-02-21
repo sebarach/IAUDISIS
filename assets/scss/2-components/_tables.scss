@@ -1,0 +1,301 @@
+//////////////////////////////////////////////////////
+//  Template Name: octAdmin
+//  Author: octathemes
+//  Email: octathemes@gmail.com
+//  File: tables.scss
+///////////////////////////////////////////////////
+
+/*table layouts page*/
+$inverse:#4c5667;
+$muted: #98a6ad;
+
+.color-table.primary-table thead th {
+    background-color: $primary;
+    color: $white;
+}
+
+.color-table.success-table thead th {
+    background-color: $success;
+    color: $white;
+}
+
+.color-table.info-table thead th {
+    background-color: $info;
+    color: $white;
+}
+
+.color-table.warning-table thead th {
+    background-color: $warning;
+    color: $white;
+}
+
+.color-table.danger-table thead th {
+    background-color: $danger;
+    color: $white;
+}
+
+.color-table.inverse-table thead th {
+    background-color: $inverse;
+    color: $white;
+}
+
+.color-table.dark-table thead th {
+    background-color: $dark;
+    color: $white;
+}
+
+.color-table.pink-table thead th {
+    background-color: $pink;
+    color: $white;
+}
+
+.color-table.purple-table thead th {
+    background-color: $purple;
+    color: $white;
+}
+
+.color-table.muted-table thead th {
+    background-color: $muted;
+    color: $white;
+}
+
+.color-bordered-table.primary-bordered-table {
+    border: 2px solid $primary;
+    thead th {
+        background-color: $primary;
+        color: $white;
+    }
+}
+
+.color-bordered-table.success-bordered-table {
+    border: 2px solid $success;
+    thead th {
+        background-color: $success;
+        color: $white;
+    }
+}
+
+.color-bordered-table.info-bordered-table {
+    border: 2px solid $info;
+    thead th {
+        background-color: $info;
+        color: $white;
+    }
+}
+
+.color-bordered-table.warning-bordered-table {
+    border: 2px solid $warning;
+    thead th {
+        background-color: $warning;
+        color: $white;
+    }
+}
+
+.color-bordered-table.danger-bordered-table {
+    border: 2px solid $danger;
+    thead th {
+        background-color: $danger;
+        color: $white;
+    }
+}
+
+.color-bordered-table.inverse-bordered-table {
+    border: 2px solid $inverse;
+    thead th {
+        background-color: $inverse;
+        color: $white;
+    }
+}
+
+.color-bordered-table.dark-bordered-table {
+    border: 2px solid $dark;
+    thead th {
+        background-color: $dark;
+        color: $white;
+    }
+}
+
+.color-bordered-table.pink-bordered-table {
+    border: 2px solid $pink;
+    thead th {
+        background-color: $pink;
+        color: $white;
+    }
+}
+
+.color-bordered-table.purple-bordered-table {
+    border: 2px solid $purple;
+    thead th {
+        background-color: $purple;
+        color: $white;
+    }
+}
+
+.color-bordered-table.muted-bordered-table {
+    border: 2px solid $muted;
+    thead th {
+        background-color: $muted;
+        color: $white;
+    }
+}
+
+.full-color-table.full-primary-table {
+    //background-color: rgba(171, 140, 228, .8);
+    background-color: lighten($primary, 15%);
+    thead th {
+        background-color: $primary;
+        border: 0 !important;
+        color: $white;
+    }
+    tbody td {
+        border: 0 !important;
+        color: $white;
+    }
+    tr:hover {
+        background-color: $primary;
+    }
+}
+
+.full-color-table.full-success-table {
+    background-color: lighten($success, 15%);
+    thead th {
+        background-color: $success;
+        border: 0 !important;
+        color: $white;
+    }
+    tbody td {
+        border: 0 !important;
+        color: $white;
+    }
+    tr:hover {
+        background-color: $success;
+    }
+}
+
+.full-color-table.full-info-table {
+    background-color: lighten($info, 15%);
+    thead th {
+        background-color: $info;
+        border: 0 !important;
+        color: $white;
+    }
+    tbody td {
+        border: 0 !important;
+        color: $white;
+    }
+    tr:hover {
+        background-color: $info;
+    }
+}
+
+.full-color-table.full-warning-table {
+    background-color: lighten($warning, 15%);
+    thead th {
+        background-color: $warning;
+        border: 0 !important;
+        color: $white;
+    }
+    tbody td {
+        border: 0 !important;
+        color: $white;
+    }
+    tr:hover {
+        background-color: $warning;
+    }
+}
+
+.full-color-table.full-danger-table {
+    background-color: lighten($danger, 15%);
+    thead th {
+        background-color: $danger;
+        border: 0 !important;
+        color: $white;
+    }
+    tbody td {
+        border: 0 !important;
+        color: $white;
+    }
+    tr:hover {
+        background-color: $danger;
+    }
+}
+
+.full-color-table.full-inverse-table {
+    background-color: lighten($inverse, 15%);
+    thead th {
+        background-color: $inverse;
+        border: 0 !important;
+        color: $white;
+    }
+    tbody td {
+        border: 0 !important;
+        color: $white;
+    }
+    tr:hover {
+        background-color: $inverse;
+    }
+}
+
+.full-color-table.full-dark-table {
+    background-color: lighten($dark, 15%);
+    thead th {
+        background-color: $dark;
+        border: 0 !important;
+        color: $white;
+    }
+    tbody td {
+        border: 0 !important;
+        color: $white;
+    }
+    tr:hover {
+        background-color: $dark;
+    }
+}
+
+.full-color-table.full-pink-table {
+    background-color: lighten($pink, 15%);
+    thead th {
+        background-color: $red;
+        border: 0 !important;
+        color: $white;
+    }
+    tbody td {
+        border: 0 !important;
+        color: $white;
+    }
+    tr:hover {
+        background-color: $red;
+    }
+}
+
+.full-color-table.full-purple-table {
+    background-color: lighten($purple, 15%);
+    thead th {
+        background-color: $purple;
+        border: 0 !important;
+        color: $white;
+    }
+    tbody td {
+        border: 0 !important;
+        color: $white;
+    }
+    tr:hover {
+        background-color: $purple;
+    }
+}
+
+.full-color-table.full-muted-table {
+    background-color: lighten($muted, 15%);
+    thead th {
+        background-color: $muted;
+        border: 0 !important;
+        color: $white;
+    }
+    tbody td {
+        border: 0 !important;
+        color: $white;
+    }
+    tr:hover {
+        background-color: $muted;
+    }
+}

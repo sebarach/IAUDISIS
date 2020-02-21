@@ -1,0 +1,92 @@
+//////////////////////////////////////////////////////
+//  Template Name: octAdmin
+//  Author: octathemes
+//  Email: octathemes@gmail.com
+//  File: dropdown.scss
+///////////////////////////////////////////////////
+
+
+// Links, buttons, and more within the dropdown menu
+.dropdown-item {
+    position: relative;
+    padding: 10px 20px;
+    border-bottom: 1px solid $gray-100;
+    font-size: 0.9rem;
+  
+    
+    &:last-child {
+      border-bottom: 0;
+    }
+  
+    i {
+      display: inline-block;
+      width: 20px;
+      margin-right: 5px;
+      margin-left: -10px;
+      color: $dropdown-border-color;
+      text-align: center;
+      color: $theme-color;
+    }
+  
+    .badge {
+      position: absolute;
+      right: 10px;
+      margin-top: 2px;
+    }
+
+    
+    .xs{
+     height: 10px;
+    }
+
+  }
+  
+  // Dropdown section headers
+  .dropdown-header {
+    padding: 8px 20px;
+    color: $theme-color;
+    .btn {
+      margin-top: -7px;
+      color: $dropdown-header-color;
+  
+      &:hover {
+        color: $body-color;
+      }
+  
+      &.pull-right {
+        margin-right: -20px;
+      }
+    }
+  }
+  
+  .dropdown-footer{
+    padding: 8px 20px;
+    color: $gray-500;
+    font-size: 0.7rem;
+
+  }
+
+  .dropdown-menu-lg {
+    width: 250px;
+  }
+  .app-header {
+    .navbar-nav {
+      .dropdown-menu {
+        position: absolute;
+      }
+      // Menu positioning
+      //
+      // Add extra class to `.dropdown-menu` to flip the alignment of the dropdown
+      // menu with the parent.
+      .dropdown-menu-right {
+        right: 0;
+        left: auto; // Reset the default from `.dropdown-menu`
+      }
+  
+      .dropdown-menu-left {
+        right: auto;
+        left: 0;
+      }
+    }
+  }
+  

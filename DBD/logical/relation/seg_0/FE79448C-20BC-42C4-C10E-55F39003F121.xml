@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Asistencia Incidencias FK" directorySegmentName="seg_0" id="FE79448C-20BC-42C4-C10E-55F39003F121">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-10 20:58:24 UTC</createdTime>
+<ownerDesignName>DBD</ownerDesignName>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="true"/>
+</engineerTo>
+<sourcePk>E73D7078-11B3-E045-A985-54517B9C43C7</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>46D9A14B-F26F-5C01-8450-89E55FF1246A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B10E4680-D4F2-07FD-AB42-1E0BCA5565D8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

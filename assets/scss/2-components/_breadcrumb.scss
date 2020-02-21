@@ -1,0 +1,72 @@
+
+//////////////////////////////////////////////////////
+//  Template Name: octAdmin
+//  Author: octathemes
+//  Email: octathemes@gmail.com
+//  File: breadcrumbs.scss
+///////////////////////////////////////////////////
+
+.breadcrumb {
+    position: relative;
+    margin: $breadcrumb-margin;
+    background: darken($white, 5%);
+ 
+}
+
+.breadcrumb-item {
+    a {
+        color: $theme-color;
+        font-size: 0.85rem;
+    }
+}
+
+.bc-colored {
+    a {
+        color: $gray-100!important;
+    }
+    .active {
+        color: white!important;
+    }
+    .breadcrumb-item::before {
+        color: white;
+    }
+}
+
+.breadcrumb-menu {
+    position: absolute;
+    margin-top: -20px;
+    right: 0;
+    
+    &::before {
+      display: none;
+    }
+  
+    .btn {
+      padding-top: $breadcrumb-padding-y;
+      padding-bottom: $breadcrumb-padding-y;
+      
+    }
+  
+    .btn {
+      color: $text-muted;
+      font-size: 0.85rem;
+      &:hover, &.active {
+        color: $body-color;
+        background: transparent;
+      }
+    }
+  
+    .open {
+      .btn {
+        color: $body-color;
+        background: transparent;
+      }
+    }
+  
+    .dropdown-menu {
+      min-width: 180px;
+      line-height: $line-height-base;
+    }
+  }
+  
+  /* End breadcrumb styles */

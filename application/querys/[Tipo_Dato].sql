@@ -1,0 +1,22 @@
+USE [AppAu]
+GO
+
+/****** Object:  Table [dbo].[Tipo_Dato]    Script Date: 17-05-2018 10:48:25 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Tipo_Dato](
+	[ID_Tipo_Dato] [int] IDENTITY(1,1) NOT NULL,
+	[Nombre_Tipo] [nvarchar](50) NOT NULL,
+ CONSTRAINT [ID_Tipo_Dato_PK] PRIMARY KEY CLUSTERED 
+(
+	[ID_Tipo_Dato] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+

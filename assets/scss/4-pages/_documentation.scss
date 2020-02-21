@@ -1,0 +1,187 @@
+.theme-colors{
+    margin-top: 20px;
+    list-style: none;
+
+    li{
+      cursor: pointer;
+      display: inline-block;
+      background: $dark;
+      padding: 12px;
+      border-radius: 100px;
+     
+    }
+
+    
+    .theme-blue{
+      background-color: $blue !important;
+      @include buttonShadow($blue);
+    }
+    .theme-green{
+      background-color: $green !important;
+      @include buttonShadow($green);
+    }
+    .theme-red{
+      background-color: $red !important;
+      @include buttonShadow($red);
+    }
+    .theme-yellow{
+      background-color: $yellow !important;
+      @include buttonShadow($yellow);
+    }
+
+    .theme-orange{
+      background-color: $orange !important;
+      @include buttonShadow($orange);
+    }
+
+    .theme-teal{
+      background-color: $teal !important;
+      @include buttonShadow($teal);
+    }
+
+    .theme-cyan{
+      background-color: $cyan !important;
+      @include buttonShadow($cyan);
+    }
+
+    .theme-purple{
+      background-color: $purple !important;
+      @include buttonShadow($purple);
+    }
+
+    .theme-indigo{
+      background-color: $indigo !important;
+      @include buttonShadow($indigo);
+    }
+
+    .theme-pink{
+      background-color: $pink !important;
+      @include buttonShadow($pink);
+    }
+
+    // social Colors
+
+    .theme-facebook{
+      background-color: $facebook !important;
+      @include buttonShadow($facebook);
+    }
+    .theme-twitter{
+      background-color: $twitter !important;
+      @include buttonShadow($twitter);
+    }
+
+    .theme-linkedin{
+      background-color: $linkedin !important;
+      @include buttonShadow($linkedin);
+    }
+    .theme-google-plus{
+      background-color: $google-plus !important;
+      @include buttonShadow($google-plus);
+    }
+
+    .theme-flickr{
+      background-color: $flickr !important;
+      @include buttonShadow($flickr);
+    }
+
+    .theme-tumblr{
+      background-color: $tumblr !important;
+      @include buttonShadow($tumblr);
+    }
+
+    .theme-xing{
+      background-color: $xing !important;
+      @include buttonShadow($xing);
+    }
+
+    .theme-github{
+      background-color: $github !important;
+      @include buttonShadow($github);
+    }
+
+    .theme-html5{
+      background-color: $html5 !important;
+      @include buttonShadow($html5);
+    }
+
+    .theme-openid{
+      background-color: $openid !important;
+      @include buttonShadow($openid);
+    }
+
+    .theme-stack-overflow{
+      background-color: $stack-overflow !important;
+      @include buttonShadow($stack-overflow);
+    }
+
+    .theme-youtube{
+      background-color: $youtube !important;
+      @include buttonShadow($youtube);
+    }
+
+    .theme-css3{
+      background-color: $css3 !important;
+      @include buttonShadow($css3);
+    }
+
+    .theme-dribbble{
+      background-color: $dribbble !important;
+      @include buttonShadow($dribbble);
+    }
+
+    .theme-instagram{
+      background-color: $instagram !important;
+      @include buttonShadow($instagram);
+    }
+
+    .theme-pinterest{
+      background-color: $pinterest !important;
+      @include buttonShadow($pinterest);
+    }
+
+    .theme-vk{
+      background-color: $vk !important;
+      @include buttonShadow($vk);
+    }
+
+    .theme-yahoo{
+      background-color: $yahoo !important;
+      @include buttonShadow($yahoo);
+    }
+
+    .theme-behance{
+      background-color: $behance !important;
+      @include buttonShadow($behance);
+    }
+
+    .theme-dropbox{
+      background-color: $dropbox !important;
+      @include buttonShadow($dropbox);
+    }
+
+    .theme-reddit{
+      background-color: $reddit !important;
+      @include buttonShadow($reddit);
+    }
+
+    .theme-spotify{
+      background-color: $spotify !important;
+      @include buttonShadow($spotify);
+    }
+
+    .theme-vine{
+      background-color: $vine !important;
+      @include buttonShadow($vine);
+    }
+
+    .theme-foursquare{
+      background-color: $foursquare !important;
+      @include buttonShadow($foursquare);
+    }
+
+    .theme-vimeo{
+      background-color: $vimeo !important;
+      @include buttonShadow($vimeo);
+    }
+
+  }

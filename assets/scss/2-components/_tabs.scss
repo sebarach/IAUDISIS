@@ -1,0 +1,53 @@
+//////////////////////////////////////////////////////
+//  Template Name: octAdmin
+//  Author: octathemes
+//  Email: octathemes@gmail.com
+//  File: tabs.scss
+///////////////////////////////////////////////////
+
+.nav-tabs {
+    
+    .nav-link {
+      color: $gray-600;
+      &.active {
+        color: $gray-800;
+        background: #fff;
+        &:focus {
+          background: #fff;
+        
+        }
+      }
+    }
+  }
+  
+  .custom-tab{
+     .nav-link{
+         border: none;
+       &.active{
+        border-bottom: 5px solid $theme-color;
+       }
+       &.focus{
+        border-bottom: 5px solid $theme-color;
+       }
+     }
+  }
+  .tab-content {
+    margin-top: -1px;
+    background: #fff;
+    color:$gray-800;
+    .tab-pane {
+      padding: $spacer;
+      @include shadow($gray-300); 
+    }
+  }
+  
+  .card-block {
+      
+    .tab-content {
+      margin-top: 0;
+      border: 0;
+    }
+  }
+
+  
+  

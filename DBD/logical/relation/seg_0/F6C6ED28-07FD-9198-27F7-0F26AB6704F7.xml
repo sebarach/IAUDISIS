@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Horarios Jornadas FK" directorySegmentName="seg_0" id="F6C6ED28-07FD-9198-27F7-0F26AB6704F7">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-13 16:04:26 UTC</createdTime>
+<ownerDesignName>DBD</ownerDesignName>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="true"/>
+</engineerTo>
+<sourcePk>3913B4C7-A10C-04A5-F56E-1F224050D2FD</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EF420FFA-7073-9945-058C-ABB25EAA1201</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>22B0E5FE-8BFC-410D-D1D2-0EAD312D302A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

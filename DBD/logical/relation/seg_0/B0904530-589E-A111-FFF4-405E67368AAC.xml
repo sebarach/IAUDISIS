@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Locales Cadena FK" directorySegmentName="seg_0" id="B0904530-589E-A111-FFF4-405E67368AAC">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-10 20:47:07 UTC</createdTime>
+<ownerDesignName>DBD</ownerDesignName>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="true"/>
+</engineerTo>
+<sourcePk>745F3421-4B90-B175-8548-26ED0AE7352E</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>115C88EA-9559-CF6A-F842-143BF878C72F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2B1BE2A1-B208-04E7-F669-4C136BEBF4E2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

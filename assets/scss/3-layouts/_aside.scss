@@ -1,0 +1,272 @@
+//////////////////////////////////////////////////////
+//  Template Name: octAdmin
+//  Author: octathemes
+//  Email: octathemes@gmail.com
+//  File: aside.scss
+///////////////////////////////////////////////////
+
+.aside-menu {
+    z-index: $zindex-sticky - 1;
+    width: $aside-menu-width;
+    color: $aside-menu-color;
+    background: $aside-menu-bg;
+    @include borders($aside-menu-borders);
+    //margin-top: 120px;
+    .aside-header{
+      padding: 20px 20px;
+      font-size: 1.1rem;
+    }
+    .aside-body{
+      padding: 0px 20px;
+      h6{
+        margin-top: 50px;
+      }
+      .theme-colors{
+        margin-top: 20px;
+        list-style: none;
+
+        li{
+          cursor: pointer;
+          display: inline-block;
+          background: $dark;
+          padding: 12px;
+          border-radius: 100px;
+         
+        }
+
+        
+        .theme-blue{
+          background-color: $blue !important;
+          @include buttonShadow($blue);
+        }
+        .theme-green{
+          background-color: $green !important;
+          @include buttonShadow($green);
+        }
+        .theme-red{
+          background-color: $red !important;
+          @include buttonShadow($red);
+        }
+        .theme-yellow{
+          background-color: $yellow !important;
+          @include buttonShadow($yellow);
+        }
+
+        .theme-orange{
+          background-color: $orange !important;
+          @include buttonShadow($orange);
+        }
+
+        .theme-teal{
+          background-color: $teal !important;
+          @include buttonShadow($teal);
+        }
+
+        .theme-cyan{
+          background-color: $cyan !important;
+          @include buttonShadow($cyan);
+        }
+
+        .theme-purple{
+          background-color: $purple !important;
+          @include buttonShadow($purple);
+        }
+
+        .theme-indigo{
+          background-color: $indigo !important;
+          @include buttonShadow($indigo);
+        }
+
+        .theme-pink{
+          background-color: $pink !important;
+          @include buttonShadow($pink);
+        }
+
+        // social Colors
+
+        .theme-facebook{
+          background-color: $facebook !important;
+          @include buttonShadow($facebook);
+        }
+        .theme-twitter{
+          background-color: $twitter !important;
+          @include buttonShadow($twitter);
+        }
+
+        .theme-linkedin{
+          background-color: $linkedin !important;
+          @include buttonShadow($linkedin);
+        }
+        .theme-google-plus{
+          background-color: $google-plus !important;
+          @include buttonShadow($google-plus);
+        }
+
+        .theme-flickr{
+          background-color: $flickr !important;
+          @include buttonShadow($flickr);
+        }
+
+        .theme-tumblr{
+          background-color: $tumblr !important;
+          @include buttonShadow($tumblr);
+        }
+
+        .theme-xing{
+          background-color: $xing !important;
+          @include buttonShadow($xing);
+        }
+
+        .theme-github{
+          background-color: $github !important;
+          @include buttonShadow($github);
+        }
+
+        .theme-html5{
+          background-color: $html5 !important;
+          @include buttonShadow($html5);
+        }
+
+        .theme-openid{
+          background-color: $openid !important;
+          @include buttonShadow($openid);
+        }
+
+        .theme-stack-overflow{
+          background-color: $stack-overflow !important;
+          @include buttonShadow($stack-overflow);
+        }
+
+        .theme-youtube{
+          background-color: $youtube !important;
+          @include buttonShadow($youtube);
+        }
+
+        .theme-css3{
+          background-color: $css3 !important;
+          @include buttonShadow($css3);
+        }
+
+        .theme-dribbble{
+          background-color: $dribbble !important;
+          @include buttonShadow($dribbble);
+        }
+
+        .theme-instagram{
+          background-color: $instagram !important;
+          @include buttonShadow($instagram);
+        }
+
+        .theme-pinterest{
+          background-color: $pinterest !important;
+          @include buttonShadow($pinterest);
+        }
+
+        .theme-vk{
+          background-color: $vk !important;
+          @include buttonShadow($vk);
+        }
+
+        .theme-yahoo{
+          background-color: $yahoo !important;
+          @include buttonShadow($yahoo);
+        }
+
+        .theme-behance{
+          background-color: $behance !important;
+          @include buttonShadow($behance);
+        }
+
+        .theme-dropbox{
+          background-color: $dropbox !important;
+          @include buttonShadow($dropbox);
+        }
+
+        .theme-reddit{
+          background-color: $reddit !important;
+          @include buttonShadow($reddit);
+        }
+
+        .theme-spotify{
+          background-color: $spotify !important;
+          @include buttonShadow($spotify);
+        }
+
+        .theme-vine{
+          background-color: $vine !important;
+          @include buttonShadow($vine);
+        }
+
+        .theme-foursquare{
+          background-color: $foursquare !important;
+          @include buttonShadow($foursquare);
+        }
+
+        .theme-vimeo{
+          background-color: $vimeo !important;
+          @include buttonShadow($vimeo);
+        }
+
+      }
+      
+    }
+
+    .nav-tabs {
+      //border-color: $border-color;
+      
+      .nav-link {
+        padding: 20px 30px;
+        color: $gray-500;
+        border-top: 0;
+        font-size:1.3rem;
+        &.active {
+          color: $theme-color;
+          border-right-color: $border-color;
+          border-left-color: $border-color;
+        }
+      }
+      .nav-item:first-child {
+        .nav-link {
+          border-left: 0;
+        }
+      }
+    }
+  
+    .tab-content {
+      position: relative;
+      overflow-x: hidden;
+      overflow-y: auto;
+      border: 0;
+      border-top: 1px solid $border-color;
+      -ms-overflow-style: -ms-autohiding-scrollbar;
+  
+      &::-webkit-scrollbar {
+        width: 10px;
+        margin-left: -10px;
+        -webkit-appearance: none;
+      }
+  
+      // &::-webkit-scrollbar-button {    }
+  
+      &::-webkit-scrollbar-track {
+        background-color: lighten($aside-menu-bg, 5%);
+        border-right: 1px solid darken($aside-menu-bg, 5%);
+        border-left: 1px solid darken($aside-menu-bg, 5%);
+      }
+  
+      // &::-webkit-scrollbar-track-piece {    }
+  
+      &::-webkit-scrollbar-thumb {
+        height: 50px;
+        background-color: darken($aside-menu-bg, 10%);
+        background-clip: content-box;
+        border-color: transparent;
+        border-style: solid;
+        border-width: 1px 2px;
+      }
+  
+      .tab-pane {
+        padding: 0;
+      }
+    }
+  }

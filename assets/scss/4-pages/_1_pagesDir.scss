@@ -1,0 +1,43 @@
+//////////////////////////////////////////////////////
+//  Template Name: octAdmin
+//  Author: octathemes
+//  Email: octathemes@gmail.com
+//  File: pagesDir.scss
+///////////////////////////////////////////////////
+
+/* --- [Table Of Contents] ----
+:: 10.01. icon-list
+:: 10.02. Dashboard
+:: 10.03. Pages
+:: 10.04. Flot-Chart-Examples
+:: 10.05. Documentation
+-------------------------- */
+
+/*******************
+/*10.01. icon-list*/
+/*******************/
+@import 'icon-list';
+
+
+/*******************
+/*10.02. Dashboard*/
+/*******************/
+@import 'dashboard';
+
+
+/*******************
+/*10.03. Pages*/
+/*******************/
+@import 'pages';
+
+
+/*******************
+/*10.04. Flot-Chart-Examples*/
+/*******************/
+@import 'flot-chart-examples';
+
+
+/*******************
+/*10.05. Documentation*/
+/*******************/
+@import 'documentation';

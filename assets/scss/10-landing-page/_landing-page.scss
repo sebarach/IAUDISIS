@@ -1,0 +1,631 @@
+//////////////////////////////////////////////////////
+//  Template Name: octAdmin
+//  Author: octathemes
+//  Email: octathemes@gmail.com
+//  File: landing-page.scss
+///////////////////////////////////////////////////
+.wave-background {
+    width: 100%;
+    height: 700px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.wave {
+    opacity: .7;
+    position: absolute;
+    background: $theme-color;
+    width: 4500px;
+    height: 4500px;
+    margin-left: -1350px;
+    margin-top: -3950px;
+    transform-origin: 50% 50%;
+    border-radius: 43%;
+    animation: drift 3000ms infinite linear;
+}
+
+.wave.-three {
+    animation: drift 5000ms infinite linear;
+}
+
+.wave.-two {
+    animation: drift 7000ms infinite linear;
+    opacity: .1;
+    background: $theme-color;
+}
+
+@keyframes drift {
+    from {
+        transform: rotate(0deg);
+    }
+    from {
+        transform: rotate(180deg);
+    }
+} // header ares scss
+.header_area {
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+    top: 0;
+    padding: 50px;
+    .menu_area {
+        position: relative;
+        z-index: 2;
+        .navbar-brand {
+            font-size: 40px;
+            font-weight: 700;
+            color: #fff;
+            margin: 0;
+            line-height: 1;
+            padding: 0;
+        }
+        .nav-item {
+            a {
+                &:hover {
+                    color: $white;
+                }
+            }
+        }
+        .nav-link {
+            color: #fff;
+            display: block;
+            font-size: 16px;
+            font-weight: 500;
+            border-radius: 30px;
+            -webkit-transition-duration: 500ms;
+            -o-transition-duration: 500ms;
+            transition-duration: 500ms;
+        }
+        .active {
+            a {
+                background: $white;
+                color: $theme-color!important;
+                border-radius: 0;
+            }
+        }
+    }
+}
+
+.header_area.sticky {
+    background-color: $theme-color;
+    -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    height: 70px;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+
+.header_area.sticky .menu_area .navbar-brand {
+    font-size: 40px;
+}
+
+.header_area.sticky .menu_area #nav .nav-link {
+    padding: 23px 15px;
+}
+
+.header_area.sticky .navbar {
+    margin-top: -30px;
+    padding: 0;
+}
+
+.header_area.sticky .buynow-btn {
+    margin-top: -20px;
+}
+
+//welcome area scss
+.wellcome_area {
+    margin-top: 200px;
+    color: $white;
+    .wellcome-heading {
+        .h1 {
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+    }
+}
+
+.welcome-thumb {
+    //text-align: center;
+    margin-top: -230px;
+    position: absolute;
+    width: 100%;
+    img {
+        //z-index: 99999 !important;
+        margin: 0 auto!important;
+        width: 1000px; //height: 400px;
+    }
+}
+
+// theme-color-area
+.theme-color-area {
+    margin-top: 200px;
+    padding-top: 80px;
+    width: 100%;
+}
+
+// Special areas
+.special-area {
+    margin-top: 50px;
+    padding-top: 80px;
+    width: 100%;
+    .section-heading {
+        margin-bottom: 60px;
+        h3 {
+            color: $theme-color;
+            margin: 0;
+        }
+        .line-shape {
+            width: 80px;
+            height: 2px;
+            background-color: $theme-color;
+            margin-top: 15px;
+            margin-left: calc(50% - 40px);
+        }
+    }
+    .special_description_area {
+        margin-top: 50px;
+        padding-top: 50px;
+        .special_description_img {
+            img {
+                width: 600px;
+            }
+        }
+        .special_description_content {
+            .theme-colors-area {
+                // margin-left:-30px;
+                margin-top: 60px;
+            }
+            .theme-colors {
+                margin-top: 20px;
+                list-style: none;
+                li {
+                    cursor: pointer;
+                    display: inline-block;
+                    background: $dark;
+                    padding: 12px;
+                    border-radius: 100px;
+                }
+                .theme-blue {
+                    background-color: $blue !important;
+                    @include buttonShadow($blue);
+                }
+                .theme-green {
+                    background-color: $green !important;
+                    @include buttonShadow($green);
+                }
+                .theme-red {
+                    background-color: $red !important;
+                    @include buttonShadow($red);
+                }
+                .theme-yellow {
+                    background-color: $yellow !important;
+                    @include buttonShadow($yellow);
+                }
+                .theme-orange {
+                    background-color: $orange !important;
+                    @include buttonShadow($orange);
+                }
+                .theme-teal {
+                    background-color: $teal !important;
+                    @include buttonShadow($teal);
+                }
+                .theme-cyan {
+                    background-color: $cyan !important;
+                    @include buttonShadow($cyan);
+                }
+                .theme-purple {
+                    background-color: $purple !important;
+                    @include buttonShadow($purple);
+                }
+                .theme-indigo {
+                    background-color: $indigo !important;
+                    @include buttonShadow($indigo);
+                }
+                .theme-pink {
+                    background-color: $pink !important;
+                    @include buttonShadow($pink);
+                } // social Colors
+                .theme-facebook {
+                    background-color: $facebook !important;
+                    @include buttonShadow($facebook);
+                }
+                .theme-twitter {
+                    background-color: $twitter !important;
+                    @include buttonShadow($twitter);
+                }
+                .theme-linkedin {
+                    background-color: $linkedin !important;
+                    @include buttonShadow($linkedin);
+                }
+                .theme-google-plus {
+                    background-color: $google-plus !important;
+                    @include buttonShadow($google-plus);
+                }
+                .theme-flickr {
+                    background-color: $flickr !important;
+                    @include buttonShadow($flickr);
+                }
+                .theme-tumblr {
+                    background-color: $tumblr !important;
+                    @include buttonShadow($tumblr);
+                }
+                .theme-xing {
+                    background-color: $xing !important;
+                    @include buttonShadow($xing);
+                }
+                .theme-github {
+                    background-color: $github !important;
+                    @include buttonShadow($github);
+                }
+                .theme-html5 {
+                    background-color: $html5 !important;
+                    @include buttonShadow($html5);
+                }
+                .theme-openid {
+                    background-color: $openid !important;
+                    @include buttonShadow($openid);
+                }
+                .theme-stack-overflow {
+                    background-color: $stack-overflow !important;
+                    @include buttonShadow($stack-overflow);
+                }
+                .theme-youtube {
+                    background-color: $youtube !important;
+                    @include buttonShadow($youtube);
+                }
+                .theme-css3 {
+                    background-color: $css3 !important;
+                    @include buttonShadow($css3);
+                }
+                .theme-dribbble {
+                    background-color: $dribbble !important;
+                    @include buttonShadow($dribbble);
+                }
+                .theme-instagram {
+                    background-color: $instagram !important;
+                    @include buttonShadow($instagram);
+                }
+                .theme-pinterest {
+                    background-color: $pinterest !important;
+                    @include buttonShadow($pinterest);
+                }
+                .theme-vk {
+                    background-color: $vk !important;
+                    @include buttonShadow($vk);
+                }
+                .theme-yahoo {
+                    background-color: $yahoo !important;
+                    @include buttonShadow($yahoo);
+                }
+                .theme-behance {
+                    background-color: $behance !important;
+                    @include buttonShadow($behance);
+                }
+                .theme-dropbox {
+                    background-color: $dropbox !important;
+                    @include buttonShadow($dropbox);
+                }
+                .theme-reddit {
+                    background-color: $reddit !important;
+                    @include buttonShadow($reddit);
+                }
+                .theme-spotify {
+                    background-color: $spotify !important;
+                    @include buttonShadow($spotify);
+                }
+                .theme-vine {
+                    background-color: $vine !important;
+                    @include buttonShadow($vine);
+                }
+                .theme-foursquare {
+                    background-color: $foursquare !important;
+                    @include buttonShadow($foursquare);
+                }
+                .theme-vimeo {
+                    background-color: $vimeo !important;
+                    @include buttonShadow($vimeo);
+                }
+            }
+            .buy-now-area {
+                margin-top: 40px;
+                margin-left: 50px;
+            }
+        }
+    }
+}
+
+// awesome-feature-area scss
+.awesome-feature-area {
+    //margin-top: 1400px;
+    margin-top: 150px;
+    .line-shape {
+        width: 80px;
+        height: 2px;
+        background-color: $theme-color;
+        margin-top: 15px;
+        margin-left: calc(50% - 40px);
+    }
+    .single-feature-area {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        i {
+            color: $theme-color;
+            font-size: 50px;
+            display: inline-block; //float: left;
+            margin-right: 10px;
+        }
+        .h5 {
+            //margin-top:10px;
+            font-size: 22px;
+            color: $gray-800;
+        }
+        p {
+            font-size: 18px;
+            margin-top: 15px;
+        }
+        .card-body {
+            min-height: 260px;
+        }
+    }
+}
+
+//screenshot area
+.app-screenshots-area {
+    margin-top: 50px;
+    padding: 50px;
+    .line-shape {
+        width: 80px;
+        height: 2px;
+        background-color: $theme-color;
+        margin-top: 15px;
+        margin-left: calc(50% - 40px);
+    }
+
+    .app_screenshots_slides{
+        margin-top: 50px;
+
+        img{
+            @include buttonShadow($gray-300);
+        }
+    }
+}
+.app_screenshots_slides {
+    padding: 0 6%;
+   
+}
+
+.app_screenshots_slides .single-shot {
+    opacity: 0.7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    -webkit-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    transform: scale(0.85)
+}
+
+.app_screenshots_slides .center .single-shot {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1)
+}
+
+.app-screenshots-area .owl-dot {
+    height: 11px;
+    width: 11px;
+    border: 2px solid #a49fba;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 6px;
+    margin-top: 50px;
+}
+
+.app-screenshots-area .owl-dot.active {
+    background-color: $theme-color;
+    border: transparent;
+}
+
+.app-screenshots-area .owl-dots {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+//cool_facts_area scss
+.cool_facts_area {
+    //margin-top: 550px;
+    margin-top: 100px;
+    padding-top: 30px;
+    background: $theme-color;
+    height: 200px;
+    color: $white;
+}
+
+.cool-facts-content>i {
+    color: #ffffff;
+    font-size: 36px;
+}
+
+.counter-area {
+    min-width: 100px;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+}
+
+.counter-area>h3 {
+    color: #ffffff;
+    font-size: 45px;
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+.cool-facts-content>p {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+//pricing-area scss
+.pricing-area {
+    height: 300px;
+    padding-top: 100px;
+}
+
+//footer scss
+.footer-text>h2 {
+    color: $theme-color;
+    padding-top: 30px;
+    font-weight: 700;
+}
+
+.footer-text {
+    margin-bottom: 15px;
+}
+
+.footer-menu ul li {
+    display: inline-block;
+}
+
+.footer-menu ul li a {
+    border-right: 2px solid #726a84;
+    display: block;
+    padding: 0 7.5px;
+    color: #726a84;
+}
+
+.footer-social-icon {
+    margin-bottom: 30px;
+}
+
+.footer-menu {
+    margin-bottom: 15px;
+}
+
+.copyright-text>p {
+    margin-bottom: 0;
+}
+
+// media quaries 
+@include media-breakpoint-down(md) {
+    .header_area {
+        padding: 0;
+        margin-left: -15px;
+    }
+    .header_area.sticky {
+        background-color: transparent;
+        height: 50px;
+    }
+    .header_area.sticky .menu_area #nav .nav-link {
+        padding: 8px 2px;
+    }
+    .header_area.sticky .navbar {
+        margin-top: 0px;
+        padding: 0;
+    }
+    .menu_area {
+        position: relative;
+        z-index: 2;
+        .navbar {
+            height: 80px!important;
+            .navbar-brand {
+                font-size: 30px!important;
+                left: 58%;
+                margin-left: - ($navbar-brand-width / 2);
+            }
+            #ca-navbar {
+                margin-top: 30px;
+                padding: 120px!important;
+                border-radius: 3px !important;
+                background-color: $theme-color !important;
+                text-align: left !important;
+                opacity: 0.9;
+                .navbar-nav {
+                    margin-top: 50px;
+                    margin-left: -45px!important;
+                }
+            }
+        }
+    }
+    .welcome-thumb {
+        margin-top: -200px;
+        position: absolute;
+        width: 100%;
+        img {
+            margin: 0 auto!important;
+            width: 700px;
+        }
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    .menu_area {
+        .navbar {
+            .navbar-brand {
+                left: 60%;
+                margin-left: - ($navbar-brand-width / 2.5);
+            }
+        }
+    }
+    .header_area.sticky {
+        background-color: transparent;
+        height: 50px;
+    }
+    .header_area.sticky .menu_area #nav .nav-link {
+        padding: 8px 2px;
+    }
+    .header_area.sticky .navbar {
+        margin-top: 0px;
+        padding: 0;
+    }
+    .welcome-thumb {
+        margin-top: -200px;
+        position: absolute;
+        width: 100%;
+        img {
+            margin: 0 auto!important;
+            width: 500px;
+        }
+    }
+    .special-area {
+        margin-top: 10px;
+        .special_description_area {
+            margin-top: 10px;
+            .special_description_img {
+                img {
+                    width: 500px;
+                }
+            }
+        }
+    }
+    .cool_facts_area {
+        height: 550px;
+        text-align: center;
+        padding: 20px;
+    }
+}
+
+@include media-breakpoint-down(xs) {
+    .menu_area {
+        .navbar {
+            .navbar-brand {
+                left: 60%;
+                margin-left: - ($navbar-brand-width / 2.5);
+            }
+        }
+    }
+    .welcome-thumb {
+        margin-top: -150px;
+        position: absolute;
+        width: 100%;
+        img {
+            margin: 0 auto!important;
+            width: 400px;
+        }
+    }
+    .special-area {
+        margin-top: 10px;
+    }
+}

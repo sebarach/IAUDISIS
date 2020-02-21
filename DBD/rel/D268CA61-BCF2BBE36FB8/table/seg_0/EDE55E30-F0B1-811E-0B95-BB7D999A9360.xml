@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EDE55E30-F0B1-811E-0B95-BB7D999A9360" name="Comunas">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-13 18:13:08 UTC</createdTime>
+<generatorID>2D48823C-2925-6BD9-63AB-E7E69EBA518F</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<ordsAlias>comuna</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Comuna" id="43A47BED-45AD-5B81-483F-A31F14A07B49">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-13 18:13:08 UTC</createdTime>
+<generatorID>22C7E119-950D-E302-F892-A1E97F543F55</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Comuna" id="84468B1D-921D-6362-E6D4-798E43118D35">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-13 18:13:08 UTC</createdTime>
+<generatorID>E6C561E2-A97C-6A5B-D1E6-F83E656980F9</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Regiones_ID_Region" id="15247169-5DF1-2042-62D2-4A60DB11AAAE">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-13 18:13:08 UTC</createdTime>
+<generatorID>692459B1-AEB8-1710-98BB-AA5BD0E634B7</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="86A0BA69-CE76-E544-7FF0-1F3BC5E6D515" referredColumn="BE5C6433-3706-36C9-4FA9-9F908B0487A4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9324FF66-E55A-8661-AA84-8A334D80B390" name="Comuna_PK">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-13 18:13:08 UTC</createdTime>
+<generatorID>AB8E02A8-7CB8-E989-5BF0-F3919FAA5EC8</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43A47BED-45AD-5B81-483F-A31F14A07B49"/>
+<colUsage columnID="15247169-5DF1-2042-62D2-4A60DB11AAAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="56E957AF-03E9-913F-ED83-AA55728FD9E4" name="Comuna_Regiones_FK">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-13 18:13:08 UTC</createdTime>
+<generatorID>F7B7AAAF-AD1A-8A27-4362-520B3925D1EC</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15247169-5DF1-2042-62D2-4A60DB11AAAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

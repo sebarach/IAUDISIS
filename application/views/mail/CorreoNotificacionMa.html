@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
+    <html xmlns='http://www.w3.org/1999/xhtml'>
+	    <head>
+	        <meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+          	<title>CheckRoom - Notificación de Marcaje</title>
+          	<meta name='viewport' content='width=device-width, initial-scale=1.0'/>
+          	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
+        </head>
+        <body style='background-color: rgb(240,240,240); margin: 10px'>
+          <table style='background-color: rgb(255,255,255); padding: 0em; font-family: 'Open Sans', sans-serif; width: 100%; max-width: 900px; margin:0; border-spacing:0;' >
+            <table>
+            <tr>
+              <td style='padding:5px 1.2em;'>
+                <h2 style='font-family: 'Open Sans', sans-serif; border-left: 4px solid rgb(30,66,138); padding-left: .5em;' align='center'>Plataforma de CheckRoom</h2>
+              </td>
+            </tr>
+            <tr>
+              <td style='padding: 0.3em 1.3em; text-align:center;'>
+                <h3 style='padding: 0.4em 0.4em 0.4em 0.4em;  background-color: orange; color: white;'>Registro de Marcado - ".$datos["Nombre"]." </h3>
+              </td>
+            </tr>
+            <tr>
+              <td style='padding: 0.1em 1em;  font-size: 16px; '>Estimado(a), Se ha generado un  nuevo registro de asistencia, los datos son los siguientes: </td>
+              <td></td>
+              </tr>
+              <tr>
+                <td style='padding: 0.1em 1em; font-size: 16px;'>
+                  Nombre Trabajador: ".$datos["Nombre"]."
+                </td>
+              </tr>
+              <tr>
+                <td style='padding: 0.1em 1em; font-size: 16px;'>
+                  Rut Trabajador: ".$datos["Rut"]."
+                </td>
+              </tr>
+              <tr>
+                <td style='padding: 0.1em 1em; font-size: 16px;'>
+                  Tipo de Registro: Llegada
+                </td>
+              </tr>
+              <tr>
+                <td style='padding: 0.1em 1em; font-size: 16px;'>
+                  Fecha Registro: ".$datos["LlegadaDia"]."
+                </td>
+              </tr>
+              <tr>
+                <td style='padding: 0.1em 1em; font-size: 16px;'>
+                  Hora Registro: ".$datos["LlegadaHora"]."
+                </td>
+              </tr>
+              <tr>
+                <td style='padding: 0.1em 1em; font-size: 16px;'>
+                  Local: ".$datos["desc_local"]."
+                </td>
+              </tr>
+          </table>
+        </body>	
+				      </html>

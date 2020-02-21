@@ -1,0 +1,416 @@
+//////////////////////////////////////////////////////
+//  Template Name: octAdmin
+//  Author: octathemes
+//  Email: octathemes@gmail.com
+//  File: navbar.scss
+///////////////////////////////////////////////////
+
+.app-header.navbar {
+    position: fixed;
+    flex-direction: row;
+    height: $navbar-height;
+    padding: 0;
+    margin: 0;
+    background-color: $navbar-bg;
+    @include shadow($gray-500);
+    .navbar-brand {
+        display: inline-block;
+        width: $sidebar-width;
+        height: $navbar-height;
+        padding: 15px $navbar-padding-x;
+        margin-right: 0;
+        text-align: center;
+        background-color: white;
+        color: $theme-color;
+        font-size: 1.6rem;
+        font-family: $fontFamily-brand;
+    }
+    .navbar-brand-dark {
+        display: inline-block;
+        width: $sidebar-width;
+        height: $navbar-height;
+        padding: 15px $navbar-padding-x;
+        margin-right: 0;
+        text-align: center;
+        background-color: $theme-color;
+        color: $theme-color;
+        font-size: 1.6rem;
+        font-family: $fontFamily-brand;
+    }
+    .navbar-toggler {
+        color: $theme-color;
+        padding: 25px;
+    }
+    .navbar-nav {
+        flex-direction: row;
+        align-items: center;
+       
+    }
+    .nav-item {
+        position: relative;
+        min-width: 50px;
+        margin: 0 !important;
+        text-align: center;
+        button {
+            margin: 0 auto;
+        }
+        .nav-link {
+            padding-top: 0;
+            padding-bottom: 0;
+            background: 0;
+            border: 0;
+            .notification {
+                position: absolute;
+                top: 30%;
+                left: 60%;
+                margin-top: -10px;
+                margin-left: 3px;
+                font-size: 0.5rem;
+                background: #F1425F;
+                min-height: 7px;
+                min-width: 7px;
+                border-radius: 100%;
+            }
+            >.img-avatar {
+                height: $navbar-height - 20px;
+                margin: 0 10px;
+            }
+        }
+    }
+    .dropdown-menu {
+        padding-bottom: 0;
+        line-height: $line-height-base;
+        border: 2px solid $gray-100;
+        border-radius: 20px;
+    }
+
+    .notification-list {
+        .dropdown-header {
+            padding-top: 20px;
+            padding-bottom: 10px;
+            text-transform: uppercase;
+            background: darken($white, 2%);
+            .badge {
+                font-size: 0.8rem;
+                text-transform: lowercase;
+            }
+        }
+
+        .wrap {
+            min-width: 350px; 
+            overflow-x: hidden;
+            overflow-y: auto;
+
+                .message-box {
+                
+                    .u-img {
+                        width: 35px;
+                        display: inline-block !important;
+                        vertical-align: top;
+                        img {
+                            width: 100%;
+                            border-radius: 100px;
+                        }
+
+                    }
+                    .u-text {
+                        display: inline-block !important;
+                        padding-left: 10px;
+                        .u-name{
+                            color: $gray-600;
+                        }
+                        p {
+                            margin: 0px;
+                            
+                        }
+                        small{
+                           color: $theme-color;
+                        }
+                    }
+                }
+            
+        }
+
+        .dropdown-footer {
+            text-align: center;
+            padding-top: 10px;
+            text-transform: uppercase;
+            background: darken($white, 2%);
+        }
+    }
+
+    .message-list {
+        .dropdown-header {
+            padding-top: 20px;
+            padding-bottom: 10px;
+            text-transform: uppercase;
+            background: darken($white, 2%);
+            .badge {
+                font-size: 0.8rem;
+                text-transform: lowercase;
+            }
+        }
+
+        .wrap {
+            min-width: 350px; 
+            overflow-x: hidden;
+            overflow-y: auto;
+
+         
+                .message-box {
+                
+                    .u-img {
+                        width: 60px;
+                        display: inline-block !important;
+                        vertical-align: top;
+                        img {
+                            width: 100%;
+                            border-radius: 100px;
+                        }
+
+                        .notification {
+                            position: absolute;
+                            top: 30%;
+                            left: 18%;
+                            margin-top: -10px;
+                            margin-left: 3px;
+                            font-size: 0.5rem;
+                            min-height: 12px;
+                            min-width: 12px;
+                            border-radius: 100%;
+                            border: 1px solid $gray-100;
+                        }
+
+                        .online{
+                            background: $green;
+                        }
+                        .offline{
+                            background: $gray-400;
+                        }
+
+                        .away{
+                            background:$warning;
+                        }
+
+                        .buzy{
+                            background:$danger;
+                        }
+
+
+
+                    }
+                    .u-text {
+                        display: inline-block !important;
+                        padding-left: 10px;
+                        .u-name{
+                            color: $theme-color;
+                        }
+                        p {
+                            margin: 0px;
+                            
+                        }
+                        small{
+                           color: $theme-color;
+                        }
+                    }
+                }
+           
+        }
+
+        .dropdown-footer {
+            text-align: center;
+            padding-top: 10px;
+            text-transform: uppercase;
+            background: darken($white, 2%);
+        }
+    }
+    .task-list {
+        .dropdown-header {
+           
+            padding-top: 20px;
+            padding-bottom: 10px;
+            text-transform: uppercase;
+            background: darken($white, 2%);
+            .badge {
+                font-size: 0.8rem;
+                text-transform: lowercase;
+            }
+        }
+        .wrap {
+            min-width: 300px;
+            overflow-x: hidden;
+            overflow-y: auto;
+        }
+        .dropdown-footer {
+            text-align: center;
+            padding-top: 10px;
+            text-transform: uppercase;
+            background: darken($white, 2%);
+        }
+    }
+    .user-menu {
+        padding: 10px;
+        .wrap {
+            min-width: 260px; 
+            overflow-x: hidden;
+            overflow-y: auto;
+            .dw-user-box {
+                padding: 15px;
+                text-align: center;
+                .u-img {
+                    width: 80px;
+                    display: inline-block !important;
+                    vertical-align: top;
+                    img {
+                        width: 100%;
+                        border-radius: 10px;
+                    }
+                }
+                .u-text {
+                    display: inline-block !important;
+                    padding-left: 10px;
+                    h5 {
+                        margin: 0px;
+                        margin-top: 8px;
+                        text-transform: lowercase;
+                        color: $theme-color;
+                    }
+                    p {
+                        margin-bottom: 3px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.navbar-brand {
+    color: $navbar-active-color;
+    border: none !important;
+    @include hover-focus {
+        color: $navbar-active-color;
+    }
+}
+
+.navbar-nav {
+    .nav-link {
+        color: $navbar-color;
+        i {
+            color: $theme-color;
+            font-weight: bolder;
+            font-size: 1.2rem;
+        }
+        @include hover-focus {
+            color: $navbar-hover-color;
+        }
+    }
+    .open>.nav-link,
+    .active>.nav-link,
+    .nav-link.open,
+    .nav-link.active {
+        @include plain-hover-focus {
+            color: $navbar-active-color;
+        }
+    }
+}
+
+.navbar-divider {
+    background-color: rgba(0, 0, 0, .075);
+}
+
+.brand-minimized {
+    .app-header.navbar {
+        .navbar-brand {
+            width: $navbar-brand-minimized-width;
+            background-color: $navbar-brand-minimized-bg;
+            background-image: $navbar-brand-minimized-logo;
+            background-size: $navbar-brand-minimized-logo-size;
+        }
+    }
+}
+
+// navbar search form scss style
+.navbar-search {
+    .navbar-search-input {
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        background: white;
+        min-width: 300px;
+        min-height: 35px;
+        border: none!important;
+        padding: 10px;
+    }
+    input::placeholder {
+        color: $gray-200;
+    }
+    .navbar-search-btn {
+        display: inline-block;
+        border: none;
+        min-height: $navbar-height;
+        margin-left: -5px !important;
+        background: white;
+        color: $gray-200;
+    }
+}
+
+//navbar media queries mobile
+@include media-breakpoint-down(md) {
+    .navbar {
+        position: fixed !important;
+        z-index: $zindex-sticky;
+        width: 100%;
+        text-align: center;
+        background-color: $navbar-brand-bg; 
+        height: 120px!important;
+        .navbar-toggler {
+            @if (lightness( $navbar-brand-bg) > 40) {
+                color: $navbar-color;
+            }
+            @else {
+                color: #fff;
+            }
+        }
+        .navbar-brand {
+            position: absolute;
+            left: 50%;
+            margin-left: - ($navbar-brand-width / 2);
+            background: transparent !important;
+            color: $theme-color !important;
+            margin-top: -15px;
+        }
+        .navbar-nav {
+            position: absolute;
+            top: 50%;
+            text-align: center;
+            left: 50%;
+            margin-left: - ($navbar-brand-width/1.8);
+            
+            .nav-item.show {
+                position: static;
+                .dropdown-menu {
+                    margin-top: 0px;
+                }
+            }
+
+            > .nav-item > .nav-link {
+                padding-left: .50rem!important;
+                padding-right: .50rem;
+            }
+            .dropdown-menu {
+                position: absolute;
+            }
+           
+        }
+
+        .login-tag-line {
+            display: none !important;
+        }
+        .navbar-search {
+            display: none;
+        }
+    }
+}
+
+
+/* End top navbar styles */

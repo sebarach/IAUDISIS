@@ -1,0 +1,58 @@
+//////////////////////////////////////////////////////
+//  Template Name: octAdmin
+//  Author: octathemes
+//  Email: octathemes@gmail.com
+//  File: theme.scss
+///////////////////////////////////////////////////
+
+
+.text-theme{
+    color: $theme-color;
+}
+
+.bg-theme{
+    background: $theme-color;
+    color: white;
+}
+
+.badge-theme{
+    background: $theme-color;
+    color: white;
+}
+
+.card-accent-theme{
+    border-top: 2px solid $theme-color;
+}
+
+.card-accent-left-theme{
+    border-left: 2px solid $theme-color;
+}
+
+.card-accent-right-theme{
+    border-right: 2px solid $theme-color;
+}
+
+.btn-theme{
+    @include buttonShadow($theme-color); 
+    background: $theme-color;
+  
+    .icon-round-right{
+     font-size: 0.8rem;
+     padding: 10px 10px;
+     margin-left: 20px;
+     background-color: darken($theme-color, 15%);
+     border-radius: 100%;
+    }
+  
+    &:hover{
+      background: darken($theme-color, 5%);
+    }
+}
+
+.callout-theme{
+    border-left-color: $theme-color;
+    
+        h4 {
+          color: $theme-color;
+        }
+}

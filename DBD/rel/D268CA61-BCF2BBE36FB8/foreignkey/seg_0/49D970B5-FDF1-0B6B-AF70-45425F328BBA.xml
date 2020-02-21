@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="49D970B5-FDF1-0B6B-AF70-45425F328BBA" containerWithKeyObject="B6A2D6CA-D58B-3E24-042F-DBCCCE1575BD" localFKIndex="2D0E79A7-CAD0-BF00-32CC-00228B0A86D7" name="Jornadas_Locales_FK">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-13 16:21:23 UTC</createdTime>
+<generatorID>2344B73F-0A6A-09EF-BE74-C96B83A4F384</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<referredTableLongName>Locales</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>372FFEC7-D72A-8048-D3AA-96B6D4D3F49F</referredTableID>
+<keyObject>02AEB0B9-B393-DD23-E92D-C93F1C17A523</keyObject>
+<referredKeyID>02AEB0B9-B393-DD23-E92D-C93F1C17A523</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Local,Cadena_id_cadena</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

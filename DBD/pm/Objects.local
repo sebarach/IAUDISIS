@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.process.ProcessModel>
+   <object objectType="Role" objectID="44552BA9-A680-2DEC-F16B-360EF07650E4" name="Role_1" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.Role" propertyParentId="79C71039-BBBF-85CE-E3EB-4F5F14786F33" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.process.ProcessModel>

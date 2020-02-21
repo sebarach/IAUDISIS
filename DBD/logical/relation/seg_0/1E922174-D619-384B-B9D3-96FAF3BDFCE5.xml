@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Operacional Tareas FK" directorySegmentName="seg_0" id="1E922174-D619-384B-B9D3-96FAF3BDFCE5">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-13 16:07:31 UTC</createdTime>
+<ownerDesignName>DBD</ownerDesignName>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="true"/>
+</engineerTo>
+<sourcePk>BDA844EF-C982-7464-5F7D-CF020C8EDCE6</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6452C3DF-3395-F8E1-CED7-3E6503E87592</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>430874E4-DCF4-7D3F-EF9B-FBD64594FDEC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

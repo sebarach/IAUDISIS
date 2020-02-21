@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6F130228-AA7E-411F-42A5-67AE59A12A1C" containerWithKeyObject="F55C0BC1-D278-FAF1-90AC-B49C7C5466A8" localFKIndex="27571830-802E-E58E-E3C5-226F6FB01E37" name="Operacional_Tareas_FK">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-13 16:21:23 UTC</createdTime>
+<generatorID>1E922174-D619-384B-B9D3-96FAF3BDFCE5</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<referredTableLongName>Tareas</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F7022E67-C1EC-F9CA-0664-1A44DED58C3C</referredTableID>
+<keyObject>84A25D1B-41DC-6CE5-5059-D83BDAD2F445</keyObject>
+<referredKeyID>84A25D1B-41DC-6CE5-5059-D83BDAD2F445</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Tarea,NombreTarea,Jornadas_id_Jornada,Jornadas_Locales_ID_Local,Jornadas_Locales_Cadena_id_cadena</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

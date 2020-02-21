@@ -1,0 +1,2240 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <title>octAdmin - powerfull minimal ultimate all in one bootstrap admin Template</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Admin, Dashboard, Bootstrap" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="../../img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../../img/favicon/manifest.json">
+    <link rel="mask-icon" href="../../img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- fonts -->
+    <link rel="stylesheet" href="../../fonts/md-fonts/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="../../fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- animate css -->
+    <link rel="stylesheet" href="../../libs/animate.css/animate.min.css">
+
+    <!-- prism css -->
+    <link rel="stylesheet" href="../../libs/prism/prism.css">
+
+    <!-- jquery-loading -->
+    <link rel="stylesheet" href="../../libs/jquery-loading/dist/jquery.loading.min.css">
+    <!-- octadmin main style -->
+    <link id="pageStyle" rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="https://getbootstrap.com/assets/css/docs.min.css">
+
+</head>
+
+<body class="app sidebar-fixed aside-menu-off-canvas aside-menu-hidden header-fixed footer-fixed">
+    <header class="app-header navbar">
+        <div class="hamburger hamburger--arrowalt-r navbar-toggler mobile-sidebar-toggler d-lg-none mr-auto">
+            <div class="hamburger-box">
+                <div class="hamburger-inner"></div>
+            </div>
+        </div>
+        <!-- end hamburger -->
+        <a class="navbar-brand" href="#">
+            <strong>octAdmin</strong>
+        </a>
+
+        <div class="hamburger hamburger--arrowalt-r navbar-toggler sidebar-toggler d-md-down-none mr-auto">
+            <div class="hamburger-box">
+                <div class="hamburger-inner"></div>
+            </div>
+        </div>
+        <!-- end hamburger -->
+
+        <div class="hamburger hamburger--arrowalt-r navbar-toggler aside-menu-toggler ">
+            <div class="hamburger-box">
+                <div class="hamburger-inner"></div>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+
+    <div class="app-body">
+        <div class="sidebar sidebar-colored" id="sidebar">
+            <nav class="sidebar-nav" id="sidebar-nav-scroller">
+                <ul class="nav">
+                    <li class="nav-title">Documentation</li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#introduction">
+                            <i class="mdi mdi-checkbox-multiple-blank-circle-outline"></i> Introduction </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#features">
+                            <i class="mdi mdi-checkbox-multiple-blank-circle-outline"></i> Features </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#installation">
+                            <i class="mdi mdi-checkbox-multiple-blank-circle-outline"></i> Installation </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#workflow">
+                            <i class="mdi mdi-checkbox-multiple-blank-circle-outline"></i> Workflow </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#development">
+                            <i class="mdi mdi-checkbox-multiple-blank-circle-outline"></i> Development </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#starter">
+                            <i class="mdi mdi-checkbox-multiple-blank-circle-outline"></i> Starter Template </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#layouts">
+                            <i class="mdi mdi-checkbox-multiple-blank-circle-outline"></i> Layouts </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#grid">
+                            <i class="mdi mdi-checkbox-multiple-blank-circle-outline"></i> Grid System </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#scss">
+                            <i class="mdi mdi-checkbox-multiple-blank-circle-outline"></i> Scss & Css </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#themes">
+                            <i class="mdi mdi-checkbox-multiple-blank-circle-outline"></i> Color Themes </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#font">
+                            <i class="mdi mdi-checkbox-multiple-blank-circle-outline"></i> Font </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#icons">
+                            <i class="mdi mdi-checkbox-multiple-blank-circle-outline"></i> Icons </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#js">
+                            <i class="mdi mdi-checkbox-multiple-blank-circle-outline"></i> js </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#plugins">
+                            <i class="mdi mdi-checkbox-multiple-blank-circle-outline"></i> Plugins </a>
+                    </li>
+                    <li class="nav-item ">
+                            <a class="nav-link " href="#credits">
+                                <i class="mdi mdi-checkbox-multiple-blank-circle-outline"></i> Credits </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#support">
+                            <i class="mdi mdi-checkbox-multiple-blank-circle-outline"></i> Support </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#thankyou">
+                            <i class="mdi mdi-checkbox-multiple-blank-circle-outline"></i> Thank You </a>
+                    </li>
+
+
+                </ul>
+            </nav>
+
+        </div>
+        <!-- end sidebar -->
+
+        <main class="main">
+            <!-- Breadcrumb -->
+            <ol class="breadcrumb " id="breadcrumb">
+                <li class="breadcrumb-item ">
+                    <a href="">Home</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="#">Documentation</a>
+                </li>
+                <li class="breadcrumb-item active">Documentation</li>
+            </ol>
+
+            <div class="container">
+
+                <div class="animated fadeIn">
+                    <h3>OctAdmin</h3>
+                    <small>
+                        <a href="#">Documentation</a>
+                    </small>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card ">
+                                <div class="card-body">
+                                    <h5 class="text-theme" id="introduction">1. Introduction</h5>
+                                    <p>
+                                        <br/>OctaAdmin is a popular Modern Looking open source WebApp template for admin dashboards
+                                        and control panels. OctaAdmin is fully responsive HTML template, which is based on
+                                        the CSS framework Bootstrap 4. It utilizes all of the Bootstrap components in its
+                                        design and re-styles many commonly used plugins to create a consistent design that
+                                        can be used as a user interface for backend applications. OctaAdmin is based on a
+                                        modular design, which allows it to be easily customized and built upon. This documentation
+                                        will guide you through installing the template and exploring the various components
+                                        that are bundled with the template.</p>
+                                    <p>
+                                        <br/>We put a lot of love and effort to make OctaAdmin a useful template for everyone
+                                        and now It comes with 30+ Colors and with unique Modern Lokking Dashboards. We are
+                                        keen to release continuous long term updates and lots of new features will be coming
+                                        soon in the future releases. Once you purchased OctaAdmin, you will be entitled to
+                                        free download of all future updates for the same license.</p>
+                                    <b>
+                                            <br/> Template:
+                                            <a href="https://octathemes.com" target="_blank">octAdmin</a>
+                                        <br/> Author:
+                                        <a href="https://octathemes.com" target="_blank">Octathemes</a>
+                                        <br/> Contact:
+                                        <a href="mailto:octathemes@gmail.com"> octathemes@gmail.com </a>
+                                        <br/> website:
+                                        <a href="https://octathemes.com" target="_blank">https://octathemes.com</a>
+                                    </b>
+                                    <hr>
+                                    <div class="alert alert-warning">NOTE: A single license can be used only for one domain or client. Each use of the template
+                                        requires a separate license. We hope you will follow the rules as it will help us
+                                        to continue supporting our template and providing a free future updates.</div>
+                                </div>
+                                <!-- end card-body -->
+                            </div>
+                            <!-- end card -->
+                        </div>
+                        <!-- end col -->
+
+                        <div class="col-md-12">
+                            <div class="card ">
+                                <div class="card-body">
+                                    <h5 class="text-theme" id="features">2. Features</h5>
+
+
+                                    <ul class="fz-md lh-lg p-l-lg" style="list-style-type: square;">
+                                        <li>30+ built-in Color Skins And You Can Your Own</li>
+                                        <li>Light/Dark Sidebar Themes</li>
+                                        <li>Premium Free Landing Pages For Your Website</li>
+                                        <li>Multiple Layout</li>
+                                        <li>Responsive layout</li>
+                                        <li>Live Skin Customizer</li>
+                                        <li>Loading progress bar</li>
+                                        <li>Hundreds of UI Components</li>
+                                        <li>Dozens of Widgets</li>
+                                        <li>Hundreds of Utility Classes</li>
+                                        <li>Font Icons(font-awesome, glyphicons, material design icons, etc..)</li>
+                                        <li>HTML5 &amp; CSS3</li>
+                                        <li>Bootstrap 4 Framework</li>
+                                        <li>Sass for CSS preprocessing (compiled CSS included)</li>
+                                        <li>Gulp Tasks Manager</li>
+                                        <li>Clean and Friendly Code</li>
+                                    </ul>
+                                </div>
+                                <!-- end card-body -->
+                            </div>
+                            <!-- end card -->
+                        </div>
+                        <!-- end col -->
+
+                        <div class="col-md-12">
+                            <div class="card ">
+                                <div class="card-body">
+                                    <h5 class="text-theme" id="installation">3. Installation</h5>
+
+                                    <p>
+                                        This is the simple static HTML template so no need any headech to install it.
+                                        <br>
+                                        <br>Just simple steps to follow:
+                                        <br>
+                                        <br>
+                                        <i class="fa fa-folder text-warning"></i>
+                                        <strong>Template (demo folder)</strong> +
+                                        <i class="fa fa-folder text-warning"></i>
+                                        <strong>asset Folders (css,fonts,img,js,libs)</strong>
+                                        <strong>= Template Ready.</strong>
+                                    </p>
+                                    <div class="alert alert-info"> Note: we recomonded you to please make your one own css file &amp; one js files and add
+                                        that in your page, so whenever the update of octAdmin comes it does not affect your
+                                        code. </div>
+
+                                    <pre>
+Template/
+  |-- contents (All Html Pages)
+  |-- css (All Css Files)
+  |-- fonts (All Fonts Libs)
+  |-- img (All Images)
+  |-- js  (All Javascript Files)
+  |-- libs (All Libraries)
+</pre>
+
+                                </div>
+                                <!-- end card-body -->
+                            </div>
+                            <!-- end card -->
+                        </div>
+                        <!-- end col -->
+
+                        <div class="col-md-12">
+                            <div class="card ">
+                                <div class="card-body">
+                                    <h5 class="text-theme" id="workflow">4. Using Gulp Workflow </h5>
+
+                                    <p class="fz-md m-b-lg">We use
+                                        <a href="https://gulpjs.com/">Gulp</a> for build processes. You can optionally use it, Compiled and ready files
+                                        are included as mentioned above.</p>
+                                    <p>To use Gulp you need some tools to be installed:</p>
+                                    <ul style="list-style-type: square;">
+                                        <li>
+                                            <a href="http://nodejs.org/">NodeJs</a> For managing our dependences</li>
+                                        <li>
+                                            <a href="http://gulpjs.com/">Gulp</a> for task management </li>
+                                       
+                                    </ul>
+                                </div>
+                                <!-- end card-body -->
+                            </div>
+                            <!-- end card -->
+                        </div>
+                        <!-- end col -->
+
+                        <div class="col-md-12">
+                            <div class="card ">
+                                <div class="card-body">
+                                    <h5 class="text-theme" id="development">5. Gulp Sass Starter Kit For Development </h5>
+                                    <p>We use Include Gulp starter Kit with Browser sync , with Sass Compiler , so you can Edit
+                                        /develop OctaAdmin Source Without any Trouble </p>
+
+                                    <p>To use Gulp you need some tools to be installed:</p>
+                                    <ul style="list-style-type: square;">
+                                        <li>
+                                            <a href="http://nodejs.org/">NodeJs</a> For managing our dependences</li>
+                                        <li>
+                                            <a href="http://gulpjs.com/">Gulp</a> for task management </li>
+                                       
+                                    </ul>
+
+                                    <h5>Start Commands:</h5>
+                                    <div>
+                                        <p>You can use those commands to build
+                                            <strong class="fw-500">dist</strong> and test your site:</p>
+                                        <ul style="list-style-type: square;">
+                                            <li>
+                                                <code>npm install</code> to install gulp and gulp dependencies</li>
+                                            <li>
+                                                <code>npm start</code> to start development server</li>
+                                        </ul>
+                                    </div>
+                                    <!-- end card-body -->
+                                </div>
+                                <!-- end card -->
+                            </div>
+                            <!-- end col -->
+
+                            <div class="col-md-12">
+                                <div class="card ">
+                                    <div class="card-body">
+                                        <h5 class="text-theme" id="starter">6. Starter template </h5>
+                                        <p>Be sure to have your pages set up with the latest design and development standards.
+                                            That means:</p>
+
+                                        <ul>
+                                            <li>Using an HTML5 doctype</li>
+                                            <li>Forcing Internet Explorer to use its latest rendering mode (
+                                                <a href="http://stackoverflow.com/q/6771258">read more</a>)</li>
+                                            <li>And, utilizing the viewport meta tag.</li>
+                                        </ul>
+
+                                        <p>Put it all together and your pages should look like this:</p>
+
+                                        <h6 id="html5-static-version">HTML5 Static Version</h6>
+                                        <pre class="language-markup">
+    <code  class="language-markup">
+&lt;!DOCTYPE html&gt;&#10;&lt;html lang=&#34;en&#34;&gt;&#10;&#10;&lt;head&gt;&#10;  &#10;    &lt;meta http-equiv=&#34;x-ua-compatible&#34; content=&#34;ie=edge&#34;&gt;&#10;    &lt;meta name=&#34;description&#34; content=&#34;Admin, Dashboard, Bootstrap&#34; /&gt;&#10;    &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34; /&gt;&#10;    &lt;title&gt;octAdmin - powerfull minimal ultimate all in one bootstrap admin Template&lt;/title&gt;&#10;    &lt;link rel=&#34;icon&#34; type=&#34;image/png&#34; sizes=&#34;16x16&#34; href=&#34;../../img/favicon/favicon-16x16.png&#34;&gt;&#10;   &#10;    &lt;!-- fonts --&gt;&#10;    &lt;link rel=&#34;stylesheet&#34; href=&#34;../../fonts/md-fonts/css/materialdesignicons.min.css&#34;&gt;&#10;    &lt;link rel=&#34;stylesheet&#34; href=&#34;../../fonts/font-awesome-4.7.0/css/font-awesome.min.css&#34;&gt;&#10;    &lt;!-- animate css --&gt;&#10;    &lt;link rel=&#34;stylesheet&#34; href=&#34;../../libs/animate.css/animate.min.css&#34;&gt;&#10;&#10;    &lt;!-- octadmin main style --&gt;&#10;    &lt;link id=&#34;pageStyle&#34; rel=&#34;stylesheet&#34; href=&#34;../../css/style.css&#34;&gt;&#10;&#10;     &lt;!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries --&gt;&#10;    &lt;!-- WARNING: Respond.js doesn't work if you view the page via file:// --&gt;&#10;    &lt;!--[if lt IE 9]&gt;&#10;    &lt;script src=&#34;https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js&#34;&gt;&lt;/script&gt;&#10;    &lt;script src=&#34;https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js&#34;&gt;&lt;/script&gt;&#10;&lt;![endif]--&gt;&#10;&#10;&lt;/head&gt;&#10;&#10;&lt;body class=&#34;app sidebar-fixed aside-menu-off-canvas aside-menu-hidden header-fixed footer-fixed&#34;&gt;&#10;    &lt;header class=&#34;app-header navbar&#34;&gt;&#10;        &lt;div class=&#34;hamburger hamburger--arrowalt-r navbar-toggler mobile-sidebar-toggler d-lg-none mr-auto&#34;&gt;&#10;            &lt;div class=&#34;hamburger-box&#34;&gt;&#10;                &lt;div class=&#34;hamburger-inner&#34;&gt;&lt;/div&gt;&#10;            &lt;/div&gt;&#10;        &lt;/div&gt;&#10;        &lt;!-- end hamburger --&gt;&#10;        &lt;a class=&#34;navbar-brand&#34; href=&#34;#&#34;&gt; &lt;strong&gt;octAdmin&lt;/strong&gt;&lt;/a&gt;&#10;&#10;        &lt;div class=&#34;hamburger hamburger--arrowalt-r navbar-toggler sidebar-toggler d-md-down-none mr-auto&#34;&gt;&#10;            &lt;div class=&#34;hamburger-box&#34;&gt;&#10;                &lt;div class=&#34;hamburger-inner&#34;&gt;&lt;/div&gt;&#10;            &lt;/div&gt;&#10;        &lt;/div&gt;&#10;        &lt;!-- end hamburger --&gt;&#10;&#10;        &lt;div class=&#34;navbar-search&#34;&gt;&#10;            &lt;button type=&#34;submit&#34; class=&#34;navbar-search-btn&#34;&gt;&#10;                &lt;i class=&#34;mdi mdi-magnify&#34;&gt;&lt;/i&gt;&#10;            &lt;/button&gt;&#10;            &lt;input type=&#34;text&#34; class=&#34;navbar-search-input&#34; placeholder=&#34;Find User a user, team, meeting ..&#34;&gt;&#10;        &lt;/div&gt;&#10;        &lt;!-- end navbar-search --&gt;&#10;        &lt;div class=&#34;hamburger hamburger--arrowalt-r navbar-toggler aside-menu-toggler &#34;&gt;&#10;            &lt;div class=&#34;hamburger-box&#34;&gt;&#10;                &lt;div class=&#34;hamburger-inner&#34;&gt;&lt;/div&gt;&#10;            &lt;/div&gt;&#10;        &lt;/div&gt;&#10;    &lt;/header&gt;&#10;    &lt;!-- end header --&gt;&#10;&#10;    &lt;div class=&#34;app-body&#34;&gt;&#10;        &lt;div class=&#34;sidebar&#34; id=&#34;sidebar&#34;&gt;&#10;            &lt;nav class=&#34;sidebar-nav&#34; id=&#34;sidebar-nav-scroller&#34;&gt;&#10;                &lt;ul class=&#34;nav&#34;&gt;&#10;                    &lt;li class=&#34;nav-item nav-dropdown&#34;&gt;&#10;                        &lt;a class=&#34;nav-link nav-dropdown-toggle&#34; href=&#34;../../index.html&#34;&gt;&#10;                            &lt;i class=&#34;mdi mdi-gauge&#34;&gt;&lt;/i&gt; Dashboard&lt;/a&gt;&#10;                    &lt;/li&gt;&#10;&#10;                &lt;/ul&gt;&#10;            &lt;/nav&gt;&#10;&#10;        &lt;/div&gt;&#10;        &lt;!-- end sidebar --&gt;&#10;&#10;        &lt;main class=&#34;main&#34;&gt;&#10;            &lt;!-- Breadcrumb --&gt;&#10;            &lt;ol class=&#34;breadcrumb bc-colored bg-theme&#34; id=&#34;breadcrumb&#34;&gt;&#10;                &lt;li class=&#34;breadcrumb-item &#34;&gt;&#10;                    &lt;a href=&#34;&#34;&gt;Home&lt;/a&gt;&#10;                &lt;/li&gt;&#10;                &lt;li class=&#34;breadcrumb-item&#34;&gt;&#10;                    &lt;a href=&#34;#&#34;&gt;UI Components&lt;/a&gt;&#10;                &lt;/li&gt;&#10;                &lt;li class=&#34;breadcrumb-item active&#34;&gt;Alerts&lt;/li&gt;&#10;            &lt;/ol&gt;&#10;&#10;            &lt;div class=&#34;container-fluid&#34;&gt;&#10;&#10;                &lt;div class=&#34;animated fadeIn&#34;&gt;&#10;                    &lt;h3&gt;Heading &lt;/h3&gt;&#10;                    &lt;small&gt;&#10;                        &lt;a href=&#34;#&#34;&gt;Official Website&lt;/a&gt;&#10;                    &lt;/small&gt;&#10;                    &lt;div class=&#34;row&#34;&gt;&#10;                        &lt;div class=&#34;col-md-12&#34;&gt;&#10;                            &lt;div class=&#34;card card-accent-theme&#34;&gt;&#10;                                &lt;div class=&#34;card-body&#34;&gt;&#10;&#10;                                &lt;/div&gt;&#10;                                &lt;!-- end card-body --&gt;&#10;                            &lt;/div&gt;&#10;                            &lt;!-- end card --&gt;&#10;                        &lt;/div&gt;&#10;                        &lt;!-- end col --&gt;&#10;                    &lt;/div&gt;&#10;                    &lt;!-- end row --&gt;&#10;&#10;                &lt;/div&gt;&#10;                &lt;!-- end animated fadeIn --&gt;&#10;            &lt;/div&gt;&#10;            &lt;!-- end container-fluid --&gt;&#10;&#10;        &lt;/main&gt;&#10;        &lt;!-- end main --&gt;&#10;&#10;        &lt;aside class=&#34;aside-menu&#34;&gt;&#10;                &lt;div class=&#34;aside-header bg-theme text-uppercase&#34;&gt;Service Panel&lt;/div&gt;&#10;                &lt;div class=&#34;aside-body&#34;&gt;&#10;                      &lt;h6 class=&#34;text-theme&#34;&gt;Aside Menu&lt;/h6&gt;&#10;                &lt;/div&gt;&#10;         &lt;/aside&gt;&#10;            &lt;!-- end aside --&gt;&#10;&#10;    &lt;/div&gt;&#10;    &lt;!-- end app-body --&gt;&#10;&#10;&#10;&#10;    &lt;footer class=&#34;app-footer&#34;&gt;&#10;        &lt;a href=&#34;#&#34; class=&#34;text-theme&#34;&gt;octAdmin&lt;/a&gt; &#169; 2018 octaThemes.&#10;        &lt;span class=&#34;float-right&#34;&gt;Powered by&#10;            &lt;a href=&#34;#&#34; class=&#34;text-theme&#34;&gt;octAdmin&lt;/a&gt;&#10;        &lt;/span&gt;&#10;    &lt;/footer&gt;&#10;&#10;&#10;    &lt;!-- Bootstrap and necessary plugins --&gt;&#10;    &lt;script src=&#34;../../libs/jquery/dist/jquery.min.js&#34;&gt;&lt;/script&gt;&#10;    &lt;script src=&#34;../../libs/popper.js/dist/umd/popper.min.js&#34;&gt;&lt;/script&gt;&#10;    &lt;script src=&#34;../../libs/bootstrap/bootstrap.min.js&#34;&gt;&lt;/script&gt;&#10;    &lt;script src=&#34;../../libs/PACE/pace.min.js&#34;&gt;&lt;/script&gt;&#10;    &lt;script src=&#34;../../libs/chart.js/dist/Chart.min.js&#34;&gt;&lt;/script&gt;&#10;    &lt;script src=&#34;../../libs/nicescroll/jquery.nicescroll.min.js&#34;&gt;&lt;/script&gt;&#10;&#10;&#10;    &lt;!-- octadmin Main Script --&gt;&#10;    &lt;script src=&#34;../../js/app.js&#34;&gt;&lt;/script&gt;&#10;&#10;&lt;/body&gt;&#10;&#10;&lt;/html&gt;
+    </code>
+</pre>
+
+                                    </div>
+                                    <!-- end card-body -->
+                                </div>
+                                <!-- end card -->
+                            </div>
+                            <!-- end col -->
+
+                            <div class="col-md-12">
+                                <div class="card ">
+                                    <div class="card-body">
+                                        <h5 class="text-theme" id="layouts">7. Layouts </h5>
+                                        <br/>
+                                        <h5 class="text-theme" id="containers">Containers</h5>
+
+                                        <p>Containers are the most basic layout element in Bootstrap and are <strong>required when using our default grid system</strong>. Choose from a responsive, fixed-width container (meaning its <code class="highlighter-rouge">max-width</code> changes at each breakpoint) or fluid-width (meaning it’s <code class="highlighter-rouge">100%</code> wide all the time).</p>
+                                        
+                                        <p>While containers <em>can</em> be nested, most layouts do not require a nested container.</p>
+                                        
+                                        
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"container"</span><span class="nt">&gt;</span>
+    <span class="c">&lt;!-- Content here --&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+  
+  <p>Use <code class="highlighter-rouge">.container-fluid</code> for a full width container, spanning the entire width of the viewport.</p>
+                                       
+  <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"container-fluid"</span><span class="nt">&gt;</span>
+    ...
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+<h5 class="text-theme" id="responsive-breakpoints">Responsive breakpoints</h5>
+
+<p>Since Bootstrap is developed to be mobile first, we use a handful of <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries">media queries</a> to create sensible breakpoints for our layouts and interfaces. These breakpoints are mostly based on minimum viewport widths and allow us to scale up elements as the viewport changes.</p>
+
+<p>Bootstrap primarily uses the following media query ranges—or breakpoints—in our source Sass files for our layout, grid system, and components.</p>
+
+<figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="c1">// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+</span>
+<span class="c1">// Small devices (landscape phones, 576px and up)
+</span><span class="k">@media</span> <span class="p">(</span><span class="n">min-width</span><span class="o">:</span> <span class="m">576px</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
+
+<span class="c1">// Medium devices (tablets, 768px and up)
+</span><span class="k">@media</span> <span class="p">(</span><span class="n">min-width</span><span class="o">:</span> <span class="m">768px</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
+
+<span class="c1">// Large devices (desktops, 992px and up)
+</span><span class="k">@media</span> <span class="p">(</span><span class="n">min-width</span><span class="o">:</span> <span class="m">992px</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
+
+<span class="c1">// Extra large devices (large desktops, 1200px and up)
+</span><span class="k">@media</span> <span class="p">(</span><span class="n">min-width</span><span class="o">:</span> <span class="m">1200px</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span></code></pre></figure>
+
+<p>Since we write our source CSS in Sass, all our media queries are available via Sass mixins:</p>
+
+<figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="k">@include</span> <span class="nd">media-breakpoint-up</span><span class="p">(</span><span class="n">xs</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
+<span class="k">@include</span> <span class="nd">media-breakpoint-up</span><span class="p">(</span><span class="n">sm</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
+<span class="k">@include</span> <span class="nd">media-breakpoint-up</span><span class="p">(</span><span class="n">md</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
+<span class="k">@include</span> <span class="nd">media-breakpoint-up</span><span class="p">(</span><span class="n">lg</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
+<span class="k">@include</span> <span class="nd">media-breakpoint-up</span><span class="p">(</span><span class="n">xl</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
+
+<span class="c1">// Example usage:
+</span><span class="k">@include</span> <span class="nd">media-breakpoint-up</span><span class="p">(</span><span class="n">sm</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nc">.some-class</span> <span class="p">{</span>
+    <span class="nl">display</span><span class="p">:</span> <span class="nb">block</span><span class="p">;</span>
+  <span class="p">}</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>We occasionally use media queries that go in the other direction (the given screen size <em>or smaller</em>):</p>
+
+<figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="c1">// Extra small devices (portrait phones, less than 576px)
+</span><span class="k">@media</span> <span class="p">(</span><span class="n">max-width</span><span class="o">:</span> <span class="m">575px</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
+
+<span class="c1">// Small devices (landscape phones, less than 768px)
+</span><span class="k">@media</span> <span class="p">(</span><span class="n">max-width</span><span class="o">:</span> <span class="m">767px</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
+
+<span class="c1">// Medium devices (tablets, less than 992px)
+</span><span class="k">@media</span> <span class="p">(</span><span class="n">max-width</span><span class="o">:</span> <span class="m">991px</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
+
+<span class="c1">// Large devices (desktops, less than 1200px)
+</span><span class="k">@media</span> <span class="p">(</span><span class="n">max-width</span><span class="o">:</span> <span class="m">1199px</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
+
+<span class="c1">// Extra large devices (large desktops)
+</span><span class="o">//</span> <span class="nt">No</span> <span class="nt">media</span> <span class="nt">query</span> <span class="nt">since</span> <span class="nt">the</span> <span class="nt">extra-large</span> <span class="nt">breakpoint</span> <span class="nt">has</span> <span class="nt">no</span> <span class="nt">upper</span> <span class="nt">bound</span> <span class="nt">on</span> <span class="nt">its</span> <span class="nt">width</span></code></pre></figure>
+
+<p>Once again, these media queries are also available via Sass mixins:</p>
+
+<figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="k">@include</span> <span class="nd">media-breakpoint-down</span><span class="p">(</span><span class="n">xs</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
+<span class="k">@include</span> <span class="nd">media-breakpoint-down</span><span class="p">(</span><span class="n">sm</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
+<span class="k">@include</span> <span class="nd">media-breakpoint-down</span><span class="p">(</span><span class="n">md</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
+<span class="k">@include</span> <span class="nd">media-breakpoint-down</span><span class="p">(</span><span class="n">lg</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span></code></pre></figure>
+
+<p>There are also media queries and mixins for targeting a single segment of screen sizes using the minimum and maximum breakpoint widths.</p>
+
+<figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="c1">// Extra small devices (portrait phones, less than 576px)
+</span><span class="k">@media</span> <span class="p">(</span><span class="n">max-width</span><span class="o">:</span> <span class="m">575px</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
+
+<span class="c1">// Small devices (landscape phones, 576px and up)
+</span><span class="k">@media</span> <span class="p">(</span><span class="n">min-width</span><span class="o">:</span> <span class="m">576px</span><span class="p">)</span> <span class="nf">and</span> <span class="p">(</span><span class="n">max-width</span><span class="o">:</span> <span class="m">767px</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
+
+<span class="c1">// Medium devices (tablets, 768px and up)
+</span><span class="k">@media</span> <span class="p">(</span><span class="n">min-width</span><span class="o">:</span> <span class="m">768px</span><span class="p">)</span> <span class="nf">and</span> <span class="p">(</span><span class="n">max-width</span><span class="o">:</span> <span class="m">991px</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
+
+<span class="c1">// Large devices (desktops, 992px and up)
+</span><span class="k">@media</span> <span class="p">(</span><span class="n">min-width</span><span class="o">:</span> <span class="m">992px</span><span class="p">)</span> <span class="nf">and</span> <span class="p">(</span><span class="n">max-width</span><span class="o">:</span> <span class="m">1199px</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
+
+<span class="c1">// Extra large devices (large desktops, 1200px and up)
+</span><span class="k">@media</span> <span class="p">(</span><span class="n">min-width</span><span class="o">:</span> <span class="m">1200px</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span></code></pre></figure>
+
+<p>These media queries are also available via Sass mixins:</p>
+
+<figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="k">@include</span> <span class="nd">media-breakpoint-only</span><span class="p">(</span><span class="n">xs</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
+<span class="k">@include</span> <span class="nd">media-breakpoint-only</span><span class="p">(</span><span class="n">sm</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
+<span class="k">@include</span> <span class="nd">media-breakpoint-only</span><span class="p">(</span><span class="n">md</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
+<span class="k">@include</span> <span class="nd">media-breakpoint-only</span><span class="p">(</span><span class="n">lg</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
+<span class="k">@include</span> <span class="nd">media-breakpoint-only</span><span class="p">(</span><span class="n">xl</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span></code></pre></figure>
+
+<p>Similarly, media queries may span multiple breakpoint widths:</p>
+
+<figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="c1">// Example
+// Apply styles starting from medium devices and up to extra large devices
+</span><span class="k">@media</span> <span class="p">(</span><span class="n">min-width</span><span class="o">:</span> <span class="m">768px</span><span class="p">)</span> <span class="nf">and</span> <span class="p">(</span><span class="n">max-width</span><span class="o">:</span> <span class="m">1199px</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span></code></pre></figure>
+
+<p>The Sass mixin for targeting the same screen size range would be:</p>
+
+<figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="k">@include</span> <span class="nd">media-breakpoint-between</span><span class="p">(</span><span class="n">md</span><span class="o">,</span> <span class="n">xl</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span></code></pre></figure>
+
+<h5 class="text-theme" id="z-index">Z-index</h5>
+
+<p>Several Bootstrap components utilize <code class="highlighter-rouge">z-index</code>, the CSS property that helps control layout by providing a third axis to arrange content. We utilize a default z-index scale in Bootstrap that’s been designed to properly layer navigation, tooltips and popovers, modals, and more.</p>
+
+<p>We don’t encourage customization of these values; should you change one, you likely need to change them all.</p>
+
+<div class="language-scss highlighter-rouge"><pre class="highlight"><code><span class="nv">$zindex-dropdown</span><span class="p">:</span>          <span class="m">1000</span> <span class="o">!</span><span class="nb">default</span><span class="p">;</span>
+<span class="nv">$zindex-fixed</span><span class="p">:</span>             <span class="m">1030</span> <span class="o">!</span><span class="nb">default</span><span class="p">;</span>
+<span class="nv">$zindex-sticky</span><span class="p">:</span>            <span class="m">1030</span> <span class="o">!</span><span class="nb">default</span><span class="p">;</span>
+<span class="nv">$zindex-modal-backdrop</span><span class="p">:</span>    <span class="m">1040</span> <span class="o">!</span><span class="nb">default</span><span class="p">;</span>
+<span class="nv">$zindex-modal</span><span class="p">:</span>             <span class="m">1050</span> <span class="o">!</span><span class="nb">default</span><span class="p">;</span>
+<span class="nv">$zindex-popover</span><span class="p">:</span>           <span class="m">1060</span> <span class="o">!</span><span class="nb">default</span><span class="p">;</span>
+<span class="nv">$zindex-tooltip</span><span class="p">:</span>           <span class="m">1070</span> <span class="o">!</span><span class="nb">default</span><span class="p">;</span>
+</code></pre>
+</div>
+
+<p>Background elements—like the backdrops that allow click-dismissing—tend to reside on a lower <code class="highlighter-rouge">z-index</code>s, while navigation and popovers utilize higher <code class="highlighter-rouge">z-index</code>s to ensure they overlay surrounding content.</p>
+
+                                    </div>
+                                        <!-- end card-body -->
+                                    </div>
+                                    <!-- end card -->
+                                </div>
+                                <!-- end col --> 
+                                <div class="col-md-12">
+                                    <div class="card ">
+                                        <div class="card-body">
+                                            <h6 class="text-theme">OctaAdmin template includes several layout options.</h6>
+                                            <h5 class="text-theme">** Standard layout</h5>
+                                            <p>Standard layout comes with following components: Header, Footer, Sidebar, Main & Aside Menu.</p>
+                                            <div class="text-center">
+                                                <img class="img img-responsive card-img-top" src="../../img/documentation/standardlayout.png" alt="">
+                                            </div>
+ <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;body</span> <span class="na">class=</span><span class="s">"app"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;header</span> <span class="na">class=</span><span class="s">"app-header navbar"</span><span class="nt">&gt;</span>
+    <span class="c">&lt;!-- Header content here --&gt;</span>
+  <span class="nt">&lt;/header&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"app-body"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"sidebar"</span><span class="nt">&gt;</span>
+      <span class="c">&lt;!-- Sidebar content here --&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;main</span> <span class="na">class=</span><span class="s">"main"</span><span class="nt">&gt;</span>
+      <span class="c">&lt;!-- Main content here --&gt;</span>
+    <span class="nt">&lt;/main&gt;</span>
+    <span class="nt">&lt;aside</span> <span class="na">class=</span><span class="s">"aside-menu"</span><span class="nt">&gt;</span>
+      <span class="c">&lt;!-- Aside menu content here --&gt;</span>
+    <span class="nt">&lt;/aside&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;footer</span> <span class="na">class=</span><span class="s">"app-footer"</span><span class="nt">&gt;</span>
+    <span class="c">&lt;!-- Footer content here --&gt;</span>
+  <span class="nt">&lt;/footer&gt;</span>
+<span class="nt">&lt;/body&gt;</span></code></pre></figure>
+
+<h5 class="text-theme" id="header-options">Header options</h5>
+
+<h6 class="text-theme" id="fixed-position">Fixed position</h6>
+
+<p>Position the header element at the top of the viewport, from edge to edge. You have to add <code class="highlighter-rouge">.header-fixed</code> to body tag.</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;body</span> <span class="na">class=</span><span class="s">"app header-fixed"</span><span class="nt">&gt;</span>
+  <span class="c">&lt;!-- Body content here --&gt;</span>
+<span class="nt">&lt;/body&gt;</span></code></pre></figure>
+
+<h5 class="text-theme" id="sidebar-options">Sidebar options</h5>
+
+<p>Our template comes with some sidebar options which you can activate in your application</p>
+
+<h6 class="text-theme" id="minimized-sidebar">Minimized sidebar</h6>
+
+<p>Minimized sidebar has <strong>80px width and only icons are visible</strong>. You can change minimized sidebar width in SCSS Files (<code>_variables.scss, $sidebar-minimized-width</code>).</p>                                          
+                                            
+<div class="text-center">
+    <img class="img img-responsive card-img-top" src="../../img/documentation/minimizedsidebar.png" alt="">
+</div>
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;body</span> <span class="na">class=</span><span class="s">"app sidebar-compact"</span><span class="nt">&gt;</span>
+    <span class="c">&lt;!-- Body content here --&gt;</span>
+  <span class="nt">&lt;/body&gt;</span></code></pre></figure>
+
+  <h6 class="text-theme" id="hidden-sidebar">Hidden sidebar</h6>
+
+  <p>If you want to hide sidebar you have to add <code class="highlighter-rouge">.sidebar-hidden</code> class to body element</p>
+  <div class="text-center">
+    <img class="img img-responsive card-img-top" src="../../img/documentation/hiddensidebar.png" alt="">
+</div>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;body</span> <span class="na">class=</span><span class="s">"app sidebar-hidden"</span><span class="nt">&gt;</span>
+    <span class="c">&lt;!-- Body content here --&gt;</span>
+  <span class="nt">&lt;/body&gt;</span></code></pre></figure>
+  
+  <h6 class="text-theme" id="fixed-position-1">Fixed position</h6>
+  
+  <p>Position the sidebar element at the left of the viewport, from edge to edge. You have to add <code class="highlighter-rouge">.sidebar-fixed</code> to body tag.</p>
+  
+  <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;body</span> <span class="na">class=</span><span class="s">"app sidebar-fixed"</span><span class="nt">&gt;</span>
+    <span class="c">&lt;!-- Body content here --&gt;</span>
+  <span class="nt">&lt;/body&gt;</span></code></pre></figure>
+  
+  <h5 class="text-theme" id="aside-menu-options">Aside menu options</h5>
+  
+  <p>OctaAdmin template comes with some aside menu options which you can activate in your application</p>
+  
+  <h6 class="text-theme" id="hidden-aside-menu">Hidden aside menu</h6>
+  
+  <p>If you want to hide aside menu you have to add <code class="highlighter-rouge">.aside-menu-hidden</code> class to body element</p>
+  <div class="text-center">
+    <img class="img img-responsive card-img-top" src="../../img/documentation/hiddenasidemenu.png" alt="">
+</div>
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;body</span> <span class="na">class=</span><span class="s">"app aside-menu-hidden"</span><span class="nt">&gt;</span>
+    <span class="c">&lt;!-- Body content here --&gt;</span>
+  <span class="nt">&lt;/body&gt;</span></code></pre></figure>
+  
+  <h6 class="text-theme" id="fixed-position-2">Fixed position</h6>
+  
+  <p>Position the aside menu element at the right of the viewport, from edge to edge. You have to add <code class="highlighter-rouge">.aside-menu-fixed</code> to body tag.</p>
+  
+  <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;body</span> <span class="na">class=</span><span class="s">"app aside-menu-fixed"</span><span class="nt">&gt;</span>
+    <span class="c">&lt;!-- Body content here --&gt;</span>
+  <span class="nt">&lt;/body&gt;</span></code></pre></figure>
+  
+  <h5 class="text-theme" id="footer-options">Footer options</h5>
+  
+  <h6 class="text-theme" id="fixed-position-3">Fixed position</h6>
+  
+  <p>Position the footer element at the top of the viewport, from edge to edge. You have to add <code class="highlighter-rouge">.footer-fixed</code> to body tag.</p>
+  
+  <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;body</span> <span class="na">class=</span><span class="s">"app footer-fixed"</span><span class="nt">&gt;</span>
+    <span class="c">&lt;!-- Body content here --&gt;</span>
+  <span class="nt">&lt;/body&gt;</span></code></pre></figure>
+
+                                            </div>
+                                            <!-- end card-body -->
+                                        </div>
+                                        <!-- end card -->
+                                    </div>
+                                    <!-- end col -->
+
+                                    <div class="col-md-12">
+                                        <div class="card ">
+                                            <div class="card-body">
+                                                <h5 class="text-theme" id="grid">8. Grid System </h5>
+                                               
+                                                
+              <h6 class="text-theme" id="how-it-works">How it works</h6>
+
+              <p>Bootstrap’s grid system uses a series of containers, rows, and columns to layout and align content. It’s built with flexbox and is fully responsive. Below is an example and an in-depth look at how the grid comes together.</p>
+              
+              <div class="bd-example bd-example-row">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm">
+                    One of three columns
+                  </div>
+                  <div class="col-sm">
+                    One of three columns
+                  </div>
+                  <div class="col-sm">
+                    One of three columns
+                  </div>
+                </div>
+              </div>
+              </div>
+              
+              <p>The above example creates three equal-width columns on small, medium, large, and extra large devices using our predefined grid classes. Those columns are centered in the page with the parent <code class="highlighter-rouge">.container</code>.</p>
+              
+              <p>Breaking it down, here’s how it works:</p>
+              
+              <ul>
+                <li>Containers provide a means to center your site’s contents. Use <code class="highlighter-rouge">.container</code> for fixed width or <code class="highlighter-rouge">.container-fluid</code> for full width.</li>
+                <li>Rows are horizontal groups of columns that ensure your columns are lined up properly. We use the negative margin method on <code class="highlighter-rouge">.row</code> to ensure all your content is aligned properly down the left side.</li>
+                <li>Content should be placed within columns, and only columns may be immediate children of rows.</li>
+                <li>Thanks to flexbox, grid columns without a set width will automatically layout with equal widths. For example, four instances of <code class="highlighter-rouge">.col-sm</code> will each automatically be 25% wide for small breakpoints.</li>
+                <li>Column classes indicate the number of columns you’d like to use out of the possible 12 per row. So, if you want three equal-width columns, you can use <code class="highlighter-rouge">.col-sm-4</code>.</li>
+                <li>Column <code class="highlighter-rouge">width</code>s are set in percentages, so they’re always fluid and sized relative to their parent element.</li>
+                <li>Columns have horizontal <code class="highlighter-rouge">padding</code> to create the gutters between individual columns, however, you can remove the <code class="highlighter-rouge">margin</code> from rows and <code class="highlighter-rouge">padding</code> from columns with <code class="highlighter-rouge">.no-gutters</code> on the <code class="highlighter-rouge">.row</code>.</li>
+                <li>There are five grid tiers, one for each <a href="http://coreui.io/docs//layout/overview/#responsive-breakpoints">responsive breakpoint</a>: all breakpoints (extra small), small, medium, large, and extra large.</li>
+                <li>Grid tiers are based on minimum widths, meaning they apply to that one tier and all those above it (e.g., <code class="highlighter-rouge">.col-sm-4</code> applies to small, medium, large, and extra large devices).</li>
+                <li>You can use predefined grid classes or Sass mixins for more semantic markup.</li>
+              </ul>
+
+              <p>Be aware of the limitations and <a href="https://github.com/philipwalton/flexbugs">bugs around flexbox</a>, like the <a href="https://github.com/philipwalton/flexbugs#9-some-html-elements-cant-be-flex-containers">inability to use some HTML elements as flex containers</a>.</p>
+
+<p>Sounds good? Great, let’s move on to seeing all that in an example.</p>
+
+<h6 class="text-theme" id="grid-options">Grid options</h6>
+
+<p>While Bootstrap uses <code class="highlighter-rouge">em</code>s or <code class="highlighter-rouge">rem</code>s for defining most sizes, <code class="highlighter-rouge">px</code>s are used for grid breakpoints and container widths. This is because the viewport width is in pixels and does not change with the <a href="https://drafts.csswg.org/mediaqueries-3/#units">font size</a>.</p>
+
+<p>See how aspects of the Bootstrap grid system work across multiple devices with a handy table.</p>
+
+<table class="table table-bordered table-striped table-responsive ">
+  <thead>
+    <tr>
+      <th></th>
+      <th class="text-center">
+        Extra small<br />
+        <small>&lt;576px</small>
+      </th>
+      <th class="text-center">
+        Small<br />
+        <small>&ge;576px</small>
+      </th>
+      <th class="text-center">
+        Medium<br />
+        <small>&ge;768px</small>
+      </th>
+      <th class="text-center">
+        Large<br />
+        <small>&ge;992px</small>
+      </th>
+      <th class="text-center">
+        Extra large<br />
+        <small>&ge;1200px</small>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th class="text-nowrap" scope="row">Max container width</th>
+      <td>None (auto)</td>
+      <td>540px</td>
+      <td>720px</td>
+      <td>960px</td>
+      <td>1140px</td>
+    </tr>
+    <tr>
+      <th class="text-nowrap" scope="row">Class prefix</th>
+      <td><code>.col-</code></td>
+      <td><code>.col-sm-</code></td>
+      <td><code>.col-md-</code></td>
+      <td><code>.col-lg-</code></td>
+      <td><code>.col-xl-</code></td>
+    </tr>
+    <tr>
+      <th class="text-nowrap" scope="row"># of columns</th>
+      <td colspan="5">12</td>
+    </tr>
+    <tr>
+      <th class="text-nowrap" scope="row">Gutter width</th>
+      <td colspan="5">30px (15px on each side of a column)</td>
+    </tr>
+    <tr>
+      <th class="text-nowrap" scope="row">Nestable</th>
+      <td colspan="5">Yes</td>
+    </tr>
+    <tr>
+      <th class="text-nowrap" scope="row">Column ordering</th>
+      <td colspan="5">Yes</td>
+    </tr>
+  </tbody>
+</table>
+
+<h6 class="text-theme" id="auto-layout-columns">Auto-layout columns</h6>
+
+<p>Utilize breakpoint-specific column classes for easy column sizing without an explicit numbered class like <code class="highlighter-rouge">.col-sm-6</code>.</p>
+
+<h6 class="text-theme" id="equal-width">Equal-width</h6>
+
+<p>For example, here are two grid layouts that apply to every device and viewport, from <code class="highlighter-rouge">xs</code> to <code class="highlighter-rouge">xl</code>. Add any number of unit-less classes for each breakpoint you need and every column will be the same width.</p>
+
+<div class="bd-example-row">
+
+<div class="bd-example" data-example-id="">
+<div class="container">
+  <div class="row">
+    <div class="col">
+      1 of 2
+    </div>
+    <div class="col">
+      2 of 2
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      1 of 3
+    </div>
+    <div class="col">
+      2 of 3
+    </div>
+    <div class="col">
+      3 of 3
+    </div>
+  </div>
+</div>
+</div><div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"container"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col"</span><span class="nt">&gt;</span>
+      1 of 2
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col"</span><span class="nt">&gt;</span>
+      2 of 2
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col"</span><span class="nt">&gt;</span>
+      1 of 3
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col"</span><span class="nt">&gt;</span>
+      2 of 3
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col"</span><span class="nt">&gt;</span>
+      3 of 3
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></div>
+
+</div>
+
+<p>Equal-width columns can be broken into multiple lines, but there is a <a href="https://github.com/philipwalton/flexbugs#11-min-and-max-size-declarations-are-ignored-when-wrapping-flex-items">Safari flexbox bug</a> that prevents this from working without an explicit <code class="highlighter-rouge">flex-basis</code> or <code class="highlighter-rouge">border</code>. Our example works thanks to the <code class="highlighter-rouge">border</code> being set; you can do the same with <code class="highlighter-rouge">.col { border: 1px solid transparent; }</code>. Alternatively, you can set the flex-basis to the width of the column (e.g., <code class="highlighter-rouge">.col { flex: 1 0 50%; }</code>).</p>
+<p>Both these fixes have been documented in a <a href="https://output.jsbin.com/micohor">reduced test case outside Bootstrap</a>.</p>
+
+<div class="bd-example-row">
+
+<div class="bd-example" data-example-id="">
+<div class="container">
+  <div class="row">
+    <div class="col">Column</div>
+    <div class="col">Column</div>
+    <div class="w-100"></div>
+    <div class="col">Column</div>
+    <div class="col">Column</div>
+  </div>
+</div>
+</div><div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"container"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col"</span><span class="nt">&gt;</span>Column<span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col"</span><span class="nt">&gt;</span>Column<span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"w-100"</span><span class="nt">&gt;&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col"</span><span class="nt">&gt;</span>Column<span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col"</span><span class="nt">&gt;</span>Column<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></div>
+
+</div>
+
+<h6 class="text-theme" id="setting-one-column-width">Setting one column width</h6>
+
+<p>Auto-layout for flexbox grid columns also means you can set the width of one column and have the sibling columns automatically resize around it. You may use predefined grid classes (as shown below), grid mixins, or inline widths. Note that the other columns will resize no matter the width of the center column.</p>
+
+<div class="bd-example-row">
+
+<div class="bd-example" data-example-id="">
+<div class="container">
+  <div class="row">
+    <div class="col">
+      1 of 3
+    </div>
+    <div class="col-6">
+      2 of 3 (wider)
+    </div>
+    <div class="col">
+      3 of 3
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      1 of 3
+    </div>
+    <div class="col-5">
+      2 of 3 (wider)
+    </div>
+    <div class="col">
+      3 of 3
+    </div>
+  </div>
+</div>
+</div><div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"container"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col"</span><span class="nt">&gt;</span>
+      1 of 3
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-6"</span><span class="nt">&gt;</span>
+      2 of 3 (wider)
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col"</span><span class="nt">&gt;</span>
+      3 of 3
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col"</span><span class="nt">&gt;</span>
+      1 of 3
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-5"</span><span class="nt">&gt;</span>
+      2 of 3 (wider)
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col"</span><span class="nt">&gt;</span>
+      3 of 3
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></div>
+
+</div>
+
+<h6 class="text-theme" id="variable-width-content">Variable width content</h6>
+
+<p>Use <code class="highlighter-rouge">col-{breakpoint}-auto</code> classes to size columns based on the natural width of their content.</p>
+
+<div class="bd-example-row">
+
+<div class="bd-example" data-example-id="">
+<div class="container">
+  <div class="row justify-content-md-center">
+    <div class="col col-lg-2">
+      1 of 3
+    </div>
+    <div class="col-md-auto">
+      Variable width content
+    </div>
+    <div class="col col-lg-2">
+      3 of 3
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      1 of 3
+    </div>
+    <div class="col-md-auto">
+      Variable width content
+    </div>
+    <div class="col col-lg-2">
+      3 of 3
+    </div>
+  </div>
+</div>
+</div><div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"container"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row justify-content-md-center"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col col-lg-2"</span><span class="nt">&gt;</span>
+      1 of 3
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-md-auto"</span><span class="nt">&gt;</span>
+      Variable width content
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col col-lg-2"</span><span class="nt">&gt;</span>
+      3 of 3
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col"</span><span class="nt">&gt;</span>
+      1 of 3
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-md-auto"</span><span class="nt">&gt;</span>
+      Variable width content
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col col-lg-2"</span><span class="nt">&gt;</span>
+      3 of 3
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></div>
+
+</div>
+
+<h6 class="text-theme" id="equal-width-multi-row">Equal-width multi-row</h6>
+
+<p>Create equal-width columns that span multiple rows by inserting a <code class="highlighter-rouge">.w-100</code> where you want the columns to break to a new line. Make the breaks responsive by mixing the <code class="highlighter-rouge">.w-100</code> with some <a href="http://coreui.io/docs//utilities/display/">responsive display utilities</a>.</p>
+
+<div class="bd-example-row">
+
+<div class="bd-example" data-example-id="">
+<div class="row">
+  <div class="col">col</div>
+  <div class="col">col</div>
+  <div class="w-100"></div>
+  <div class="col">col</div>
+  <div class="col">col</div>
+</div>
+</div><div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col"</span><span class="nt">&gt;</span>col<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col"</span><span class="nt">&gt;</span>col<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"w-100"</span><span class="nt">&gt;&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col"</span><span class="nt">&gt;</span>col<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col"</span><span class="nt">&gt;</span>col<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></div>
+
+</div>
+
+<h6 class="text-theme" id="responsive-classes">Responsive classes</h6>
+
+<p>Bootstrap’s grid includes five tiers of predefined classes for building complex responsive layouts. Customize the size of your columns on extra small, small, medium, large, or extra large devices however you see fit.</p>
+
+<h6 class="text-theme" id="all-breakpoints">All breakpoints</h6>
+
+<p>For grids that are the same from the smallest of devices to the largest, use the <code class="highlighter-rouge">.col</code> and <code class="highlighter-rouge">.col-*</code> classes. Specify a numbered class when you need a particularly sized column; otherwise, feel free to stick to <code class="highlighter-rouge">.col</code>.</p>
+
+<div class="bd-example-row">
+
+<div class="bd-example" data-example-id="">
+<div class="row">
+  <div class="col">col</div>
+  <div class="col">col</div>
+  <div class="col">col</div>
+  <div class="col">col</div>
+</div>
+<div class="row">
+  <div class="col-8">col-8</div>
+  <div class="col-4">col-4</div>
+</div>
+</div><div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col"</span><span class="nt">&gt;</span>col<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col"</span><span class="nt">&gt;</span>col<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col"</span><span class="nt">&gt;</span>col<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col"</span><span class="nt">&gt;</span>col<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-8"</span><span class="nt">&gt;</span>col-8<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-4"</span><span class="nt">&gt;</span>col-4<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></div>
+
+</div>
+
+<h6 class="text-theme" id="stacked-to-horizontal">Stacked to horizontal</h6>
+
+<p>Using a single set of <code class="highlighter-rouge">.col-sm-*</code> classes, you can create a basic grid system that starts out stacked on extra small devices before becoming horizontal on desktop (medium) devices.</p>
+
+<div class="bd-example-row">
+
+<div class="bd-example" data-example-id="">
+<div class="row">
+  <div class="col-sm-8">col-sm-8</div>
+  <div class="col-sm-4">col-sm-4</div>
+</div>
+<div class="row">
+  <div class="col-sm">col-sm</div>
+  <div class="col-sm">col-sm</div>
+  <div class="col-sm">col-sm</div>
+</div>
+</div><div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-8"</span><span class="nt">&gt;</span>col-sm-8<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-4"</span><span class="nt">&gt;</span>col-sm-4<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm"</span><span class="nt">&gt;</span>col-sm<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm"</span><span class="nt">&gt;</span>col-sm<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm"</span><span class="nt">&gt;</span>col-sm<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></div>
+
+</div>
+
+<h6 class="text-theme" id="mix-and-match">Mix and match</h6>
+
+<p>Don’t want your columns to simply stack in some grid tiers? Use a combination of different classes for each tier as needed. See the example below for a better idea of how it all works.</p>
+
+<div class="bd-example-row">
+
+<div class="bd-example" data-example-id="">
+<!-- Stack the columns on mobile by making one full-width and the other half-width -->
+<div class="row">
+  <div class="col-12 col-md-8">.col-12 .col-md-8</div>
+  <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+</div>
+
+<!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+<div class="row">
+  <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+  <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+  <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+</div>
+
+<!-- Columns are always 50% wide, on mobile and desktop -->
+<div class="row">
+  <div class="col-6">.col-6</div>
+  <div class="col-6">.col-6</div>
+</div>
+</div><div class="highlight"><pre><code class="language-html" data-lang="html"><span class="c">&lt;!-- Stack the columns on mobile by making one full-width and the other half-width --&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-12 col-md-8"</span><span class="nt">&gt;</span>.col-12 .col-md-8<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-6 col-md-4"</span><span class="nt">&gt;</span>.col-6 .col-md-4<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="c">&lt;!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop --&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-6 col-md-4"</span><span class="nt">&gt;</span>.col-6 .col-md-4<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-6 col-md-4"</span><span class="nt">&gt;</span>.col-6 .col-md-4<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-6 col-md-4"</span><span class="nt">&gt;</span>.col-6 .col-md-4<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="c">&lt;!-- Columns are always 50% wide, on mobile and desktop --&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-6"</span><span class="nt">&gt;</span>.col-6<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-6"</span><span class="nt">&gt;</span>.col-6<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></div>
+
+</div>
+
+<h6 class="text-theme" id="alignment">Alignment</h6>
+
+<p>Use flexbox alignment utilities to vertically and horizontally align columns.</p>
+
+<h6 class="text-theme" id="vertical-alignment">Vertical alignment</h6>
+
+<div class="bd-example-row bd-example-row-flex-cols">
+
+<div class="bd-example" data-example-id="">
+<div class="container">
+  <div class="row align-items-start">
+    <div class="col">
+      One of three columns
+    </div>
+    <div class="col">
+      One of three columns
+    </div>
+    <div class="col">
+      One of three columns
+    </div>
+  </div>
+  <div class="row align-items-center">
+    <div class="col">
+      One of three columns
+    </div>
+    <div class="col">
+      One of three columns
+    </div>
+    <div class="col">
+      One of three columns
+    </div>
+  </div>
+  <div class="row align-items-end">
+    <div class="col">
+      One of three columns
+    </div>
+    <div class="col">
+      One of three columns
+    </div>
+    <div class="col">
+      One of three columns
+    </div>
+  </div>
+</div>
+</div><div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"container"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row align-items-start"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col"</span><span class="nt">&gt;</span>
+      One of three columns
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col"</span><span class="nt">&gt;</span>
+      One of three columns
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col"</span><span class="nt">&gt;</span>
+      One of three columns
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row align-items-center"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col"</span><span class="nt">&gt;</span>
+      One of three columns
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col"</span><span class="nt">&gt;</span>
+      One of three columns
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col"</span><span class="nt">&gt;</span>
+      One of three columns
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row align-items-end"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col"</span><span class="nt">&gt;</span>
+      One of three columns
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col"</span><span class="nt">&gt;</span>
+      One of three columns
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col"</span><span class="nt">&gt;</span>
+      One of three columns
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></div>
+
+</div>
+
+<div class="bd-example-row bd-example-row-flex-cols">
+
+<div class="bd-example" data-example-id="">
+<div class="container">
+  <div class="row">
+    <div class="col align-self-start">
+      One of three columns
+    </div>
+    <div class="col align-self-center">
+      One of three columns
+    </div>
+    <div class="col align-self-end">
+      One of three columns
+    </div>
+  </div>
+</div>
+</div><div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"container"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col align-self-start"</span><span class="nt">&gt;</span>
+      One of three columns
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col align-self-center"</span><span class="nt">&gt;</span>
+      One of three columns
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col align-self-end"</span><span class="nt">&gt;</span>
+      One of three columns
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></div>
+
+</div>
+
+<h6 class="text-theme" id="horizontal-alignment">Horizontal alignment</h6>
+
+<div class="bd-example-row">
+
+<div class="bd-example" data-example-id="">
+<div class="container">
+  <div class="row justify-content-start">
+    <div class="col-4">
+      One of two columns
+    </div>
+    <div class="col-4">
+      One of two columns
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-4">
+      One of two columns
+    </div>
+    <div class="col-4">
+      One of two columns
+    </div>
+  </div>
+  <div class="row justify-content-end">
+    <div class="col-4">
+      One of two columns
+    </div>
+    <div class="col-4">
+      One of two columns
+    </div>
+  </div>
+  <div class="row justify-content-around">
+    <div class="col-4">
+      One of two columns
+    </div>
+    <div class="col-4">
+      One of two columns
+    </div>
+  </div>
+  <div class="row justify-content-between">
+    <div class="col-4">
+      One of two columns
+    </div>
+    <div class="col-4">
+      One of two columns
+    </div>
+  </div>
+</div>
+</div><div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"container"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row justify-content-start"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-4"</span><span class="nt">&gt;</span>
+      One of two columns
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-4"</span><span class="nt">&gt;</span>
+      One of two columns
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row justify-content-center"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-4"</span><span class="nt">&gt;</span>
+      One of two columns
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-4"</span><span class="nt">&gt;</span>
+      One of two columns
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row justify-content-end"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-4"</span><span class="nt">&gt;</span>
+      One of two columns
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-4"</span><span class="nt">&gt;</span>
+      One of two columns
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row justify-content-around"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-4"</span><span class="nt">&gt;</span>
+      One of two columns
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-4"</span><span class="nt">&gt;</span>
+      One of two columns
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row justify-content-between"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-4"</span><span class="nt">&gt;</span>
+      One of two columns
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-4"</span><span class="nt">&gt;</span>
+      One of two columns
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></div>
+
+</div>
+
+<h6 class="text-theme" id="no-gutters">No gutters</h6>
+
+<p>The gutters between columns in our predefined grid classes can be removed with <code class="highlighter-rouge">.no-gutters</code>. This removes the negative <code class="highlighter-rouge">margin</code>s from <code class="highlighter-rouge">.row</code> and the horizontal <code class="highlighter-rouge">padding</code> from all immediate children columns.</p>
+
+<p>Here’s the source code for creating these styles. Note that column overrides are scoped to only the first children columns and are targeted via <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors">attribute selector</a>. While this generates a more specific selector, column padding can still be further customized with <a href="http://coreui.io/docs//utilities/spacing/">spacing utilities</a>.</p>
+
+<p><strong>Need an edge-to-edge design?</strong> Drop the parent <code class="highlighter-rouge">.container</code> or <code class="highlighter-rouge">.container-fluid</code>.</p>
+
+<figure class="highlight"><pre><code class="language-sass" data-lang="sass"><span class="nc">.no-gutters</span> <span class="err">{</span>
+  <span class="nl">margin-right</span><span class="p">:</span> <span class="m">0</span><span class="err">;</span>
+  <span class="nl">margin-left</span><span class="p">:</span> <span class="m">0</span><span class="err">;</span>
+
+  <span class="o">&gt;</span> <span class="nc">.col</span><span class="o">,</span>
+  <span class="o">&gt;</span> <span class="o">[</span><span class="nt">class</span><span class="o">*=</span><span class="s2">"col-"</span><span class="o">]</span> <span class="err">{</span>
+    <span class="nl">padding-right</span><span class="p">:</span> <span class="m">0</span><span class="err">;</span>
+    <span class="nl">padding-left</span><span class="p">:</span> <span class="m">0</span><span class="err">;</span>
+  <span class="err">}</span>
+<span class="err">}</span></code></pre></figure>
+
+<p>In practice, here’s how it looks. Note you can continue to use this with all other predefined grid classes (including column widths, responsive tiers, reorders, and more).</p>
+
+<div class="bd-example-row">
+
+<div class="bd-example" data-example-id="">
+<div class="row no-gutters">
+  <div class="col-12 col-sm-6 col-md-8">.col-12 .col-sm-6 .col-md-8</div>
+  <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+</div>
+</div><div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row no-gutters"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-12 col-sm-6 col-md-8"</span><span class="nt">&gt;</span>.col-12 .col-sm-6 .col-md-8<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-6 col-md-4"</span><span class="nt">&gt;</span>.col-6 .col-md-4<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></div>
+
+</div>
+
+<h6 class="text-theme" id="column-wrapping">Column wrapping</h6>
+
+<p>If more than 12 columns are placed within a single row, each group of extra columns will, as one unit, wrap onto a new line.</p>
+
+<div class="bd-example-row">
+
+<div class="bd-example" data-example-id="">
+<div class="row">
+  <div class="col-9">.col-9</div>
+  <div class="col-4">.col-4<br />Since 9 + 4 = 13 &gt; 12, this 4-column-wide div gets wrapped onto a new line as one contiguous unit.</div>
+  <div class="col-6">.col-6<br />Subsequent columns continue along the new line.</div>
+</div>
+</div><div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-9"</span><span class="nt">&gt;</span>.col-9<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-4"</span><span class="nt">&gt;</span>.col-4<span class="nt">&lt;br&gt;</span>Since 9 + 4 = 13 <span class="ni">&amp;gt;</span> 12, this 4-column-wide div gets wrapped onto a new line as one contiguous unit.<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-6"</span><span class="nt">&gt;</span>.col-6<span class="nt">&lt;br&gt;</span>Subsequent columns continue along the new line.<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></div>
+
+</div>
+
+<h6 class="text-theme" id="column-resets">Column resets</h6>
+
+<p>With the handful of grid tiers available, you’re bound to run into issues where, at certain breakpoints, your columns don’t clear quite right as one is taller than the other. To fix that, use a combination of a <code class="highlighter-rouge">.clearfix</code> and our <a href="http://coreui.io/docs//utilities/display/">responsive display utilities</a>.</p>
+
+<div class="bd-example-row">
+
+<div class="bd-example" data-example-id="">
+<div class="row">
+  <div class="col-6 col-sm-3">.col-6 .col-sm-3</div>
+  <div class="col-6 col-sm-3">.col-6 .col-sm-3</div>
+
+  <!-- Add the extra clearfix for only the required viewport -->
+  <div class="clearfix d-none d-sm-block"></div>
+
+  <div class="col-6 col-sm-3">.col-6 .col-sm-3</div>
+  <div class="col-6 col-sm-3">.col-6 .col-sm-3</div>
+</div>
+</div><div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-6 col-sm-3"</span><span class="nt">&gt;</span>.col-6 .col-sm-3<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-6 col-sm-3"</span><span class="nt">&gt;</span>.col-6 .col-sm-3<span class="nt">&lt;/div&gt;</span>
+
+  <span class="c">&lt;!-- Add the extra clearfix for only the required viewport --&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"clearfix d-none d-sm-block"</span><span class="nt">&gt;&lt;/div&gt;</span>
+
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-6 col-sm-3"</span><span class="nt">&gt;</span>.col-6 .col-sm-3<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-6 col-sm-3"</span><span class="nt">&gt;</span>.col-6 .col-sm-3<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></div>
+
+</div>
+
+<h6 class="text-theme" id="reordering">Reordering</h6>
+
+<h6 class="text-theme" id="flex-order">Flex order</h6>
+
+<p>Use <code class="highlighter-rouge">.order-</code> classes for controlling the <strong>visual order</strong> of your content. These classes are responsive, so you can set the <code class="highlighter-rouge">order</code> by breakpoint (e.g., <code class="highlighter-rouge">.order-1.order-md-2</code>). Includes support for <code class="highlighter-rouge">1</code> through <code class="highlighter-rouge">12</code> across all five grid tiers.</p>
+
+<div class="bd-example-row">
+
+<div class="bd-example" data-example-id="">
+<div class="container">
+  <div class="row">
+    <div class="col">
+      First, but unordered
+    </div>
+    <div class="col order-12">
+      Second, but last
+    </div>
+    <div class="col order-1">
+      Third, but first
+    </div>
+  </div>
+</div>
+</div><div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"container"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col"</span><span class="nt">&gt;</span>
+      First, but unordered
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col order-12"</span><span class="nt">&gt;</span>
+      Second, but last
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col order-1"</span><span class="nt">&gt;</span>
+      Third, but first
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></div>
+
+</div>
+
+<h6 class="text-theme" id="offsetting-columns">Offsetting columns</h6>
+
+<p>With the move to flexbox in v4, we no longer have v3’s style of offset classes. Instead, use margin utilities like <code class="highlighter-rouge">.mr-auto</code> to force sibling columns away from one another.</p>
+
+<div class="bd-example-row">
+
+<div class="bd-example" data-example-id="">
+<div class="row">
+  <div class="col-md-4">.col-md-4</div>
+  <div class="col-md-4 ml-auto">.col-md-4 .ml-auto</div>
+</div>
+<div class="row">
+  <div class="col-md-3 ml-md-auto">.col-md-3 .ml-md-auto</div>
+  <div class="col-md-3 ml-md-auto">.col-md-3 .ml-md-auto</div>
+</div>
+<div class="row">
+  <div class="col-auto mr-auto">.col-auto .mr-auto</div>
+  <div class="col-auto">.col-auto</div>
+</div>
+</div><div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-md-4"</span><span class="nt">&gt;</span>.col-md-4<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-md-4 ml-auto"</span><span class="nt">&gt;</span>.col-md-4 .ml-auto<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-md-3 ml-md-auto"</span><span class="nt">&gt;</span>.col-md-3 .ml-md-auto<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-md-3 ml-md-auto"</span><span class="nt">&gt;</span>.col-md-3 .ml-md-auto<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-auto mr-auto"</span><span class="nt">&gt;</span>.col-auto .mr-auto<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-auto"</span><span class="nt">&gt;</span>.col-auto<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></div>
+
+</div>
+
+<h6 class="text-theme" id="nesting">Nesting</h6>
+
+<p>To nest your content with the default grid, add a new <code class="highlighter-rouge">.row</code> and set of <code class="highlighter-rouge">.col-sm-*</code> columns within an existing <code class="highlighter-rouge">.col-sm-*</code> column. Nested rows should include a set of columns that add up to 12 or fewer (it is not required that you use all 12 available columns).</p>
+
+<div class="bd-example-row">
+
+<div class="bd-example" data-example-id="">
+<div class="row">
+  <div class="col-sm-9">
+    Level 1: .col-sm-9
+    <div class="row">
+      <div class="col-8 col-sm-6">
+        Level 2: .col-8 .col-sm-6
+      </div>
+      <div class="col-4 col-sm-6">
+        Level 2: .col-4 .col-sm-6
+      </div>
+    </div>
+  </div>
+</div>
+</div><div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-9"</span><span class="nt">&gt;</span>
+    Level 1: .col-sm-9
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-8 col-sm-6"</span><span class="nt">&gt;</span>
+        Level 2: .col-8 .col-sm-6
+      <span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-4 col-sm-6"</span><span class="nt">&gt;</span>
+        Level 2: .col-4 .col-sm-6
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></div>
+
+</div>
+
+<h6 class="text-theme" id="sass-mixins">Sass mixins</h6>
+
+<p>When using Bootstrap’s source Sass files, you have the option of using Sass variables and mixins to create custom, semantic, and responsive page layouts. Our predefined grid classes use these same variables and mixins to provide a whole suite of ready-to-use classes for fast responsive layouts.</p>
+
+<h6 class="text-theme" id="variables">Variables</h6>
+
+<p>Variables and maps determine the number of columns, the gutter width, and the media query point at which to begin floating columns. We use these to generate the predefined grid classes documented above, as well as for the custom mixins listed below.</p>
+
+<figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="nv">$grid-columns</span><span class="p">:</span>      <span class="m">12</span><span class="p">;</span>
+<span class="nv">$grid-gutter-width</span><span class="p">:</span> <span class="m">30px</span><span class="p">;</span>
+
+<span class="nv">$grid-breakpoints</span><span class="p">:</span> <span class="p">(</span>
+  <span class="o">//</span> <span class="n">Extra</span> <span class="n">small</span> <span class="n">screen</span> <span class="o">/</span> <span class="n">phone</span>
+  <span class="n">xs</span><span class="o">:</span> <span class="m">0</span><span class="o">,</span>
+  <span class="o">//</span> <span class="n">Small</span> <span class="n">screen</span> <span class="o">/</span> <span class="n">phone</span>
+  <span class="n">sm</span><span class="o">:</span> <span class="m">576px</span><span class="o">,</span>
+  <span class="o">//</span> <span class="n">Medium</span> <span class="n">screen</span> <span class="o">/</span> <span class="n">tablet</span>
+  <span class="n">md</span><span class="o">:</span> <span class="m">768px</span><span class="o">,</span>
+  <span class="o">//</span> <span class="n">Large</span> <span class="n">screen</span> <span class="o">/</span> <span class="n">desktop</span>
+  <span class="n">lg</span><span class="o">:</span> <span class="m">992px</span><span class="o">,</span>
+  <span class="o">//</span> <span class="n">Extra</span> <span class="nb">large</span> <span class="n">screen</span> <span class="o">/</span> <span class="n">wide</span> <span class="n">desktop</span>
+  <span class="n">xl</span><span class="o">:</span> <span class="m">1200px</span>
+<span class="p">);</span>
+
+<span class="nv">$container-max-widths</span><span class="p">:</span> <span class="p">(</span>
+  <span class="n">sm</span><span class="o">:</span> <span class="m">540px</span><span class="o">,</span>
+  <span class="n">md</span><span class="o">:</span> <span class="m">720px</span><span class="o">,</span>
+  <span class="n">lg</span><span class="o">:</span> <span class="m">960px</span><span class="o">,</span>
+  <span class="n">xl</span><span class="o">:</span> <span class="m">1140px</span>
+<span class="p">);</span></code></pre></figure>
+
+<h6 class="text-theme" id="mixins">Mixins</h6>
+
+<p>Mixins are used in conjunction with the grid variables to generate semantic CSS for individual grid columns.</p>
+
+<figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="c1">// Creates a wrapper for a series of columns
+</span><span class="k">@include</span> <span class="nd">make-row</span><span class="p">();</span>
+
+<span class="c1">// Make the element grid-ready (applying everything but the width)
+</span><span class="k">@include</span> <span class="nd">make-col-ready</span><span class="p">();</span>
+<span class="k">@include</span> <span class="nd">make-col</span><span class="p">(</span><span class="nv">$size</span><span class="o">,</span> <span class="nv">$columns</span><span class="o">:</span> <span class="nv">$grid-columns</span><span class="p">);</span></code></pre></figure>
+
+<h6 class="text-theme" id="example-usage">Example usage</h6>
+
+<p>You can modify the variables to your own custom values, or just use the mixins with their default values. Here’s an example of using the default settings to create a two-column layout with a gap between.</p>
+
+<figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="nc">.example-container</span> <span class="p">{</span>
+  <span class="nl">width</span><span class="p">:</span> <span class="m">800px</span><span class="p">;</span>
+  <span class="k">@include</span> <span class="nd">make-container</span><span class="p">();</span>
+<span class="p">}</span>
+
+<span class="nc">.example-row</span> <span class="p">{</span>
+  <span class="k">@include</span> <span class="nd">make-row</span><span class="p">();</span>
+<span class="p">}</span>
+
+<span class="nc">.example-content-main</span> <span class="p">{</span>
+  <span class="k">@include</span> <span class="nd">make-col-ready</span><span class="p">();</span>
+
+  <span class="k">@include</span> <span class="nd">media-breakpoint-up</span><span class="p">(</span><span class="n">sm</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">@include</span> <span class="nd">make-col</span><span class="p">(</span><span class="m">6</span><span class="p">);</span>
+  <span class="p">}</span>
+  <span class="k">@include</span> <span class="nd">media-breakpoint-up</span><span class="p">(</span><span class="n">lg</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">@include</span> <span class="nd">make-col</span><span class="p">(</span><span class="m">8</span><span class="p">);</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="nc">.example-content-secondary</span> <span class="p">{</span>
+  <span class="k">@include</span> <span class="nd">make-col-ready</span><span class="p">();</span>
+
+  <span class="k">@include</span> <span class="nd">media-breakpoint-up</span><span class="p">(</span><span class="n">sm</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">@include</span> <span class="nd">make-col</span><span class="p">(</span><span class="m">6</span><span class="p">);</span>
+  <span class="p">}</span>
+  <span class="k">@include</span> <span class="nd">media-breakpoint-up</span><span class="p">(</span><span class="n">lg</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">@include</span> <span class="nd">make-col</span><span class="p">(</span><span class="m">4</span><span class="p">);</span>
+  <span class="p">}</span>
+<span class="p">}</span></code></pre></figure>
+
+<div class="bd-example" data-example-id="">
+<div class="example-container">
+  <div class="example-row">
+    <div class="example-content-main">Main content</div>
+    <div class="example-content-secondary">Secondary content</div>
+  </div>
+</div>
+</div>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"example-container"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"example-row"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"example-content-main"</span><span class="nt">&gt;</span>Main content<span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"example-content-secondary"</span><span class="nt">&gt;</span>Secondary content<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></div>
+
+<h6 class="text-theme" id="customizing-the-grid">Customizing the grid</h6>
+
+<p>Using our built-in grid Sass variables and maps, it’s possible to completely customize the predefined grid classes. Change the number of tiers, the media query dimensions, and the container widths—then recompile.</p>
+
+<h6 class="text-theme" id="columns-and-gutters">Columns and gutters</h6>
+
+<p>The number of grid columns can be modified via Sass variables. <code class="highlighter-rouge">$grid-columns</code> is used to generate the widths (in percent) of each individual column while <code class="highlighter-rouge">$grid-gutter-width</code> allows breakpoint-specific widths that are divided evenly across <code class="highlighter-rouge">padding-left</code> and <code class="highlighter-rouge">padding-right</code> for the column gutters.</p>
+
+<figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="nv">$grid-columns</span><span class="p">:</span> <span class="m">12</span> <span class="o">!</span><span class="nb">default</span><span class="p">;</span>
+<span class="nv">$grid-gutter-width</span><span class="p">:</span> <span class="m">30px</span> <span class="o">!</span><span class="nb">default</span><span class="p">;</span></code></pre></figure>
+
+<h6 class="text-theme" id="grid-tiers">Grid tiers</h6>
+
+<p>Moving beyond the columns themselves, you may also customize the number of grid tiers. If you wanted just four grid tiers, you’d update the <code class="highlighter-rouge">$grid-breakpoints</code> and <code class="highlighter-rouge">$container-max-widths</code> to something like this:</p>
+
+<figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="nv">$grid-breakpoints</span><span class="p">:</span> <span class="p">(</span>
+  <span class="n">xs</span><span class="o">:</span> <span class="m">0</span><span class="o">,</span>
+  <span class="n">sm</span><span class="o">:</span> <span class="m">480px</span><span class="o">,</span>
+  <span class="n">md</span><span class="o">:</span> <span class="m">768px</span><span class="o">,</span>
+  <span class="n">lg</span><span class="o">:</span> <span class="m">1024px</span>
+<span class="p">);</span>
+
+<span class="nv">$container-max-widths</span><span class="p">:</span> <span class="p">(</span>
+  <span class="n">sm</span><span class="o">:</span> <span class="m">420px</span><span class="o">,</span>
+  <span class="n">md</span><span class="o">:</span> <span class="m">720px</span><span class="o">,</span>
+  <span class="n">lg</span><span class="o">:</span> <span class="m">960px</span>
+<span class="p">);</span></code></pre></figure>
+
+<p>When making any changes to the Sass variables or maps, you’ll need to save your changes and recompile. Doing so will out a brand new set of predefined grid classes for column widths and ordering. Responsive visibility utilities will also be updated to use the custom breakpoints.</p>
+
+
+                                                </div>
+                                                <!-- end card-body -->
+                                            </div>
+                                            <!-- end card -->
+                                        </div>
+                                        <!-- end col -->
+
+
+                                        <div class="col-md-12">
+                                            <div class="card ">
+                                                <div class="card-body">
+                                                    <h5 class="text-theme" id="scss">9. Scss & Css </h5>
+                                                    <p>OctAdmin Template is based on scss and we import all the file into style.css you can simply edit any scss and compile it</p>
+                                                    
+                                                    <h6>Scss Folder Structure</h6>
+                                                    
+ <pre>
+    scss/
+    |-- 0-plugins (all Plugins scss Files)
+    |-- 1-base (all base style scss files)
+    |-- 2-components (all Components style scss files)
+    |-- 3-layouts (all Layouts style scss files)
+    |-- 4-pages (some pages style scss files)
+    |-- 5-themes (themes scss files)
+    |-- 6-helpers (mixins & variables scss files included here)
+    |-- 7-utilities (utilities scss files)
+    |-- 8-apps (apps styles scss files)
+    |-- 9-widgets (widget scss files)
+    |-- 10-landing-page (landing-page styles scss files)
+    |-- styles.scss (Main file , all other scss files are imported here)
+</pre>
+                                                     <pre class="language-css">
+                                        <code class="language-css">
+// variables
+ @import '6-helpers/variables';
+
+ //mixins
+ @import '6-helpers/mixins';
+
+ // bootstrap -v4
+ @import'0-plugins/bootstrap-sass/bootstrap';
+
+ //hamburgers
+ @import '0-plugins/hamburgers/hamburgers';
+
+ // base sass
+ @import '1-base/1_dirBase';
+
+ //layout sass
+ @import '3-layouts/1_dirLayouts';
+
+//components sass
+ @import '2-components/1_dirComponent';
+
+// themes sass
+ @import '5-themes/1_themeDir';
+
+//utilities sass
+ @import '7-utilities/1_dirUtilities';
+
+ @import '8-apps/apps_dir';
+
+ @import '9-widgets/1_dirWidgets';
+
+//plugins sass
+ @import '0-plugins/chart.js/chart';
+ @import '0-plugins/ihover/ihover';
+ @import '0-plugins/lightbox/lightbox';
+ @import '0-plugins/alertify/alertify';
+ @import '0-plugins/barrating/barratings';
+ @import '0-plugins/tooltipStylish/tooltipStylish';
+ @import '0-plugins/toastr/toastr';
+ @import '0-plugins/sweetalert/sweetalert';
+ @import '0-plugins/nestable/nestable';
+ @import '0-plugins/tabStylish/tab-stylish';
+ @import '0-plugins/bootstrap-switch/bootstrap-switch';
+ @import '0-plugins/awesome-bootstrap-checkboxes/awesome-bootstrap-checkbox';
+ @import '0-plugins/select2/core';
+ @import '0-plugins/tagsinput/tags-input';
+ @import '0-plugins/multiselect/multi-select';
+ @import '0-plugins/typeaheadjs/typeaheadjs';
+ @import '0-plugins/bootstrap-touchspin/bootstrap-touchspin';
+ @import '0-plugins/clockpicker/clockpicker';
+ @import '0-plugins/timepicker/timepicker';
+ @import '0-plugins/datepicker/datepicker';
+ @import '0-plugins/sliderrange/sliderrange';
+ @import '0-plugins/jquery-labelauty/jquery-labelauty';
+ @import '0-plugins/dropify/dropify';
+ @import '0-plugins/editor-markdown/bootstrap-markdown';
+ @import '0-plugins/chartistjs/chartist';
+ @import '0-plugins/fullcalendar/fullcalendar';
+
+
+
+//pages sass
+ @import '4-pages/1_pagesDir';
+
+ //landing Page sass
+ @import '10-landing-page/dirLanding-page';</code></pre>
+                                    
+                                    <div class="alert alert-info"> Note: we recomonded you to please make your one own css and one own js files and add that in your page, so whenever the update of OctaAdmin comes it does not affect your code. </div>
+                                                    </div>
+                                                    <!-- end card-body -->
+                                                </div>
+                                                <!-- end card -->
+                                            </div>
+                                            <!-- end col -->
+
+                                            <div class="col-md-12">
+                                                <div class="card ">
+                                                    <div class="card-body">
+                                                        <h5 class="text-theme" id="themes">10. Color Themes  </h5>
+                                                        <p> We have made Total 30+ Color variation with light and dark sidebar </p>
+                                                        
+                                                        <h6 class="text-theme">Dark Sidebar Themes (click on the color)</h6>
+                                                        <ul class="theme-colors">
+                                                            <a onclick="swapStyleSheetDark('../../css/style-blue.css')">
+                                                                <li class="theme-blue"></li>
+                                                            </a>
+                                                            <a onclick="swapStyleSheetDark('../../css/style-green.css')">
+                                                                <li class="theme-green"></li>
+                                                            </a>
+                                                            <a onclick="swapStyleSheetDark('../../css/style-red.css')">
+                                                                <li class="theme-red"></li>
+                                                            </a>
+                                                            <a onclick="swapStyleSheetDark('../../css/style-yellow.css')">
+                                                                <li class="theme-yellow"></li>
+                                                            </a>
+                                                            <a onclick="swapStyleSheetDark('../../css/style-orange.css')">
+                                                                <li class="theme-orange"></li>
+                                                            </a>
+                                                            <a onclick="swapStyleSheetDark('../../css/style-teal.css')">
+                                                                <li class="theme-teal"></li>
+                                                            </a>
+                                                            <a onclick="swapStyleSheetDark('../../css/style-cyan.css')">
+                                                                <li class="theme-cyan"></li>
+                                                            </a>
+                                                            <a onclick="swapStyleSheetDark('../../css/style-purple.css')">
+                                                                <li class="theme-purple"></li>
+                                                            </a>
+                                                            <a onclick="swapStyleSheetDark('../../css/style-indigo.css')">
+                                                                <li class="theme-indigo"></li>
+                                                            </a>
+                                                            <a onclick="swapStyleSheetDark('../../css/style-pink.css')">
+                                                                <li class="theme-pink"></li>
+                                                            </a>
+                                                        </ul>
+                                        
+                                                        <!-- <h6 class="text-theme">Theme Social Colors (Dark sidebar) </h6> -->
+                                                        <ul class="theme-colors">
+                                                            <a onclick="swapStyleSheetDark('../../css/style-facebook.css')">
+                                                                <li class="theme-facebook"></li>
+                                                            </a>
+                                                            <a onclick="swapStyleSheetDark('../../css/style-twitter.css')">
+                                                                <li class="theme-twitter"></li>
+                                                            </a>
+                                                            <a onclick="swapStyleSheetDark('../../css/style-linkedin.css')">
+                                                                <li class="theme-linkedin"></li>
+                                                            </a>
+                                                            <a onclick="swapStyleSheetDark('../../css/style-google-plus.css')">
+                                                                <li class="theme-google-plus"></li>
+                                                            </a>
+                                                            <a onclick="swapStyleSheetDark('../../css/style-flickr.css')">
+                                                                <li class="theme-flickr"></li>
+                                                            </a>
+                                                            <a onclick="swapStyleSheetDark('../../css/style-tumblr.css')">
+                                                                <li class="theme-tumblr"></li>
+                                                            </a>
+                                                            <a onclick="swapStyleSheetDark('../../css/style-xing.css')">
+                                                                <li class="theme-xing"></li>
+                                                            </a>
+                                                            <a onclick="swapStyleSheetDark('../../css/style-github.css')">
+                                                                <li class="theme-github"></li>
+                                                            </a>
+                                                            <a onclick="swapStyleSheetDark('../../css/style-html5.css')">
+                                                                <li class="theme-html5"></li>
+                                                            </a>
+                                                            <a onclick="swapStyleSheetDark('../../css/style-openid.css')">
+                                                                <li class="theme-openid"></li>
+                                                            </a>
+                                                            <a onclick="swapStyleSheetDark('../../css/style-stack-overflow.css')">
+                                                                <li class="theme-stack-overflow"></li>
+                                                            </a>
+                                                            <a onclick="swapStyleSheetDark('../../css/style-css3.css')">
+                                                                <li class="theme-css3"></li>
+                                                            </a>
+                                                            <a onclick="swapStyleSheetDark('../../css/style-dribbble.css')">
+                                                                <li class="theme-dribbble"></li>
+                                                            </a>
+                                                            <a onclick="swapStyleSheetDark('../../css/style-instagram.css')">
+                                                                <li class="theme-instagram"></li>
+                                                            </a>
+                                                            <a onclick="swapStyleSheetDark('../../css/style-pinterest.css')">
+                                                                <li class="theme-pinterest"></li>
+                                                            </a>
+                                                            <a onclick="swapStyleSheetDark('../../css/style-vk.css')">
+                                                                <li class="theme-vk"></li>
+                                                            </a>
+                                                            <a onclick="swapStyleSheetDark('../../css/style-yahoo.css')">
+                                                                <li class="theme-yahoo"></li>
+                                                            </a>
+                                                            <a onclick="swapStyleSheetDark('../../css/style-behance.css')">
+                                                                <li class="theme-behance"></li>
+                                                            </a>
+                                                            <a onclick="swapStyleSheetDark('../../css/style-dropbox.css')">
+                                                                <li class="theme-dropbox"></li>
+                                                            </a>
+                                                            <a onclick="swapStyleSheetDark('../../css/style-reddit.css')">
+                                                                <li class="theme-reddit"></li>
+                                                            </a>
+                                                            <a onclick="swapStyleSheetDark('../../css/style-spotify.css')">
+                                                                <li class="theme-spotify"></li>
+                                                            </a>
+                                                            <a onclick="swapStyleSheetDark('../../css/style-vine.css')">
+                                                                <li class="theme-vine"></li>
+                                                            </a>
+                                                            <a onclick="swapStyleSheetDark('../../css/style-foursquare.css')">
+                                                                <li class="theme-foursquare"></li>
+                                                            </a>
+                                                            <a onclick="swapStyleSheetDark('../../css/style-vimeo.css')">
+                                                                <li class="theme-vimeo"></li>
+                                                            </a>
+                                        
+                                                        </ul>
+
+                                                        <p>you can Find The all Color variables inside the variables.scss file</p>
+ <pre class="language-css">
+ <code class="language-css">
+//main Colors
+$blue:                            #0358C7;
+$blue2:                           #0358C7;
+$black:                           #000 !default;
+$indigo:                          #8e24aa!default;
+$purple:                          #673ab7 !default;
+$pink:                            #e91e63 !default;
+$red:                             #F03434;
+$orange:                          #f57c00 ;
+$yellow:                          #F6BB42 !default;
+$green:                           #37BC9B;
+$teal:                            #20c997 !default;
+$cyan:                            #1BC9E4;
+
+// Social Colors
+
+$facebook:                            #3b5998 !default;
+$twitter:                             #00aced !default;
+$linkedin:                            #4875b4 !default;
+$google-plus:                         #d34836 !default;
+$flickr:                              #ff0084 !default;
+$tumblr:                              #32506d !default;
+$xing:                                #026466 !default;
+$github:                              #4183c4 !default;
+$html5:                               #e34f26 !default;
+$openid:                              #f78c40 !default;
+$stack-overflow:                      #fe7a15 !default;
+$youtube:                             #b00 !default;
+$css3:                                #0170ba !default;
+$dribbble:                            #ea4c89 !default;
+$instagram:                           #517fa4 !default;
+$pinterest:                           #cb2027 !default;
+$vk:                                  #45668e !default;
+$yahoo:                               #400191 !default;
+$behance:                             #1769ff !default;
+$dropbox:                             #007ee5 !default;
+$reddit:                              #ff4500 !default;
+$spotify:                             #7ab800 !default;
+$vine:                                #00bf8f !default;
+$foursquare:                          #1073af !default;
+$vimeo:                               #aad450 !default;
+</code>
+</pre>
+
+<p>The Best part is , octaAdmin is not limiting you with this 30+ predefined Colors , you can add unlimited color themes to your app just simply declare your<code> new color variable and assign your new color variable to $theme-color and compile your Scss</code> , thats it :) </p>
+
+<pre class="language-css">
+        <code class="language-css">
+//new Color Variable
+$new-color:      #000000;
+
+//assign new color variable to $theme-color 
+$theme-color:   $new-color;
+
+//compile your scss file
+       </code>
+       </pre>
+
+<p>for Dark sidebars add <code>.sidebar-colored class to the .sidebar</code> </p>
+<pre class="language-html">
+        <code class="language-html">
+ &lt;div class=&#34;sidebar sidebar-colored&#34; id=&#34;sidebar&#34;&gt;&#10;            &lt;nav class=&#34;sidebar-nav&#34; id=&#34;sidebar-nav-scroller&#34;&gt;&#10;                &lt;ul class=&#34;nav&#34;&gt;&#10;                    &lt;li class=&#34;nav-title&#34;&gt;Documentation&lt;/li&gt;&#10;                    &lt;li class=&#34;nav-item &#34;&gt;&#10;                        &lt;a class=&#34;nav-link &#34; href=&#34;../../index.html&#34;&gt;&#10;                            &lt;i class=&#34;mdi mdi-checkbox-multiple-blank-circle-outline&#34;&gt;&lt;/i&gt; Introduction &lt;/a&gt;&#10;                    &lt;/li&gt;&#10;                    &lt;li class=&#34;nav-item &#34;&gt;&#10;                        &lt;a class=&#34;nav-link &#34; href=&#34;../../index.html&#34;&gt;&#10;                            &lt;i class=&#34;mdi mdi-checkbox-multiple-blank-circle-outline&#34;&gt;&lt;/i&gt; Features &lt;/a&gt;&#10;                    &lt;/li&gt;&#10;&#10;&#10;                &lt;/ul&gt;&#10;            &lt;/nav&gt;&#10;&#10;        &lt;/div&gt;&#10;        &lt;!-- end sidebar --&gt;
+       </code>
+       </pre>
+                                                        </div>
+                                                        <!-- end card-body -->
+                                                    </div>
+                                                    <!-- end card -->
+                                                </div>
+                                                <!-- end col -->
+                                                
+                                                
+                                                <div class="col-md-12">
+                                                    <div class="card ">
+                                                        <div class="card-body">
+                                                            <h5 class="text-theme" id="font">11. Font Family </h5>
+                                                            <p>We have used google fonts for the template you can change whatever font you wish</p>
+                        <pre class="language-css">
+                                        <code class="language-css">
+// Variables
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+$fontfamily : 'Josefin Sans', sans-serif;
+$fontFamily-brand : 'Josefin Sans', sans-serif;
+                                        </code>
+                                    </pre>
+                                                          
+                                                            </div>
+                                                            <!-- end card-body -->
+                                                        </div>
+                                                        <!-- end card -->
+                                                    </div>
+                                                    <!-- end col -->
+
+                                                    <div class="col-md-12">
+                                                            <div class="card ">
+                                                                <div class="card-body">
+                                                                    <h5 class="text-theme" id="icons">12. Font - Icons </h5>
+                                                                    <p>Below is the table of icon fonts used in this template. </p>
+                                
+                                                                    <table class="table table-bordered m-0">
+                                                                            <thead>
+                                                                                <tr>
+                                                                                    <th style="width: 30%;">Icon Name</th>
+                                                                                    <th>Example</th>
+                                                                                </tr>
+                                                                            </thead>
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td>Font-awesome</td>
+                                                                                    <td><code>&lt;i class="fa fa-icon-name"&gt;&lt;/i&gt; </code></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td>Material Icons</td>
+                                                                                    <td><code>&lt;i class="mdi mdi-icon-name"&gt;&lt;/i&gt; </code></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td>Linea Icons</td>
+                                                                                    <td><code> &lt;div data-icon="a" class="linea-icon linea-basic"&gt;&lt;div&gt; </code></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td>Simple Line Icons</td>
+                                                                                    <td><code>&lt;i class="icon-name_of_icon"&gt;&lt;/i&gt; </code></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td>Themify Icons</td>
+                                                                                    <td><code>&lt;i class="ti-icon-name"&gt;&lt;/i&gt; </code></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td>Weather Icons</td>
+                                                                                    <td><code>&lt;i class="wi wi-icon-name"&gt;&lt;/i&gt; </code></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td>Flag Icons</td>
+                                                                                    <td><code>&lt;i class="flag-icon flsg-icon-country-name"&gt;&lt;/i&gt; </code></td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </div>
+                                                                    <!-- end card-body -->
+                                                                </div>
+                                                                <!-- end card -->
+                                                            </div>
+                                                            <!-- end col -->
+
+                                                            <div class="col-md-12">
+                                                                    <div class="card ">
+                                                                        <div class="card-body">
+                                                                            <h5 class="text-theme" id="js">13. Main javascript Files </h5>
+                                                                            <p>these javascript files are needed for OctaAdmin</p>
+
+                                                                            <table class="table table-bordered m-0">
+                                                                                    <thead>
+                                                                                        <tr>
+                                                                                            <th style="width: 30%;">File</th>
+                                                                                            <th>Description</th>
+                                                                                        </tr>
+                                                                                    </thead>
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td><code>jquery.js</code>, <code>popper.js, bootstrap.js, pace.js</code>, <code>jquery.nicescroll.js</code> </td>
+                                                                                            <td> These files are used at main files of the theme. and nicescroll is for sidebarscroll </td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td><code>app.js</code> </td>
+                                                                                            <td> This is a main function js file. it contain sidebar and other basic js</td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td><code>chart.js</code> </td>
+                                                                                            <td> This file contains chart js</td>
+                                                                                        </tr>
+                                                                                       
+                                                                                    </tbody>
+                                                                            </table>
+                                        
+                                                                            
+                                                                            </div>
+                                                                            <!-- end card-body -->
+                                                                        </div>
+                                                                        <!-- end card -->
+                                                                    </div>
+                                                                    <!-- end col -->
+
+                                                                    <div class="col-md-12">
+                                                                            <div class="card ">
+                                                                                <div class="card-body">
+                                                                                    <h5 class="text-theme" id="plugins">14. Plugins Credit </h5>
+                                                                                    <ul class="common">
+                                                                                      <li><a href="http://getbootstrap.com/">Bootstrap</a></li>
+                                                                                      <li><a href="https://jquery.com/">Jquery</a></li>
+                                                                                      <li><a href="http://alertifyjs.com/">Alertify</a></li>
+                                                                                      <li><a href="https://daneden.github.io/animate.css/">Animate Css</a></li>
+                                                                                      <li><a href="http://bootboxjs.com/">Bootbox</a></li>
+                                                                                      <li><a href="https://github.com/uxsolutions/bootstrap-datepicker">Bootstrap-Datepicker</a></li>
+                                                                                      <li><a href="https://github.com/mimo84/bootstrap-maxlength">Bootstrap-maxlength</a></li>
+                                                                                      <li><a href="http://jdewit.github.com/bootstrap-timepicker">Bootstrap-Switch</a></li>
+                                                                                      <li><a href="https://weareoutman.github.io/clockpicker/">Bootstrap-Clockpicker</a></li>
+                                                                                      <li><a href="https://bootstrap-tagsinput.github.io/bootstrap-tagsinput/examples/">Bootstrap-Tagsinput</a></li>
+                                                                                      <li><a href="https://www.virtuosoft.eu/code/bootstrap-touchspin/">Bootstrap-Touchspin</a></li>
+                                                                                      <li><a href="http://www.chartjs.org/">Chart js</a></li>
+                                                                                      <li><a href="https://gionkunz.github.io/chartist-js/">Chartist</a></li>
+                                                                                      <li><a href="http://www.flotcharts.org/">Flot Charts</a></li>
+                                                                                      <li><a href="http://morrisjs.github.io/morris.js/">Morris chart</a></li>
+                                                                                      <li><a href="http://benpickles.github.io/peity/">Peity Charts</a></li>
+                                                                                      <li><a href="https://github.com/JeremyFagis/dropify">Dropify</a></li>
+                                                                                      <li><a href="http://www.codingdrama.com/bootstrap-markdown/">Markdown Editor</a></li>
+                                                                                      <li><a href="https://summernote.org/">Summernote Editor</a></li>
+                                                                                      <li><a href="https://github.com/firstopinion/formatter.js">Form Masks</a></li>
+                                                                                      <li><a href="https://fullcalendar.io/">Full Calendar</a></li>
+                                                                                      <li><a href="http://anthonyterrien.com/knob/">jquery-Knob</a></li>
+                                                                                      <li><a href="https://github.com/fntneves/jquery-labelauty">jquery-labelauty</a></li>
+                                                                                      <li><a href="http://carlosbonetti.github.io/jquery-loading/">jquery-loading</a> </li>
+                                                                                      <li><a href="https://github.com/thecreation/jquery-strength">jquery-strength</a></li>
+                                                                                      <li><a href="http://dimsemenov.com/plugins/magnific-popup/">Lightbox</a></li>
+                                                                                      <li><a href="https://pexels.com/">Pexels (images)</a></li>
+                                                                                      <li><a href="http://loudev.com/">Multiselect</a></li>
+                                                                                      <li><a href="https://nicescroll.areaaperta.com/demo/">Nicescroll</a></li>
+                                                                                      <li><a href="http://demo.tinywall.net/numscroller/"> numscroller</a></li>
+                                                                                      <li><a href="http://antenna.io/demo/jquery-bar-rating/examples/"> Rating</a></li>
+                                                                                      <li><a href="https://select2.org/">Select-2</a></li>
+                                                                                      <li><a href="https://github.com/thecreation/jquery-asRange"> Sider range</a></li>
+                                                                                      <li><a href="http://abpetkov.github.io/switchery/"> Switchery</a></li>
+                                                                                      <li><a href="https://lipis.github.io/bootstrap-sweetalert/"> Sweetalert</a></li>
+                                                                                      <li><a href="https://datatables.net/"> Datatables</a></li>
+                                                                                      <li><a href="http://jonthornton.github.io/jquery-timepicker/"> Timepicker</a></li>
+                                                                                      <li><a href="http://www.tinymce.com/">Wysiwig Editor</a></li>
+                                                                                      <li><a href="http://codeseven.github.io/toastr/"> Toastr</a></li>
+                                                                                      <li><a href="http://twitter.github.io/typeahead.js/"> Typeahead</a></li>
+                                                                                      <li><a href="http://fontawesome.io/"> Fontawesome</a></li>
+                                                                                      <li><a href="https://materialdesignicons.com/"> Material Icons</a></li>
+                                                                                      <li><a href="https://themify.me/themify-icons"> Themify Icons</a></li>
+                                                                                      <li><a href="https://github.com/twitter/typeahead.js"> Linea Icons</a></li>
+                                                                                      <li><a href="http://linea.io/"> Simple Line Icons</a></li>
+                                                                                      <li><a href="http://erikflowers.github.io/weather-icons/"> Weather Icons</a></li>
+                                                                                
+                                                                                  </ul>
+        
+                                                                                    
+                                                
+                                                                                    
+                                                                                    </div>
+                                                                                    <!-- end card-body -->
+                                                                                </div>
+                                                                                <!-- end card -->
+                                                                            </div>
+                                                                            <!-- end col -->
+
+                                                                            <div class="col-md-12">
+                                                                                    <div class="card ">
+                                                                                        <div class="card-body">
+                                                                                            <h5 class="text-theme" id="support">14. Free Support </h5>
+                                                                                            <p>If you have any type of query or support needed, feel free to contact us by mail or message to  <a href="mailto:octathemes@gmail.com"> octathemes@gmail.com</a> </p>
+                
+                                                                                            </div>
+                                                                                            <!-- end card-body -->
+                                                                                        </div>
+                                                                                        <!-- end card -->
+                                                                                    </div>
+                                                                                    <!-- end col -->
+
+                                                                                    <div class="col-md-12">
+                                                                                            <div class="card ">
+                                                                                                <div class="card-body">
+                                                                                                        <div class="h1 text-center text-theme" id="thankyou">
+                                                                                                                THANK YOU
+                                                                                                            </div>
+                                                                                                    
+                                                                                                    </div>
+                                                                                                    <!-- end card-body -->
+                                                                                                </div>
+                                                                                                <!-- end card -->
+                                                                                            </div>
+                                                                                            <!-- end col -->
+                                                            
+                                                    
+                        </div>
+                        <!-- end row -->
+
+                    </div>
+                    <!-- end animated fadeIn -->
+                </div>
+                <!-- end container-fluid -->
+
+        </main>
+        <!-- end main -->
+
+        <aside class="aside-menu">
+            <div class="aside-header bg-theme text-uppercase">Service Panel</div>
+            <div class="aside-body">
+               
+                <h6 class="text-theme">Dark Sidebar</h6>
+                <ul class="theme-colors">
+                    <a onclick="swapStyleSheetDark('../../css/style-blue.css')">
+                        <li class="theme-blue"></li>
+                    </a>
+                    <a onclick="swapStyleSheetDark('../../css/style-green.css')">
+                        <li class="theme-green"></li>
+                    </a>
+                    <a onclick="swapStyleSheetDark('../../css/style-red.css')">
+                        <li class="theme-red"></li>
+                    </a>
+                    <a onclick="swapStyleSheetDark('../../css/style-yellow.css')">
+                        <li class="theme-yellow"></li>
+                    </a>
+                    <a onclick="swapStyleSheetDark('../../css/style-orange.css')">
+                        <li class="theme-orange"></li>
+                    </a>
+                    <a onclick="swapStyleSheetDark('../../css/style-teal.css')">
+                        <li class="theme-teal"></li>
+                    </a>
+                    <a onclick="swapStyleSheetDark('../../css/style-cyan.css')">
+                        <li class="theme-cyan"></li>
+                    </a>
+                    <a onclick="swapStyleSheetDark('../../css/style-purple.css')">
+                        <li class="theme-purple"></li>
+                    </a>
+                    <a onclick="swapStyleSheetDark('../../css/style-indigo.css')">
+                        <li class="theme-indigo"></li>
+                    </a>
+                    <a onclick="swapStyleSheetDark('../../css/style-pink.css')">
+                        <li class="theme-pink"></li>
+                    </a>
+                </ul>
+
+                <!-- <h6 class="text-theme">Theme Social Colors (Dark sidebar) </h6> -->
+                <ul class="theme-colors">
+                    <a onclick="swapStyleSheetDark('../../css/style-facebook.css')">
+                        <li class="theme-facebook"></li>
+                    </a>
+                    <a onclick="swapStyleSheetDark('../../css/style-twitter.css')">
+                        <li class="theme-twitter"></li>
+                    </a>
+                    <a onclick="swapStyleSheetDark('../../css/style-linkedin.css')">
+                        <li class="theme-linkedin"></li>
+                    </a>
+                    <a onclick="swapStyleSheetDark('../../css/style-google-plus.css')">
+                        <li class="theme-google-plus"></li>
+                    </a>
+                    <a onclick="swapStyleSheetDark('../../css/style-flickr.css')">
+                        <li class="theme-flickr"></li>
+                    </a>
+                    <a onclick="swapStyleSheetDark('../../css/style-tumblr.css')">
+                        <li class="theme-tumblr"></li>
+                    </a>
+                    <a onclick="swapStyleSheetDark('../../css/style-xing.css')">
+                        <li class="theme-xing"></li>
+                    </a>
+                    <a onclick="swapStyleSheetDark('../../css/style-github.css')">
+                        <li class="theme-github"></li>
+                    </a>
+                    <a onclick="swapStyleSheetDark('../../css/style-html5.css')">
+                        <li class="theme-html5"></li>
+                    </a>
+                    <a onclick="swapStyleSheetDark('../../css/style-openid.css')">
+                        <li class="theme-openid"></li>
+                    </a>
+                    <a onclick="swapStyleSheetDark('../../css/style-stack-overflow.css')">
+                        <li class="theme-stack-overflow"></li>
+                    </a>
+                    <a onclick="swapStyleSheetDark('../../css/style-css3.css')">
+                        <li class="theme-css3"></li>
+                    </a>
+                    <a onclick="swapStyleSheetDark('../../css/style-dribbble.css')">
+                        <li class="theme-dribbble"></li>
+                    </a>
+                    <a onclick="swapStyleSheetDark('../../css/style-instagram.css')">
+                        <li class="theme-instagram"></li>
+                    </a>
+                    <a onclick="swapStyleSheetDark('../../css/style-pinterest.css')">
+                        <li class="theme-pinterest"></li>
+                    </a>
+                    <a onclick="swapStyleSheetDark('../../css/style-vk.css')">
+                        <li class="theme-vk"></li>
+                    </a>
+                    <a onclick="swapStyleSheetDark('../../css/style-yahoo.css')">
+                        <li class="theme-yahoo"></li>
+                    </a>
+                    <a onclick="swapStyleSheetDark('../../css/style-behance.css')">
+                        <li class="theme-behance"></li>
+                    </a>
+                    <a onclick="swapStyleSheetDark('../../css/style-dropbox.css')">
+                        <li class="theme-dropbox"></li>
+                    </a>
+                    <a onclick="swapStyleSheetDark('../../css/style-reddit.css')">
+                        <li class="theme-reddit"></li>
+                    </a>
+                    <a onclick="swapStyleSheetDark('../../css/style-spotify.css')">
+                        <li class="theme-spotify"></li>
+                    </a>
+                    <a onclick="swapStyleSheetDark('../../css/style-vine.css')">
+                        <li class="theme-vine"></li>
+                    </a>
+                    <a onclick="swapStyleSheetDark('../../css/style-foursquare.css')">
+                        <li class="theme-foursquare"></li>
+                    </a>
+                    <a onclick="swapStyleSheetDark('../../css/style-vimeo.css')">
+                        <li class="theme-vimeo"></li>
+                    </a>
+
+                </ul>
+            </div>
+
+        </aside>
+        <!-- end aside -->
+
+        </div>
+        <!-- end app-body -->
+
+
+
+        <footer class="app-footer">
+            <a href="#" class="text-theme">octAdmin</a> © 2018 octaThemes.
+        </footer>
+
+
+        <!-- Bootstrap and necessary plugins -->
+        <script src="../../libs/jquery/dist/jquery.min.js"></script>
+        <script src="../../libs/popper.js/dist/umd/popper.min.js"></script>
+        <script src="../../libs/bootstrap/bootstrap.min.js"></script>
+        <script src="../../libs/PACE/pace.min.js"></script>
+        <script src="../../libs/chart.js/dist/Chart.min.js"></script>
+        <script src="../../libs/nicescroll/jquery.nicescroll.min.js"></script>
+
+      <!-- jquery-loading -->
+     <script src="../../libs/jquery-loading/dist/jquery.loading.min.js"></script>
+        <!-- prism js -->
+        <script src="../../libs/prism/prism.js"></script>
+
+        <!-- octadmin Main Script -->
+        <script src="../../js/app.js"></script>
+
+</body>
+
+</html>

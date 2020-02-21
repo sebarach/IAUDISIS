@@ -1,0 +1,188 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2B1BE2A1-B208-04E7-F669-4C136BEBF4E2" name="Locales">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-09 14:21:17 UTC</createdTime>
+<ownerDesignName>DBD</ownerDesignName>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID Local" id="3556A8F3-0EF3-4145-5352-7F3A6F90FD28">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-09 21:14:46 UTC</createdTime>
+<ownerDesignName>DBD</ownerDesignName>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NombreLocal" id="26CAB217-763F-1331-227B-2420EF653D42">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-09 21:14:53 UTC</createdTime>
+<ownerDesignName>DBD</ownerDesignName>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Direccion" id="294A1295-9513-3458-9F8E-A94928AD91E7">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-09 21:15:18 UTC</createdTime>
+<ownerDesignName>DBD</ownerDesignName>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Latitud" id="23B79009-0256-288D-04E7-1867B6E4132D">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-09 21:15:22 UTC</createdTime>
+<ownerDesignName>DBD</ownerDesignName>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Longitud" id="FC30F038-E949-FCF4-F39A-DE2D4BD61088">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-09 21:15:26 UTC</createdTime>
+<ownerDesignName>DBD</ownerDesignName>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Activo" id="4CA91A3D-EDA6-3ED0-9BA2-6159D4A756C0">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-09 21:15:31 UTC</createdTime>
+<ownerDesignName>DBD</ownerDesignName>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FechaRegistro" id="900F1E1A-02B1-BA18-3EB4-74190F8BA71D">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-09 21:15:34 UTC</createdTime>
+<ownerDesignName>DBD</ownerDesignName>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID UserCreador" id="42240CAC-8BA8-FACA-16FA-B27D0B031DC4">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-09 21:15:39 UTC</createdTime>
+<ownerDesignName>DBD</ownerDesignName>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rango" id="3A89DF89-1751-12B2-E8F1-192A18F892F0">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-09 21:17:54 UTC</createdTime>
+<ownerDesignName>DBD</ownerDesignName>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cadena id cadena" id="BD2A1749-877D-7E01-FB4A-02D876EA74F6">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-10 20:47:07 UTC</createdTime>
+<generatorID>B0904530-589E-A111-FFF4-405E67368AAC</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="true"/>
+</engineerTo>
+<referedAttribute>E436A048-8EB0-0C9B-48FB-A39193B226CD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Comuna" id="B638DBB4-2B93-E79A-745D-D12ADC010866">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-13 18:11:06 UTC</createdTime>
+<generatorID>18C2BABA-3B43-05B8-15FF-1E4909570D8F</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="true"/>
+</engineerTo>
+<referedAttribute>22C7E119-950D-E302-F892-A1E97F543F55</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Region" id="C2A0D2F2-7F30-CE51-F421-670451C2E261">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-13 18:12:34 UTC</createdTime>
+<generatorID>18C2BABA-3B43-05B8-15FF-1E4909570D8F</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="true"/>
+</engineerTo>
+<referedAttribute>692459B1-AEB8-1710-98BB-AA5BD0E634B7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AE086D4E-AAE3-894C-DD0A-E1ADC256BD6D" name="Locales PK">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-09 21:16:10 UTC</createdTime>
+<ownerDesignName>DBD</ownerDesignName>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3556A8F3-0EF3-4145-5352-7F3A6F90FD28</attributeRef>
+<attributeRef>BD2A1749-877D-7E01-FB4A-02D876EA74F6</attributeRef>
+<attributeRef>B638DBB4-2B93-E79A-745D-D12ADC010866</attributeRef>
+<attributeRef>C2A0D2F2-7F30-CE51-F421-670451C2E261</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

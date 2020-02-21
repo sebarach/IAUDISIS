@@ -1,0 +1,619 @@
+//////////////////////////////////////////////////////
+//  Template Name: octAdmin
+//  Author: octathemes
+//  Email: octathemes@gmail.com
+//  File: calendar-app.scss
+///////////////////////////////////////////////////
+
+
+.calendar-sidebar {
+    position: fixed;
+    display: inline-flex;
+    z-index: 100!important ;
+    flex-direction: column; 
+    color: $sidebar-color;
+    background: $theme-color; 
+    @include shadow-sidebar(#000);
+    max-width: $mailbox-sidebar-width;
+    min-height: 100%;
+    .sidebar-close {
+        position: absolute;
+        right: 0;
+        display: none;
+        padding: 0 $spacer;
+        font-size: 24px;
+        font-weight: 800;
+        line-height: $navbar-height;
+        color: $sidebar-color;
+        background: 0;
+        border: 0;
+        opacity: .8;
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+    .title{
+        font-size: 1.3rem !important ;
+    }
+
+    .calendar-events{
+        padding: 10px 10px;
+        margin-bottom: 5px;
+        color: $white;
+        cursor: all-scroll; 
+    }
+
+    .checkbox{
+        padding: 20px 20px;
+        color: $white;
+    }
+  
+    .calendar-sidebar-toggler{
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 200px;
+        color: white;
+        z-index: 1; 
+        padding: 5px 10px;
+        background: $theme-color;
+        border-top-right-radius: 50%;
+        border-bottom-right-radius: 50%;
+        cursor: pointer;
+
+        
+    }
+
+    .sidebar-nav {
+        position: relative;
+        flex: 1;
+        overflow-x: hidden;
+        overflow-y: auto;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        @include sidebar-width($sidebar-borders, $mailbox-sidebar-width);
+        &::-webkit-scrollbar {
+            position: absolute;
+            width: 0px;
+            margin-left: -10px;
+            -webkit-appearance: none;
+        }
+        &::-webkit-scrollbar-track {
+            background-color: lighten($sidebar-bg, 5%);
+            border-right: 1px solid darken($sidebar-bg, 5%);
+            border-left: 1px solid darken($sidebar-bg, 5%);
+        }
+        &::-webkit-scrollbar-thumb {
+            height: 50px;
+            background-color: darken($sidebar-bg, 10%);
+            background-clip: content-box;
+            border-color: transparent;
+            border-style: solid;
+            border-width: 1px 2px;
+        }
+    }
+    .nav {
+        @include sidebar-width($sidebar-borders, $mailbox-sidebar-width);
+        flex-direction: column;
+        min-height: 100%;
+    }
+    .nav-title {
+        padding: $sidebar-nav-title-padding-y $sidebar-nav-title-padding-x;
+        font-size: 0.6rem; 
+        text-transform: uppercase;
+    }
+    .nav-divider,
+    .divider {
+        height: 10px;
+    }
+    .nav-item {
+        position: relative;
+        margin: 0;
+        transition: background .3s ease-in-out;
+    }
+    .nav-dropdown-items {
+        max-height: 0;
+        padding: 0;
+        margin: 0;
+        overflow-y: hidden;
+        transition: max-height .3s ease-in-out;
+        .nav-item {
+            padding: 0;
+            list-style: none;
+        }
+    }
+    .nav-link {
+        display: block;
+        font-size: $sidebar-nav-font-size; 
+        color: #fff;
+        text-decoration: none;
+        background: $sidebar-nav-link-bg; 
+        @if $enable-sidebar-nav-rounded {
+            border-radius: $border-radius;
+        }
+        i {
+            display: inline-block; 
+            margin: 0 ($sidebar-nav-link-padding-x / 10) 0 0;
+            font-size: 1.3rem;
+            color: #ffffff;
+            text-align: center;
+        } 
+        .badge {
+            float: right;
+            margin-top: 8px;
+        }
+        &.active {
+            font-weight: 700;
+            color: $sidebar-nav-link-active-color;
+            background: lighten($theme-color, 75%); 
+            border-right: 5px solid $theme-color; 
+            i {
+                font-weight: 700;
+                color: $sidebar-nav-link-active-color;
+            }
+        }
+        &:hover {
+            font-weight: 700;
+            color: $gray-100;
+            background: $sidebar-nav-link-hover-bg; 
+           
+            @include borders($sidebar-nav-link-hover-borders);
+            i {
+                font-weight: 700;
+                color: $gray-100;
+            }
+            &.nav-dropdown-toggle::before {
+               
+                float: right;
+                /*vertical-align: middle;*/
+                border-top: 5px solid $gray-600; 
+                border-right: 5px solid transparent;
+                /*border-bottom: 0 solid black;*/
+                overflow: hidden; //transition: 200ms ease;
+            }
+        }
+        @each $color,
+        $value in $theme-colors {
+            &.nav-link-#{$color} {
+                background: $value;
+                i {
+                    color: rgba(255, 255, 255, .7);
+                }
+                &:hover {
+                    background: darken($value, 5%) !important;
+                    i {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    } 
+    .nav-dropdown-toggle {
+        position: relative;
+        &::before {
+            position: absolute;
+            top: 50%;
+            right: $sidebar-nav-link-padding-x;
+            display: block;
+            width: 8px;
+            height: 8px;
+            padding: 0;
+            margin-top: -4px;
+            content: "";
+            background-image: $sidebar-nav-dropdown-indicator;
+            background-repeat: no-repeat;
+            background-position: center;
+            transition: transform .5s;
+            border-top: 5px solid $gray-600;
+            border-right: 5px solid transparent;
+            border-left: 5px solid transparent;
+        }
+    }
+    .nav-dropdown-items {
+        .nav-item {
+          
+            .nav-link {
+                &.active {
+                    color: $theme-color;
+                    border-right: 3px solid $theme-color !important;
+                }
+                &:hover {
+                    border-left: 5px solid $theme-color !important;
+                }
+            }
+        }
+    } // ex.  <li class="nav-item nav-dropdown">
+    .nav-dropdown.open {
+        background: $sidebar-nav-dropdown-bg;
+        @include borders($sidebar-nav-dropdown-borders);
+        @if $enable-sidebar-nav-rounded {
+            border-radius: $border-radius;
+        }
+        >.nav-dropdown-items {
+            padding-left: 20px;
+            max-height: 1000px;
+        }
+        .nav-link {
+            color: $sidebar-nav-dropdown-color;
+            border-left: 0 !important;
+        }
+        >.nav-link.nav-dropdown-toggle::before {
+            transform: rotate(-180deg);
+            border-top: 5px solid $theme-color;
+        }
+        .nav-dropdown-toggle {
+            color: $theme-color;
+            font-weight: 700;
+            background: lighten($gray-400, 35%);
+            i {
+                color: $theme-color;
+                font-weight: 700;
+            }
+        }
+        .nav-dropdown.open {
+            border-left: 0;
+        }
+    }
+    .nav-label {
+        display: block;
+        padding: ($sidebar-nav-link-padding-y / 8) $sidebar-nav-link-padding-x;
+        color: $sidebar-nav-title-color;
+        &:hover {
+            color: $sidebar-color;
+            text-decoration: none;
+        }
+        i {
+            width: 20px;
+            margin: -3px ($sidebar-nav-link-padding-x / 2) 0 0;
+            font-size: 10px;
+            color: $sidebar-nav-link-icon-color;
+            text-align: center;
+            vertical-align: middle;
+        }
+    }
+    @if (lightness( $sidebar-bg) < 40) {
+        .progress {
+            background-color: lighten($sidebar-bg, 15%) !important;
+        }
+    }
+    .sidebar-footer {
+        flex: 0 0 $sidebar-footer-height;
+        padding: $sidebar-footer-padding-y $sidebar-footer-padding-x;
+        background: $sidebar-footer-bg;
+    }
+    .sidebar-minimizer {
+        position: relative;
+        flex: 0 0 $sidebar-minimizer-height;
+        background-color: $sidebar-minimizer-bg;
+        border: 0;
+        &::before {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: $sidebar-minimizer-height;
+            height: $sidebar-minimizer-height;
+            content: "";
+            background-image: $sidebar-minimizer-indicator;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: $sidebar-minimizer-height / 4;
+            transition: .3s;
+        }
+        &:focus,
+        &.focus {
+            outline: 0;
+        }
+        &:hover {
+            background-color: $sidebar-minimizer-hover-bg;
+            &::before {
+                background-image: $sidebar-minimizer-hover-indicator;
+            }
+        }
+    }
+}
+
+.calendar-content {
+    position: absolute;
+   
+   margin-top: 30px;
+    margin-left: $mailbox-sidebar-width;
+
+    .mail-search-form {
+        .form-row {
+            text-align: center;
+            .btn {
+                margin: 0;
+                margin-left: -10px;
+                height: 40px;
+            }
+        }
+    }
+    .mail-list {
+        margin-top: 10px;
+        border-bottom: 1px solid $theme-color;
+        .mail-details {
+           
+            text-align: left;
+            .user-avatar {
+               
+                position: absolute;
+                width: 50px;
+                height: 50px;
+                border-radius: 100%;
+                margin: 0px 10px;
+            }
+            .user-name {
+                display: inline-block; 
+               
+                font-weight: bolder;
+                font-size: 0.8rem;
+                color: $theme-color;
+            }
+            .mail-subject {
+                
+                font-size: 0.7rem;
+            }
+            .mail-time {
+                font-size: 0.6rem;
+            }
+            ul {
+                list-style: none;
+                font-size: 0.9rem;
+                margin-left: 30px;
+            }
+            p {
+                font-size: 0.7rem;
+            }
+        }
+    }
+    .mail-list-pagination {
+        margin-top: 20px;
+    }
+    .mail-view {
+        .mail-view-header {
+            .user-avatar {
+              
+                position: absolute;
+                max-width: 50px;
+                border-radius: 50%;
+                margin: 0px 10px;
+            }
+            .user-name {
+                display: inline-block; 
+               
+                font-weight: bolder;
+                font-size: 1rem;
+                color: $theme-color;
+            }
+            .mail-subject {
+             
+                font-size: 0.8rem;
+            }
+            .mail-time {
+                font-size: 0.8rem;
+            }
+            ul {
+                list-style: none;
+                font-size: 0.9rem;
+                margin-left: 30px;
+            }
+            p {
+                font-size: 0.7rem;
+            }
+        }
+        .mail-toolbar {
+            ul {
+                list-style: none;
+                li {
+                    float: right;
+                    padding: 0 8px;
+                    color: $theme-color;
+                }
+            }
+        }
+        .mail-body {
+            .mail-heading {
+                font-weight: 500;
+                font-size: 1.3rem;
+                color: $gray-600;
+            }
+            .mail-message {
+                margin-top: 20px;
+            }
+        }
+        .mail-attachments {
+            ul {
+                list-style: none;
+                li {
+                    display: inline-block;
+                    text-align: center;
+                    .card {
+                        -webkit-box-shadow: none;
+                        -moz-box-shadow: none;
+                        box-shadow: none;
+                        border: 1px solid $gray-100;
+                    }
+                    img {
+                        text-align: center;
+                        max-width: 60px;
+                        max-height: 60px;
+                    }
+                    .file-name {
+                        display: inline;
+                        font-size: 0.6rem;
+                    }
+                    .btn-sm {
+                        max-width: 30px;
+                        max-height: 20px;
+                        margin: 0 0 0 10px;
+                        padding: 0;
+                    }
+                }
+            }
+        }
+        .mail-reply-form {
+            margin-left: 40px !important;
+            position: relative;
+            textarea {
+                -ms-overflow-style: none
+            }
+        }
+    }
+}
+
+
+
+@include media-breakpoint-down(md) {
+    .calendar-sidebar {
+        margin-top: ($navbar-height);
+    }
+    .calendar-content {
+        margin-top: ($navbar-height*1.2);
+    }
+}
+
+@include media-breakpoint-down(sm) {
+.sidebar{
+    position: fixed;
+    height: 100% !important;
+}
+
+    .calendar-content {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        flex-grow: 1;
+        overflow-x: hidden;
+       
+        
+    }
+
+    .calendar-sidebar {
+       position: fixed;
+       z-index: 1 ;
+       width: $mailbox-sidebar-width;
+      height: 100%;
+    
+    }
+
+    .calendar-sidebar-hidden {
+        
+                .calendar-sidebar {
+                  margin-left: - $mailbox-sidebar-width;
+                  transition: margin-left $layout-transition-speed;
+                  
+                }
+
+              
+            }
+    .calendar-content {
+        margin-top: ($navbar-height*1.2);
+        margin-left: 0;
+        width: 100%;
+    }
+    .mail-search-form {
+        .form-row {
+            .form-group {
+                display: inline-block;
+                input[type=text] {
+                    width: 250px;
+                }
+            }
+            .btn {
+                position: absolute !important;
+                margin-top: -55px !important;
+                margin-left: 100px !important;
+            }
+        }
+    }
+    .mail-reply-form {
+        .form-row {
+            .form-group {
+                display: inline-block;
+                margin-left: -20px !important;
+                textarea {
+                    width: 200px;
+                }
+            }
+            .btn {
+              
+                margin-top: -110px !important;
+                margin-left: 190px !important;
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+}
+
+@media (max-width: 765px) {
+    .mail-search-form {
+        .form-row {
+            .form-group {
+                display: inline-block;
+                input[type=text] {
+                    width: 400px;
+                }
+            }
+            .btn {
+                position: absolute !important;
+                margin-top: 0px !important;
+                margin-left: 0px !important;
+            }
+        }
+    }
+    .mail-reply-form {
+        .form-row {
+            .form-group {
+                display: inline-block;
+                margin-left: -20px !important;
+                textarea {
+                    width: 270px;
+                }
+            }
+            .btn {
+              
+                margin-top: 0px !important;
+                margin-left: 0px !important;
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .mail-search-form {
+        .form-row {
+            .form-group {
+                display: inline-block;
+                input[type=text] {
+                    width: 250px;
+                }
+            }
+            .btn {
+                position: absolute !important;
+                margin-top: -55px !important;
+                margin-left: 100px !important;
+            }
+        }
+    }
+    .mail-reply-form {
+        .form-row {
+            .form-group {
+                display: inline-block;
+                margin-left: -20px !important;
+                textarea {
+                    width: 200px;
+                }
+            }
+            .btn {
+                
+                margin-top: -110px !important;
+                margin-left: 190px !important;
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+}
+

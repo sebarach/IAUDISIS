@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Operacional Estados FK" directorySegmentName="seg_0" id="04FA2D47-665F-02C2-A178-E7B8F419FEA2">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-13 16:10:05 UTC</createdTime>
+<ownerDesignName>DBD</ownerDesignName>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="true"/>
+</engineerTo>
+<sourcePk>86E8189A-B6D4-C0AB-F7D2-EE09AC359301</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B7596D7A-9A42-942C-28A0-D099133F1FFB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>430874E4-DCF4-7D3F-EF9B-FBD64594FDEC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

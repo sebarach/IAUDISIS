@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Asistencia Marcage FK" directorySegmentName="seg_0" id="733D18E0-EB75-9F76-32CA-D75C304359C4">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-13 16:16:27 UTC</createdTime>
+<ownerDesignName>DBD</ownerDesignName>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="true"/>
+</engineerTo>
+<sourcePk>0B0816AD-A56E-A8DB-AB2A-5BEC7FF54B78</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>69644412-C6AA-5B2F-358B-81FB600BF186</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B10E4680-D4F2-07FD-AB42-1E0BCA5565D8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

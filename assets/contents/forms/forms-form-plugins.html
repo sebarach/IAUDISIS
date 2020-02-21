@@ -1,0 +1,2389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Admin, Dashboard, Bootstrap" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>octAdmin - powerfull minimal ultimate all in one bootstrap admin Template</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="../../img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../../img/favicon/manifest.json">
+    <link rel="mask-icon" href="../../img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- fonts -->
+    <link rel="stylesheet" href="../../fonts/md-fonts/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="../../fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- animate css -->
+    <link rel="stylesheet" href="../../libs/animate.css/animate.min.css">
+
+    <!-- jquery-loading -->
+    <link rel="stylesheet" href="../../libs/jquery-loading/dist/jquery.loading.min.css">
+    <!-- octadmin main style -->
+    <link id="pageStyle" rel="stylesheet" href="../../css/style.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+</head>
+
+<body class="app sidebar-fixed aside-menu-off-canvas aside-menu-hidden header-fixed">
+    <header class="app-header navbar">
+        <div class="hamburger hamburger--arrowalt-r navbar-toggler mobile-sidebar-toggler d-lg-none mr-auto">
+            <div class="hamburger-box">
+                <div class="hamburger-inner"></div>
+            </div>
+        </div>
+        <!-- end hamburger -->
+        <a class="navbar-brand" href="../../contents/dashboards/dashboard-sales.html">
+            <strong>octAdmin</strong>
+        </a>
+
+        <div class="hamburger hamburger--arrowalt-r navbar-toggler sidebar-toggler d-md-down-none mr-auto">
+            <div class="hamburger-box">
+                <div class="hamburger-inner"></div>
+            </div>
+        </div>
+        <!-- end hamburger -->
+
+        <div class="navbar-search">
+            <button type="submit" class="navbar-search-btn">
+                <i class="mdi mdi-magnify"></i>
+            </button>
+            <input type="text" class="navbar-search-input" placeholder="Find User a user, team, meeting ..">
+        </div>
+        <!-- end navbar-search -->
+
+        <ul class="nav navbar-nav ">
+            <li class="nav-item dropdown">
+                <a class="nav-link " href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="mdi mdi-bell-ring"></i>
+                    <span class="notification hertbit"></span>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right notification-list animated flipInY nicescroll-box">
+
+                    <div class="dropdown-header">
+                        <strong>Notification</strong>
+                        <span class="badge badge-pill badge-theme pull-right"> new 5</span>
+                    </div>
+                    <!--end dropdown-header -->
+
+                    <div class="wrap">
+
+                        <a href="#" class="dropdown-item">
+                            <div class="message-box">
+                                <div class="u-img">
+                                    <img src="http://via.placeholder.com/100x100" alt="user" />
+                                </div>
+                                <!-- end u-img -->
+                                <div class="u-text">
+                                    <div class="u-name">
+                                        <strong>A New Order has Been Placed </strong>
+                                    </div>
+                                    <small>2 minuts ago</small>
+                                </div>
+                                <!-- end u-text -->
+                            </div>
+                            <!-- end message-box -->
+                        </a>
+                        <!-- end dropdown-item -->
+
+                        <a href="#" class="dropdown-item">
+                            <div class="message-box">
+                                <div class="u-img">
+                                    <img src="http://via.placeholder.com/100x100" alt="user" />
+                                </div>
+                                <div class="u-text">
+                                    <div class="u-name">
+                                        <strong>Order Updated</strong>
+                                    </div>
+                                    <small>10 minuts ago</small>
+                                </div>
+                                <!-- end u-text -->
+                            </div>
+                            <!-- end message-box -->
+                        </a>
+                        <!-- end dropdown-item -->
+
+                        <a href="#" class="dropdown-item">
+                            <div class="message-box">
+                                <div class="u-img">
+                                    <img src="http://via.placeholder.com/100x100" alt="user" />
+                                </div>
+                                <!-- end u-img -->
+                                <div class="u-text">
+                                    <div class="u-name">
+                                        <strong>A New Order has Been Placed </strong>
+                                    </div>
+                                    <small>30 minuts ago</small>
+                                </div>
+                                <!-- end u-text -->
+                            </div>
+                            <!-- end message-box -->
+                        </a>
+                        <!-- end dropdown -->
+
+                        <a href="#" class="dropdown-item">
+                            <div class="message-box">
+                                <div class="u-img">
+                                    <img src="http://via.placeholder.com/100x100" alt="user" />
+                                </div>
+                                <!-- end u-img -->
+                                <div class="u-text">
+                                    <div class="u-name">
+                                        <strong> Order has Been Rated </strong>
+                                    </div>
+                                    <small>32 minuts ago</small>
+                                </div>
+                                <!-- end u-text -->
+                            </div>
+                            <!-- end message-box -->
+                        </a>
+                        <!-- end dropdown -->
+                    </div>
+                    <!-- end wrap -->
+
+                    <div class="dropdown-footer ">
+                        <a href="">
+                            <strong>See all messages (150) </strong>
+                        </a>
+                    </div>
+                    <!-- end dropdown-footer -->
+                </div>
+                <!-- end notification-list -->
+
+            </li>
+            <!-- end nav-item -->
+
+            <li class="nav-item ">
+                <a class="nav-link" href="#" data-toggle="dropdown">
+                    <i class="mdi mdi-forum"></i>
+                    <span class="notification hertbit"></span>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right message-list animated flipInY nicescroll-box">
+
+                    <div class="dropdown-header">
+                        <strong>Messages</strong>
+                        <span class="badge badge-pill badge-theme pull-right"> new 15</span>
+                    </div>
+                    <!-- end dropdown-header -->
+                    <div class="wrap">
+
+                        <a href="#" class="dropdown-item">
+                            <div class="message-box">
+                                <div class="u-img">
+                                    <img src="http://via.placeholder.com/100x100" alt="user" />
+                                    <span class="notification online"></span>
+                                </div>
+                                <!-- end u-img -->
+                                <div class="u-text">
+                                    <div class="u-name">
+                                        <strong>Natalie Wall</strong>
+                                    </div>
+                                    <p class="text-muted">Anyways i would like just do it</p>
+                                    <small>2 minuts ago</small>
+                                </div>
+                                <!-- end u-text -->
+                            </div>
+                            <!-- end message-box -->
+                        </a>
+                        <!-- end dropdown-item -->
+
+                        <a href="#" class="dropdown-item">
+                            <div class="message-box">
+                                <div class="u-img">
+                                    <img src="http://via.placeholder.com/100x100" alt="user" />
+                                    <span class="notification offline"></span>
+                                </div>
+                                <!-- end u-img -->
+                                <div class="u-text">
+                                    <div class="u-name">
+                                        <strong>Steve johns</strong>
+                                    </div>
+                                    <p class="text-muted">There is Problem inside the Application</p>
+                                    <small>10 minuts ago</small>
+                                </div>
+                                <!-- end u-text -->
+                            </div>
+                            <!-- end message-box -->
+                        </a>
+                        <!-- end dropdown-item -->
+
+                        <a href="#" class="dropdown-item">
+                            <div class="message-box">
+                                <div class="u-img">
+                                    <img src="http://via.placeholder.com/100x100" alt="user" />
+                                    <span class="notification buzy"></span>
+                                </div>
+                                <!-- end u-img -->
+                                <div class="u-text">
+                                    <div class="u-name">
+                                        <strong>Taniya Jan</strong>
+                                    </div>
+                                    <p class="text-muted">Please Checkout The Attachment</p>
+                                    <small>30 minuts ago</small>
+                                </div>
+                                <!-- end u-text -->
+                            </div>
+                            <!-- end message-box -->
+                        </a>
+                        <!-- end dropdown-item -->
+
+                        <a href="#" class="dropdown-item">
+                            <div class="message-box">
+                                <div class="u-img">
+                                    <img src="http://via.placeholder.com/100x100" alt="user" />
+                                    <span class="notification away"></span>
+                                </div>
+                                <!-- end u-img -->
+                                <div class="u-text">
+                                    <div class="u-name">
+                                        <strong>Tim Johns</strong>
+                                    </div>
+                                    <!-- end u-name -->
+                                    <p class="text-muted">Anyways i would like just do it</p>
+                                    <small>32 minuts ago</small>
+                                </div>
+                                <!-- end u-text -->
+                            </div>
+                            <!-- end message-box -->
+                        </a>
+                        <!-- end dropdown-item -->
+                    </div>
+                    <!-- end wrap -->
+                    <div class="dropdown-footer ">
+                        <a href="">
+                            <strong>See all messages (150) </strong>
+                        </a>
+                    </div>
+                    <!-- end dropdown-footer -->
+                </div>
+                <!-- end message-list -->
+            </li>
+            <!-- end nav-item -->
+
+
+            <li class="nav-item ">
+                <a class="nav-link" href="#" data-toggle="dropdown">
+                    <i class="mdi mdi-cards"></i>
+                    <span class="notification hertbit"></span>
+                </a>
+                <!-- end navlink -->
+                <div class="dropdown-menu dropdown-menu-right task-list animated flipInY nicescroll-box">
+
+                    <div class="dropdown-header">
+                        <strong>Task List</strong>
+                        <span class="badge badge-pill badge-theme pull-right"> new 3</span>
+                    </div>
+                    <!-- end dropdown-header -->
+                    <div class="wrap">
+                        <a href="#" class="dropdown-item">
+                            <strong>Task 1</strong>
+                            <small class="pull-right">50% Complete</small>
+                            <div class="progress xs">
+                                <div class="progress-bar bg-danger" style="width: 50%" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+
+                                </div>
+                            </div>
+                        </a>
+                        <!-- end dropdown-item -->
+
+                        <a href="#" class="dropdown-item">
+                            <strong>Task 2</strong>
+                            <small class="pull-right">20% Complete</small>
+
+                            <div class="progress xs">
+                                <div class="progress-bar bg-success" style="width: 20%" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- end dropdown-item -->
+                        <a href="#" class="dropdown-item">
+                            <strong>Task 3</strong>
+                            <small class="pull-right">80% Complete</small>
+
+                            <div class="progress xs ">
+                                <div class="progress-bar bg-warning" style="width: 80%" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+
+                                </div>
+                            </div>
+                        </a>
+                        <!-- end dropdown-item -->
+
+                        <a href="#" class="dropdown-item">
+                            <strong>Task 4</strong>
+                            <small class="pull-right">60% Complete</small>
+
+                            <div class="progress xs ">
+                                <div class="progress-bar bg-info" style="width: 60%" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+
+                                </div>
+                            </div>
+                        </a>
+                        <!-- end dropdown-item -->
+                    </div>
+                    <!-- end wrap -->
+                    <div class="dropdown-footer ">
+                        <a href="">
+                            <strong>view all task (20) </strong>
+                        </a>
+                    </div>
+                    <!-- end dropdown-footer -->
+
+                </div>
+                <!-- dropdown-menu -->
+            </li>
+            <!-- end navitem -->
+
+            <li class="nav-item dropdown">
+                <a class="btn btn-round btn-theme btn-sm" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+
+                    <span class="">admin
+                        <i class="fa fa-arrow-down"></i>
+                    </span>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right user-menu animated flipInY ">
+                    <div class="wrap">
+                        <div class="dw-user-box">
+                            <div class="u-img">
+                                <img src="http://via.placeholder.com/100x100" alt="user" />
+                            </div>
+                            <div class="u-text">
+                                <h5>Natalie Wall</h5>
+                                <p class="text-muted">wall@gmail.com</p>
+                                <a href="#" class="btn btn-round btn-theme btn-sm">View Profile</a>
+                            </div>
+                        </div>
+                        <!-- end dw-user-box -->
+
+                        <a class="dropdown-item" href="#">
+                            <i class="fa fa-user"></i> Profile</a>
+                        <a class="dropdown-item" href="#">
+                            <i class="fa fa-wrench"></i> Settings</a>
+
+                        <div class="divider"></div>
+
+                        <a class="dropdown-item" href="#">
+                            <i class="fa fa-lock"></i> Logout</a>
+                    </div>
+                    <!-- end wrap -->
+                </div>
+                <!-- end dropdown-menu -->
+            </li>
+            <!-- end nav-item -->
+
+
+        </ul>
+
+        <div class="hamburger hamburger--arrowalt-r navbar-toggler aside-menu-toggler ">
+            <div class="hamburger-box">
+                <div class="hamburger-inner"></div>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+
+    <div class="app-body">
+        <div class="sidebar" id="sidebar">
+            <nav class="sidebar-nav" id="sidebar-nav-scroller">
+                <ul class="nav">
+                    <li class="nav-item nav-dropdown">
+                        <a class="nav-link nav-dropdown-toggle" href="#">
+                            <i class="mdi mdi-gauge"></i> Dashboard
+                            <span class="badge badge-main badge-boxed badge-warning">New</span>
+                        </a>
+
+                        <ul class="nav-dropdown-items">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/dashboards/dashboard-sales.html"> Sales </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/dashboards/dashboard-property.html"> Property </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/dashboards/dashboard-project-management.html"> Project Management </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="../../contents/dashboards/dashboard-analytics.html"> Analytics
+                                    <span class="badge badge-sub badge-boxed badge-warning">New</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-title">Layouts</li>
+                    <li class="nav-item nav-dropdown">
+                        <a class="nav-link nav-dropdown-toggle" href="#">
+                            <i class="mdi mdi-atom"></i> Apps
+                            <span class="badge badge-main badge-boxed badge-warning">New</span>
+                        </a>
+
+                        <ul class="nav-dropdown-items">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/apps/apps-calendar.html"> Calendar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/apps/apps-mail.html"> Mailbox</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/apps/apps-message.html"> Direct Message</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/apps/apps-pm.html"> Projects
+                                    <span class="badge badge-sub badge-boxed badge-warning">New</span>
+                                </a>
+                            </li>
+                        </ul>
+
+                    </li>
+                    <li class="nav-item nav-dropdown">
+                        <a class="nav-link nav-dropdown-toggle" href="#">
+                            <i class="mdi mdi-layers"></i> Layouts</a>
+
+                        <ul class="nav-dropdown-items">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/layouts/blank-page.html"> Blank Page</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/layouts/sidebar-dark.html"> Sidebar Colored</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/layouts/sidebar-light.html"> Sidebar Light </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/layouts/sidebar-minimized.html"> Minimized Sidebar Light</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/layouts/sidebar-minimized-colored.html"> Minimized Sidebar Colored</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/layouts/sidebar-compact.html"> Compact Sidebar Light</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/layouts/sidebar-compact-colored.html"> Compact Sidebar Colored</a>
+                            </li>
+                        </ul>
+
+                    </li>
+                    <li class="nav-item nav-dropdown">
+                        <a class="nav-link nav-dropdown-toggle" href="#">
+                            <i class="mdi mdi-book-open-page-variant"></i> Pages</a>
+
+                        <ul class="nav-dropdown-items">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/pages/pages-signup.html"> Signup</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/pages/pages-login.html"> Log In</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/pages/pages-lock-screen.html"> Lock Screen</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/pages/pages-forgot-password.html"> Forgot Password</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/pages/pages-maintenance.html"> Maintenance</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/pages/pages-400.html"> 400 Bad Request</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/pages/pages-403.html"> 403 Forbidden</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/pages/pages-404.html"> 404 Not Found</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/pages/pages-500.html"> 500 Internal Server Error</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/pages/pages-503.html"> 503 Service Unavailable</a>
+                            </li>
+                        </ul>
+
+                    </li>
+
+                    <li class="nav-title">
+                        UI Elements
+                    </li>
+                    <li class="nav-item nav-dropdown">
+                        <a class="nav-link nav-dropdown-toggle" href="#">
+                            <i class="mdi mdi-chart-bubble"></i> UI Components </a>
+                        <ul class="nav-dropdown-items">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/ui-components/components-alerts.html"> Alerts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/ui-components/components-badges.html">Badges</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/ui-components/components-breadcrumbs.html">Breadcrumbs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/ui-components/components-buttons.html">Buttons</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/ui-components/components-cards.html"> Cards</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/ui-components/components-carousel.html"> Carousel</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/ui-components/components-dropdowns.html"> Dropdowns</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/ui-components/components-list-groups.html">List Groups</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/ui-components/components-modals.html"> Modals</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/ui-components/components-tabs-accordions.html"> Tabs & Accordions </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/ui-components/components-pagination.html"> Pagination</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/ui-components/components-progress.html"> Progress</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/ui-components/components-tooltip-popover.html"> Tooltip & Popover</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item nav-dropdown">
+                        <a class="nav-link nav-dropdown-toggle" href="#">
+                            <i class="mdi mdi-developer-board"></i> Advanced UI </a>
+                        <ul class="nav-dropdown-items">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/advanced-ui/advanced-user-cards.html"> User Cards</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/advanced-ui/advanced-alertify.html"> Alertify </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/advanced-ui/advanced-bootstrap-switch.html"> Bootstrap Switch </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/advanced-ui/advanced-bootbox.html"> Bootbox & Sweetalert </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/advanced-ui/advanced-lightbox.html"> Lightbox </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/advanced-ui/advanced-rating.html">Rating</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/advanced-ui/advanced-tooltip-stylish.html"> Stylish Tooltip</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/advanced-ui/advanced-toastr.html"> Toastr</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/advanced-ui/advanced-vertical-timeline.html"> Vertical Timeline</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/advanced-ui/advanced-horizontal-timeline.html"> Horizontal Timeline</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-title">
+                        Forms Tables & widgets
+                    </li>
+
+                    <li class="nav-item nav-dropdown">
+                        <a class="nav-link nav-dropdown-toggle" href="#">
+                            <i class="mdi mdi-file-document"></i> Forms</a>
+                        <ul class="nav-dropdown-items">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/forms/forms-form-layouts.html"> Form Layouts </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/forms/forms-form-elements.html"> Form Elements</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/forms/forms-form-validation.html"> Form Validation</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/forms/forms-custom-elements.html"> Custom Elements </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/forms/forms-form-plugins.html"> Form Plugins </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/forms/forms-form-masks.html"> Form Masks </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/forms/forms-form-file-upload.html"> File Upload </a>
+                            </li>
+
+                            <li class="nav-item nav-dropdown">
+                                <a class="nav-link nav-dropdown-toggle" href="#"> Editors </a>
+                                <ul class="nav-dropdown-items">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="../../contents/forms/forms-form-editors-summernote.html"> Summernote</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="../../contents/forms/forms-form-editors-markdown.html"> Markdown</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item nav-dropdown">
+                        <a class="nav-link nav-dropdown-toggle" href="#">
+                            <i class="mdi mdi-table-large"></i> Tables</a>
+                        <ul class="nav-dropdown-items">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/tables/tables-basic-table.html"> Basic Tables</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/tables/tables-table-layouts.html"> Table Layouts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/tables/tables-data-table.html"> Data Tables</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item nav-dropdown">
+                        <a class="nav-link nav-dropdown-toggle" href="#">
+                            <i class="mdi mdi-widgets"></i> Widgets</a>
+                        <ul class="nav-dropdown-items">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/widgets/widgets-satistics.html"> Satistics Widget </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/widgets/widgets-data.html"> Data Widget</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/widgets/widgets-chart.html"> Chart Widget</a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <li class="nav-title"> Extras </li>
+                    <li class="nav-item nav-dropdown">
+                        <a class="nav-link nav-dropdown-toggle" href="#">
+                            <i class="mdi mdi-brush"></i> Icons</a>
+                        <ul class="nav-dropdown-items">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/icons/icons-font-awesome.html"> Font Awesome </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/icons/icons-simple-line-icons.html"> Simple Line Icons</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/icons/icons-material-design-icons.html"> Material Design Icons</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/icons/icons-themify-icons.html"> Themify Icons</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/icons/icons-linea-icons.html"> Linea Icons</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/icons/icons-weather-icons.html"> Weather Icons</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item nav-dropdown">
+                        <a class="nav-link nav-dropdown-toggle" href="#">
+                            <i class="mdi mdi-poll-box"></i> Charts</a>
+                        <ul class="nav-dropdown-items">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/charts/charts-chartjs.html"> Chart.js</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/charts/charts-flot-chart.html"> Flot Chart</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/charts/charts-morris-chart.html"> Morris Chart </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/charts/charts-peity-chart.html"> Peity Chart</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/charts/charts-chartist-chart.html"> Chartist Chart</a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <li class="nav-item nav-dropdown">
+                        <a class="nav-link nav-dropdown-toggle" href="#">
+                            <i class="mdi mdi-map"></i> Maps
+                            <span class="badge badge-main badge-boxed badge-warning">New</span>
+                        </a>
+                        <ul class="nav-dropdown-items">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../contents/maps/maps-vectormaps.html"> Vector maps
+                                    <span class="badge badge-sub badge-boxed badge-warning">New</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="divider"></li>
+
+                    <li class="nav-item nav-dropdown">
+                        <a class="nav-link nav-dropdown-toggle" href="#">
+                            <i class="mdi mdi-checkbox-multiple-blank"></i> multilevel</a>
+                        <ul class="nav-dropdown-items">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"> level 1.1</a>
+                            </li>
+                            <li class="nav-item nav-dropdown">
+                                <a class="nav-link nav-dropdown-toggle" href="#"> level 1.2</a>
+                                <ul class="nav-dropdown-items">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"> level 1.2.1</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"> level 1.2.2</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"> level 1.3</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+        <!-- end sidebar -->
+
+        <main class="main">
+            <!-- Breadcrumb -->
+            <ol class="breadcrumb bc-colored bg-theme" id="breadcrumb">
+                <li class="breadcrumb-item ">
+                    <a href="">Home</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="#">Forms</a>
+                </li>
+                <li class="breadcrumb-item active">Form Plugins</li>
+            </ol>
+
+
+            <div class="container-fluid">
+
+                <div class="animated fadeIn">
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card card-accent-theme">
+                                <div class="card-body">
+                                    <h4 class="text-theme">Jquery Range Slider </h4>
+                                    <small>
+                                        <a href="https://github.com/amazingSurge/jquery-asRange">Official Website</a>
+                                    </small>
+                                    <p>Use
+                                        <code>data-plugin="asRange"</code> to make a default slider range.Add
+                                        <code>data-range="true"</code>,
+                                        <code>data-tip=true</code>, ...to change mode or add tooltip... </p>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="card-body">
+                                                <h6 class="text-theme">Default</h6>
+
+                                                <div class="range-example-1"></div>
+
+                                            </div>
+                                            <!-- end inside card-body -->
+                                        </div>
+                                        <!-- end inside col -->
+
+                                        <div class="col-md-6">
+                                            <div class="card-body">
+                                                <h6 class="text-theme">With Tooltip</h6>
+                                                <div class="range-example-2"></div>
+                                            </div>
+                                            <!-- end inside card-body -->
+                                        </div>
+                                        <!-- end inside col -->
+
+                                        <div class="col-md-6">
+                                            <div class="card-body">
+                                                <h6 class="text-theme">Input With Range</h6>
+                                                <input class="range-example-input-1" type="text" min="1" max="31"  name="points" step="1" />
+                                            </div>
+                                            <!-- end inside card-body -->
+                                        </div>
+                                        <!-- end inside col -->
+
+
+                                    </div>
+                                    <!-- end inside row -->
+                                </div>
+                                <!-- end card-body -->
+                            </div>
+                            <!-- end card -->
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card card-accent-theme">
+                                <div class="card-body">
+                                    <h4 class="text-theme">Select 2</h4>
+                                    <small>
+                                        <a href="https://select2.org/">Official Website</a>
+                                    </small>
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="card-body">
+                                                <h6 class="text-theme">Basic Usage</h6>
+                                                <p>Create a basic select2 by using
+                                                    <code>data-plugin="select2"</code>.</p>
+
+                                                <select class="form-control select2" data-plugin="select2">
+                                                    <optgroup label="Alaskan/Hawaiian Time Zone">
+                                                        <option value="AK">Alaska</option>
+                                                        <option value="HI">Hawaii</option>
+                                                    </optgroup>
+                                                    <optgroup label="Pacific Time Zone">
+                                                        <option value="CA">California</option>
+                                                        <option value="NV">Nevada</option>
+                                                        <option value="OR">Oregon</option>
+                                                        <option value="WA">Washington</option>
+                                                    </optgroup>
+                                                    <optgroup label="Mountain Time Zone">
+                                                        <option value="AZ">Arizona</option>
+                                                        <option value="CO">Colorado</option>
+                                                        <option value="ID">Idaho</option>
+                                                        <option value="MT">Montana</option>
+                                                        <option value="NE">Nebraska</option>
+                                                        <option value="NM">New Mexico</option>
+                                                        <option value="ND">North Dakota</option>
+                                                        <option value="UT">Utah</option>
+                                                        <option value="WY">Wyoming</option>
+                                                    </optgroup>
+                                                    <optgroup label="Central Time Zone">
+                                                        <option value="AL">Alabama</option>
+                                                        <option value="AR">Arkansas</option>
+                                                        <option value="IL">Illinois</option>
+                                                        <option value="IA">Iowa</option>
+                                                        <option value="KS">Kansas</option>
+                                                        <option value="KY">Kentucky</option>
+                                                        <option value="LA">Louisiana</option>
+                                                        <option value="MN">Minnesota</option>
+                                                        <option value="MS">Mississippi</option>
+                                                        <option value="MO">Missouri</option>
+                                                        <option value="OK">Oklahoma</option>
+                                                        <option value="SD">South Dakota</option>
+                                                        <option value="TX">Texas</option>
+                                                        <option value="TN">Tennessee</option>
+                                                        <option value="WI">Wisconsin</option>
+                                                    </optgroup>
+                                                    <optgroup label="Eastern Time Zone">
+                                                        <option value="CT">Connecticut</option>
+                                                        <option value="DE">Delaware</option>
+                                                        <option value="FL">Florida</option>
+                                                        <option value="GA">Georgia</option>
+                                                        <option value="IN">Indiana</option>
+                                                        <option value="ME">Maine</option>
+                                                        <option value="MD">Maryland</option>
+                                                        <option value="MA">Massachusetts</option>
+                                                        <option value="MI">Michigan</option>
+                                                        <option value="NH">New Hampshire</option>
+                                                        <option value="NJ">New Jersey</option>
+                                                        <option value="NY">New York</option>
+                                                        <option value="NC">North Carolina</option>
+                                                        <option value="OH">Ohio</option>
+                                                        <option value="PA">Pennsylvania</option>
+                                                        <option value="RI">Rhode Island</option>
+                                                        <option value="SC">South Carolina</option>
+                                                        <option value="VT">Vermont</option>
+                                                        <option value="VA">Virginia</option>
+                                                        <option value="WV">West Virginia</option>
+                                                    </optgroup>
+                                                </select>
+
+                                            </div>
+                                            <!-- end inside card-body -->
+                                        </div>
+                                        <!-- end inside col -->
+
+                                        <div class="col-md-4">
+                                            <div class="card-body">
+                                                <h6 class="text-theme">Multi-Value</h6>
+                                                <p>Add
+                                                    <code>multiple</code> to create a multi select2.</p>
+                                                <select class="form-control select2" data-plugin="select2" multiple>
+                                                    <optgroup label="Alaskan/Hawaiian Time Zone">
+                                                        <option value="AK">Alaska</option>
+                                                        <option value="HI">Hawaii</option>
+                                                    </optgroup>
+                                                    <optgroup label="Pacific Time Zone">
+                                                        <option value="CA">California</option>
+                                                        <option value="NV">Nevada</option>
+                                                        <option value="OR">Oregon</option>
+                                                        <option value="WA">Washington</option>
+                                                    </optgroup>
+                                                    <optgroup label="Mountain Time Zone">
+                                                        <option value="AZ">Arizona</option>
+                                                        <option value="CO">Colorado</option>
+                                                        <option value="ID">Idaho</option>
+                                                        <option value="MT">Montana</option>
+                                                        <option value="NE">Nebraska</option>
+                                                        <option value="NM">New Mexico</option>
+                                                        <option value="ND">North Dakota</option>
+                                                        <option value="UT">Utah</option>
+                                                        <option value="WY">Wyoming</option>
+                                                    </optgroup>
+                                                    <optgroup label="Central Time Zone">
+                                                        <option value="AL">Alabama</option>
+                                                        <option value="AR">Arkansas</option>
+                                                        <option value="IL">Illinois</option>
+                                                        <option value="IA">Iowa</option>
+                                                        <option value="KS">Kansas</option>
+                                                        <option value="KY">Kentucky</option>
+                                                        <option value="LA">Louisiana</option>
+                                                        <option value="MN">Minnesota</option>
+                                                        <option value="MS">Mississippi</option>
+                                                        <option value="MO">Missouri</option>
+                                                        <option value="OK">Oklahoma</option>
+                                                        <option value="SD">South Dakota</option>
+                                                        <option value="TX">Texas</option>
+                                                        <option value="TN">Tennessee</option>
+                                                        <option value="WI">Wisconsin</option>
+                                                    </optgroup>
+                                                    <optgroup label="Eastern Time Zone">
+                                                        <option value="CT">Connecticut</option>
+                                                        <option value="DE">Delaware</option>
+                                                        <option value="FL">Florida</option>
+                                                        <option value="GA">Georgia</option>
+                                                        <option value="IN">Indiana</option>
+                                                        <option value="ME">Maine</option>
+                                                        <option value="MD">Maryland</option>
+                                                        <option value="MA">Massachusetts</option>
+                                                        <option value="MI">Michigan</option>
+                                                        <option value="NH">New Hampshire</option>
+                                                        <option value="NJ">New Jersey</option>
+                                                        <option value="NY">New York</option>
+                                                        <option value="NC">North Carolina</option>
+                                                        <option value="OH">Ohio</option>
+                                                        <option value="PA">Pennsylvania</option>
+                                                        <option value="RI">Rhode Island</option>
+                                                        <option value="SC">South Carolina</option>
+                                                        <option value="VT">Vermont</option>
+                                                        <option value="VA">Virginia</option>
+                                                        <option value="WV">West Virginia</option>
+                                                    </optgroup>
+                                                </select>
+                                            </div>
+                                            <!-- end inside-card-body -->
+                                        </div>
+                                        <!-- end inside col -->
+
+                                        <div class="col-md-4">
+                                            <div class="card-body">
+                                                <h6 class="text-theme">Placeholders</h6>
+                                                <p>You can define placeholder easily by using
+                                                    <code>data-placeholder="Select a State"</code>
+                                                </p>
+                                                <select class="form-control select2" data-plugin="select2" data-placeholder="Select a State" data-allow-clear="true">
+                                                    <option label="Select a State"></option>
+                                                    <optgroup label="Alaskan/Hawaiian Time Zone">
+                                                        <option value="AK">Alaska</option>
+                                                        <option value="HI">Hawaii</option>
+                                                    </optgroup>
+                                                    <optgroup label="Pacific Time Zone">
+                                                        <option value="CA">California</option>
+                                                        <option value="NV">Nevada</option>
+                                                        <option value="OR">Oregon</option>
+                                                        <option value="WA">Washington</option>
+                                                    </optgroup>
+                                                    <optgroup label="Mountain Time Zone">
+                                                        <option value="AZ">Arizona</option>
+                                                        <option value="CO">Colorado</option>
+                                                        <option value="ID">Idaho</option>
+                                                        <option value="MT">Montana</option>
+                                                        <option value="NE">Nebraska</option>
+                                                        <option value="NM">New Mexico</option>
+                                                        <option value="ND">North Dakota</option>
+                                                        <option value="UT">Utah</option>
+                                                        <option value="WY">Wyoming</option>
+                                                    </optgroup>
+                                                    <optgroup label="Central Time Zone">
+                                                        <option value="AL">Alabama</option>
+                                                        <option value="AR">Arkansas</option>
+                                                        <option value="IL">Illinois</option>
+                                                        <option value="IA">Iowa</option>
+                                                        <option value="KS">Kansas</option>
+                                                        <option value="KY">Kentucky</option>
+                                                        <option value="LA">Louisiana</option>
+                                                        <option value="MN">Minnesota</option>
+                                                        <option value="MS">Mississippi</option>
+                                                        <option value="MO">Missouri</option>
+                                                        <option value="OK">Oklahoma</option>
+                                                        <option value="SD">South Dakota</option>
+                                                        <option value="TX">Texas</option>
+                                                        <option value="TN">Tennessee</option>
+                                                        <option value="WI">Wisconsin</option>
+                                                    </optgroup>
+                                                    <optgroup label="Eastern Time Zone">
+                                                        <option value="CT">Connecticut</option>
+                                                        <option value="DE">Delaware</option>
+                                                        <option value="FL">Florida</option>
+                                                        <option value="GA">Georgia</option>
+                                                        <option value="IN">Indiana</option>
+                                                        <option value="ME">Maine</option>
+                                                        <option value="MD">Maryland</option>
+                                                        <option value="MA">Massachusetts</option>
+                                                        <option value="MI">Michigan</option>
+                                                        <option value="NH">New Hampshire</option>
+                                                        <option value="NJ">New Jersey</option>
+                                                        <option value="NY">New York</option>
+                                                        <option value="NC">North Carolina</option>
+                                                        <option value="OH">Ohio</option>
+                                                        <option value="PA">Pennsylvania</option>
+                                                        <option value="RI">Rhode Island</option>
+                                                        <option value="SC">South Carolina</option>
+                                                        <option value="VT">Vermont</option>
+                                                        <option value="VA">Virginia</option>
+                                                        <option value="WV">West Virginia</option>
+                                                    </optgroup>
+                                                </select>
+                                            </div>
+                                            <!-- end inside-card-body -->
+                                        </div>
+                                        <!-- end inside col -->
+
+                                        <div class="col-md-4">
+                                            <div class="card-body">
+                                                <h6 class="text-theme">Minimum input</h6>
+                                                <p>Custom Search, texts input with min length by using
+                                                    <code>data-minimum-input-length="2"</code>
+                                                </p>
+                                                <select class="form-control select2" data-plugin="select2" data-minimum-input-length="2">
+
+                                                    <optgroup label="Alaskan/Hawaiian Time Zone">
+                                                        <option value="AK">Alaska</option>
+                                                        <option value="HI">Hawaii</option>
+                                                    </optgroup>
+                                                    <optgroup label="Pacific Time Zone">
+                                                        <option value="CA">California</option>
+                                                        <option value="NV">Nevada</option>
+                                                        <option value="OR">Oregon</option>
+                                                        <option value="WA">Washington</option>
+                                                    </optgroup>
+                                                    <optgroup label="Mountain Time Zone">
+                                                        <option value="AZ">Arizona</option>
+                                                        <option value="CO">Colorado</option>
+                                                        <option value="ID">Idaho</option>
+                                                        <option value="MT">Montana</option>
+                                                        <option value="NE">Nebraska</option>
+                                                        <option value="NM">New Mexico</option>
+                                                        <option value="ND">North Dakota</option>
+                                                        <option value="UT">Utah</option>
+                                                        <option value="WY">Wyoming</option>
+                                                    </optgroup>
+                                                    <optgroup label="Central Time Zone">
+                                                        <option value="AL">Alabama</option>
+                                                        <option value="AR">Arkansas</option>
+                                                        <option value="IL">Illinois</option>
+                                                        <option value="IA">Iowa</option>
+                                                        <option value="KS">Kansas</option>
+                                                        <option value="KY">Kentucky</option>
+                                                        <option value="LA">Louisiana</option>
+                                                        <option value="MN">Minnesota</option>
+                                                        <option value="MS">Mississippi</option>
+                                                        <option value="MO">Missouri</option>
+                                                        <option value="OK">Oklahoma</option>
+                                                        <option value="SD">South Dakota</option>
+                                                        <option value="TX">Texas</option>
+                                                        <option value="TN">Tennessee</option>
+                                                        <option value="WI">Wisconsin</option>
+                                                    </optgroup>
+                                                    <optgroup label="Eastern Time Zone">
+                                                        <option value="CT">Connecticut</option>
+                                                        <option value="DE">Delaware</option>
+                                                        <option value="FL">Florida</option>
+                                                        <option value="GA">Georgia</option>
+                                                        <option value="IN">Indiana</option>
+                                                        <option value="ME">Maine</option>
+                                                        <option value="MD">Maryland</option>
+                                                        <option value="MA">Massachusetts</option>
+                                                        <option value="MI">Michigan</option>
+                                                        <option value="NH">New Hampshire</option>
+                                                        <option value="NJ">New Jersey</option>
+                                                        <option value="NY">New York</option>
+                                                        <option value="NC">North Carolina</option>
+                                                        <option value="OH">Ohio</option>
+                                                        <option value="PA">Pennsylvania</option>
+                                                        <option value="RI">Rhode Island</option>
+                                                        <option value="SC">South Carolina</option>
+                                                        <option value="VT">Vermont</option>
+                                                        <option value="VA">Virginia</option>
+                                                        <option value="WV">West Virginia</option>
+                                                    </optgroup>
+                                                </select>
+                                            </div>
+                                            <!-- end inside-card-body -->
+                                        </div>
+                                        <!-- end inside col -->
+
+                                        <div class="col-md-4">
+                                            <div class="card-body">
+                                                <h6 class="text-theme">Disabled</h6>
+                                                <p>Use
+                                                    <code>disabled</code> to set disabled state.
+                                                    <code>data-minimum-input-length="2"</code>
+                                                </p>
+                                                <select class="form-control select2" data-plugin="select2" disabled>
+
+                                                    <optgroup label="Alaskan/Hawaiian Time Zone">
+                                                        <option value="AK">Alaska</option>
+                                                        <option value="HI">Hawaii</option>
+                                                    </optgroup>
+                                                    <optgroup label="Pacific Time Zone">
+                                                        <option value="CA">California</option>
+                                                        <option value="NV">Nevada</option>
+                                                        <option value="OR">Oregon</option>
+                                                        <option value="WA">Washington</option>
+                                                    </optgroup>
+                                                    <optgroup label="Mountain Time Zone">
+                                                        <option value="AZ">Arizona</option>
+                                                        <option value="CO">Colorado</option>
+                                                        <option value="ID">Idaho</option>
+                                                        <option value="MT">Montana</option>
+                                                        <option value="NE">Nebraska</option>
+                                                        <option value="NM">New Mexico</option>
+                                                        <option value="ND">North Dakota</option>
+                                                        <option value="UT">Utah</option>
+                                                        <option value="WY">Wyoming</option>
+                                                    </optgroup>
+                                                    <optgroup label="Central Time Zone">
+                                                        <option value="AL">Alabama</option>
+                                                        <option value="AR">Arkansas</option>
+                                                        <option value="IL">Illinois</option>
+                                                        <option value="IA">Iowa</option>
+                                                        <option value="KS">Kansas</option>
+                                                        <option value="KY">Kentucky</option>
+                                                        <option value="LA">Louisiana</option>
+                                                        <option value="MN">Minnesota</option>
+                                                        <option value="MS">Mississippi</option>
+                                                        <option value="MO">Missouri</option>
+                                                        <option value="OK">Oklahoma</option>
+                                                        <option value="SD">South Dakota</option>
+                                                        <option value="TX">Texas</option>
+                                                        <option value="TN">Tennessee</option>
+                                                        <option value="WI">Wisconsin</option>
+                                                    </optgroup>
+                                                    <optgroup label="Eastern Time Zone">
+                                                        <option value="CT">Connecticut</option>
+                                                        <option value="DE">Delaware</option>
+                                                        <option value="FL">Florida</option>
+                                                        <option value="GA">Georgia</option>
+                                                        <option value="IN">Indiana</option>
+                                                        <option value="ME">Maine</option>
+                                                        <option value="MD">Maryland</option>
+                                                        <option value="MA">Massachusetts</option>
+                                                        <option value="MI">Michigan</option>
+                                                        <option value="NH">New Hampshire</option>
+                                                        <option value="NJ">New Jersey</option>
+                                                        <option value="NY">New York</option>
+                                                        <option value="NC">North Carolina</option>
+                                                        <option value="OH">Ohio</option>
+                                                        <option value="PA">Pennsylvania</option>
+                                                        <option value="RI">Rhode Island</option>
+                                                        <option value="SC">South Carolina</option>
+                                                        <option value="VT">Vermont</option>
+                                                        <option value="VA">Virginia</option>
+                                                        <option value="WV">West Virginia</option>
+                                                    </optgroup>
+                                                </select>
+
+                                                <select class="form-control select2" multiple data-plugin="select2" disabled>
+                                                    <optgroup label="Alaskan/Hawaiian Time Zone">
+                                                        <option value="AK">Alaska</option>
+                                                        <option value="HI">Hawaii</option>
+                                                    </optgroup>
+                                                    <optgroup label="Pacific Time Zone">
+                                                        <option value="CA">California</option>
+                                                        <option value="NV">Nevada</option>
+                                                        <option value="OR">Oregon</option>
+                                                        <option value="WA">Washington</option>
+                                                    </optgroup>
+                                                    <optgroup label="Mountain Time Zone">
+                                                        <option value="AZ">Arizona</option>
+                                                        <option value="CO">Colorado</option>
+                                                        <option value="ID">Idaho</option>
+                                                        <option value="MT">Montana</option>
+                                                        <option value="NE">Nebraska</option>
+                                                        <option value="NM">New Mexico</option>
+                                                        <option value="ND">North Dakota</option>
+                                                        <option value="UT">Utah</option>
+                                                        <option value="WY">Wyoming</option>
+                                                    </optgroup>
+                                                    <optgroup label="Central Time Zone">
+                                                        <option value="AL">Alabama</option>
+                                                        <option value="AR">Arkansas</option>
+                                                        <option value="IL">Illinois</option>
+                                                        <option value="IA">Iowa</option>
+                                                        <option value="KS">Kansas</option>
+                                                        <option value="KY">Kentucky</option>
+                                                        <option value="LA">Louisiana</option>
+                                                        <option value="MN">Minnesota</option>
+                                                        <option value="MS">Mississippi</option>
+                                                        <option value="MO">Missouri</option>
+                                                        <option value="OK">Oklahoma</option>
+                                                        <option value="SD">South Dakota</option>
+                                                        <option value="TX">Texas</option>
+                                                        <option value="TN">Tennessee</option>
+                                                        <option value="WI">Wisconsin</option>
+                                                    </optgroup>
+                                                    <optgroup label="Eastern Time Zone">
+                                                        <option value="CT">Connecticut</option>
+                                                        <option value="DE">Delaware</option>
+                                                        <option value="FL">Florida</option>
+                                                        <option value="GA">Georgia</option>
+                                                        <option value="IN">Indiana</option>
+                                                        <option value="ME">Maine</option>
+                                                        <option value="MD">Maryland</option>
+                                                        <option value="MA">Massachusetts</option>
+                                                        <option value="MI">Michigan</option>
+                                                        <option value="NH">New Hampshire</option>
+                                                        <option value="NJ">New Jersey</option>
+                                                        <option value="NY">New York</option>
+                                                        <option value="NC">North Carolina</option>
+                                                        <option value="OH">Ohio</option>
+                                                        <option value="PA">Pennsylvania</option>
+                                                        <option value="RI">Rhode Island</option>
+                                                        <option value="SC">South Carolina</option>
+                                                        <option value="VT">Vermont</option>
+                                                        <option value="VA">Virginia</option>
+                                                        <option value="WV">West Virginia</option>
+                                                    </optgroup>
+                                                </select>
+                                            </div>
+                                            <!-- end inside-card-body -->
+                                        </div>
+                                        <!-- end inside col -->
+                                    </div>
+                                    <!-- end inside row -->
+                                </div>
+                                <!-- end card-body -->
+                            </div>
+                            <!-- end card -->
+                        </div>
+                        <!-- end-col -->
+                    </div>
+                    <!-- end row -->
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card card-accent-theme">
+                                <div class="card-body">
+                                    <h4 class="text-theme">Bootstrap Tags Input</h4>
+                                    <small>
+                                        <a href="https://bootstrap-tagsinput.github.io/bootstrap-tagsinput/examples/">Official Website</a>
+                                    </small>
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="card-body">
+                                                <h6 class="text-theme">Basic Tags</h6>
+                                                <p>Just add
+                                                    <code>data-role="tagsinput"</code> to your input field to automatically change
+                                                    it to a tags input field. </p>
+                                                <input class="form-control" name="tags" data-role="tagsinput" value="Amsterdam,Washington,Sydney,Beijing,Cairo" />
+                                            </div>
+                                            <!-- end inside card-body -->
+                                        </div>
+                                        <!-- end inside col -->
+
+                                        <div class="col-md-4">
+                                            <div class="card-body">
+                                                <h6 class="text-theme">True Multi Value</h6>
+                                                <p>Use a
+                                                    <code>&lt;select multiple /&gt;</code> as your input element for a tags input,
+                                                    to gain true multivalue support. Instead of a comma separated string,
+                                                    the values will be set in an array. Existing
+                                                    <code>&lt;option /&gt;</code> elements will automatically be set as tags. This
+                                                    makes it also possible to create tags containing a comma.</p>
+                                                <select data-role="tagsinput" multiple>
+                                                    <option value="Amsterdam">Amsterdam</option>
+                                                    <option value="Washington">Washington</option>
+                                                    <option value="Sydney">Sydney</option>
+                                                    <option value="Beijing">Beijing</option>
+                                                    <option value="Cairo">Cairo</option>
+                                                </select>
+                                            </div>
+                                            <!-- end inside card-body -->
+                                        </div>
+                                        <!-- end inside col -->
+
+                                        <div class="col-md-4">
+                                            <div class="card-body">
+                                                <h6 class="text-theme">Input group Tags</h6>
+                                                <p>You can also use group tag
+                                                    <code>data-role="tagsinput"</code> to your input field.</p>
+                                                <div class="input-group  m-t-20 m-b-30">
+                                                    <span class="input-group-addon bg-theme">Tags</span>
+                                                    <input type="text" value="Amsterdam,Washington,Sydney" data-role="tagsinput" placeholder="add tags"> </div>
+                                                <br/>
+                                                <div class="input-group">
+                                                    <input type="text" value="Amsterdam,Washington,Sydney" data-role="tagsinput" placeholder="add tags">
+                                                    <span class="input-group-addon bg-theme">Tags</span>
+                                                </div>
+                                            </div>
+                                            <!-- end inside card-body -->
+                                        </div>
+                                        <!-- end inside col -->
+
+
+                                    </div>
+                                    <!-- end inside row -->
+                                </div>
+                                <!-- end card-body -->
+                            </div>
+                            <!-- end card -->
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card card-accent-theme">
+                                <div class="card-body">
+                                    <h4 class="text-theme">Multi-select</h4>
+                                    <small>
+                                        <a href="http://loudev.com/">Official Website</a>
+                                    </small>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="card-body">
+                                                <h6 class="text-theme">Basic multiselect</h6>
+                                                <p>Use a
+                                                    <code>select multiple</code> as your input element.</p>
+                                                <select class="form-control" id="my-select">
+                                                    <optgroup label="Alaskan/Hawaiian Time Zone">
+                                                        <option value="AK">Alaska</option>
+                                                        <option value="HI">Hawaii</option>
+                                                    </optgroup>
+                                                    <optgroup label="Pacific Time Zone">
+                                                        <option value="CA">California</option>
+                                                        <option value="NV">Nevada</option>
+                                                        <option value="OR">Oregon</option>
+                                                        <option value="WA">Washington</option>
+                                                    </optgroup>
+                                                    <optgroup label="Mountain Time Zone">
+                                                        <option value="AZ">Arizona</option>
+                                                        <option value="CO">Colorado</option>
+                                                        <option value="ID">Idaho</option>
+                                                        <option value="MT">Montana</option>
+                                                        <option value="NE">Nebraska</option>
+                                                        <option value="NM">New Mexico</option>
+                                                        <option value="ND">North Dakota</option>
+                                                        <option value="UT">Utah</option>
+                                                        <option value="WY">Wyoming</option>
+                                                    </optgroup>
+                                                    <optgroup label="Central Time Zone">
+                                                        <option value="AL">Alabama</option>
+                                                        <option value="AR">Arkansas</option>
+                                                        <option value="IL">Illinois</option>
+                                                        <option value="IA">Iowa</option>
+                                                        <option value="KS">Kansas</option>
+                                                        <option value="KY">Kentucky</option>
+                                                        <option value="LA">Louisiana</option>
+                                                        <option value="MN">Minnesota</option>
+                                                        <option value="MS">Mississippi</option>
+                                                        <option value="MO">Missouri</option>
+                                                        <option value="OK">Oklahoma</option>
+                                                        <option value="SD">South Dakota</option>
+                                                        <option value="TX">Texas</option>
+                                                        <option value="TN">Tennessee</option>
+                                                        <option value="WI">Wisconsin</option>
+                                                    </optgroup>
+                                                    <optgroup label="Eastern Time Zone">
+                                                        <option value="CT">Connecticut</option>
+                                                        <option value="DE">Delaware</option>
+                                                        <option value="FL">Florida</option>
+                                                        <option value="GA">Georgia</option>
+                                                        <option value="IN">Indiana</option>
+                                                        <option value="ME">Maine</option>
+                                                        <option value="MD">Maryland</option>
+                                                        <option value="MA">Massachusetts</option>
+                                                        <option value="MI">Michigan</option>
+                                                        <option value="NH">New Hampshire</option>
+                                                        <option value="NJ">New Jersey</option>
+                                                        <option value="NY">New York</option>
+                                                        <option value="NC">North Carolina</option>
+                                                        <option value="OH">Ohio</option>
+                                                        <option value="PA">Pennsylvania</option>
+                                                        <option value="RI">Rhode Island</option>
+                                                        <option value="SC">South Carolina</option>
+                                                        <option value="VT">Vermont</option>
+                                                        <option value="VA">Virginia</option>
+                                                        <option value="WV">West Virginia</option>
+                                                    </optgroup>
+                                                </select>
+
+                                            </div>
+                                            <!-- end inside card-body -->
+                                        </div>
+                                        <!-- end inside col -->
+
+                                        <div class="col-md-6">
+                                            <div class="card-body">
+                                                <h6 class="text-theme">Public Methods</h6>
+                                                <p>Use a
+                                                    <code>select multiple</code> as your input element.</p>
+                                                <select class="multi-select-methods form-control" id="public-methods">
+                                                    <optgroup label="Alaskan/Hawaiian Time Zone">
+                                                        <option value="AK">Alaska</option>
+                                                        <option value="HI">Hawaii</option>
+                                                    </optgroup>
+                                                    <optgroup label="Pacific Time Zone">
+                                                        <option value="CA">California</option>
+                                                        <option value="NV">Nevada</option>
+                                                        <option value="OR">Oregon</option>
+                                                        <option value="WA">Washington</option>
+                                                    </optgroup>
+                                                    <optgroup label="Mountain Time Zone">
+                                                        <option value="AZ">Arizona</option>
+                                                        <option value="CO">Colorado</option>
+                                                        <option value="ID">Idaho</option>
+                                                        <option value="MT">Montana</option>
+                                                        <option value="NE">Nebraska</option>
+                                                        <option value="NM">New Mexico</option>
+                                                        <option value="ND">North Dakota</option>
+                                                        <option value="UT">Utah</option>
+                                                        <option value="WY">Wyoming</option>
+                                                    </optgroup>
+                                                    <optgroup label="Central Time Zone">
+                                                        <option value="AL">Alabama</option>
+                                                        <option value="AR">Arkansas</option>
+                                                        <option value="IL">Illinois</option>
+                                                        <option value="IA">Iowa</option>
+                                                        <option value="KS">Kansas</option>
+                                                        <option value="KY">Kentucky</option>
+                                                        <option value="LA">Louisiana</option>
+                                                        <option value="MN">Minnesota</option>
+                                                        <option value="MS">Mississippi</option>
+                                                        <option value="MO">Missouri</option>
+                                                        <option value="OK">Oklahoma</option>
+                                                        <option value="SD">South Dakota</option>
+                                                        <option value="TX">Texas</option>
+                                                        <option value="TN">Tennessee</option>
+                                                        <option value="WI">Wisconsin</option>
+                                                    </optgroup>
+                                                    <optgroup label="Eastern Time Zone">
+                                                        <option value="CT">Connecticut</option>
+                                                        <option value="DE">Delaware</option>
+                                                        <option value="FL">Florida</option>
+                                                        <option value="GA">Georgia</option>
+                                                        <option value="IN">Indiana</option>
+                                                        <option value="ME">Maine</option>
+                                                        <option value="MD">Maryland</option>
+                                                        <option value="MA">Massachusetts</option>
+                                                        <option value="MI">Michigan</option>
+                                                        <option value="NH">New Hampshire</option>
+                                                        <option value="NJ">New Jersey</option>
+                                                        <option value="NY">New York</option>
+                                                        <option value="NC">North Carolina</option>
+                                                        <option value="OH">Ohio</option>
+                                                        <option value="PA">Pennsylvania</option>
+                                                        <option value="RI">Rhode Island</option>
+                                                        <option value="SC">South Carolina</option>
+                                                        <option value="VT">Vermont</option>
+                                                        <option value="VA">Virginia</option>
+                                                        <option value="WV">West Virginia</option>
+                                                    </optgroup>
+                                                </select>
+
+                                                <button class="btn btn-theme btn-sm " id="select-all" type="button">select all</button>
+                                                <button class="btn btn-theme btn-sm " id="deselect-all" type="button">deselect all</button>
+                                                <button class="btn btn-theme btn-sm " id="add-option" type="button">add some</button>
+                                                <button class="btn btn-theme btn-sm " id="refresh" type="button">refresh</button>
+                                            </div>
+                                            <!-- end inside card-body -->
+                                        </div>
+                                        <!-- end inside col -->
+
+                                    </div>
+                                    <!-- end inside row -->
+                                </div>
+                                <!-- end card-body -->
+                            </div>
+                            <!-- end card -->
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card card-accent-theme">
+                                <div class="card-body">
+                                    <h4 class="text-theme">typeahead</h4>
+                                    <small>
+                                        <a href="http://twitter.github.io/typeahead.js/">Official Website</a>
+                                    </small>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="card-body">
+                                                <h6 class="text-theme">Basic Usage</h6>
+                                                <p>When initializing a typeahead, you pass the plugin method one or more datasets.
+                                                    The source of a dataset is responsible for computing a set of suggestions
+                                                    for a given query.</p>
+                                                <div id="the-basics">
+                                                    <input class="typeahead form-control" type="text" placeholder="States of USA">
+                                                </div>
+
+                                            </div>
+                                            <!-- end inside card-body -->
+                                        </div>
+                                        <!-- end inside col -->
+
+                                        <div class="col-md-6">
+                                            <div class="card-body">
+                                                <h6 class="text-theme">Bloodhound (Suggestion Engine)</h6>
+                                                <p>Suggestion Engine - For more advanced use cases, rather than implementing
+                                                    the source for your dataset yourself, you can take advantage of Bloodhound,
+                                                    the typeahead.js suggestion engine.</p>
+                                                <div id="bloodhound">
+                                                    <input class="bloodhound form-control" type="text" placeholder="States of USA">
+                                                </div>
+                                            </div>
+                                            <!-- end inside card-body -->
+                                        </div>
+                                        <!-- end inside col -->
+
+                                        <div class="col-md-6">
+                                            <div class="card-body">
+                                                <h6 class="text-theme">Prefetch</h6>
+                                                <p>Prefetched data is fetched and processed on initialization. If the browser
+                                                    supports local storage, the processed data will be cached there to prevent
+                                                    additional network requests on subsequent page loads.</p>
+                                                <div id="prefetch">
+                                                    <input class="prefetch form-control" type="text" placeholder="Countries">
+                                                </div>
+                                            </div>
+                                            <!-- end inside card-body -->
+                                        </div>
+                                        <!-- end inside col -->
+
+                                        <div class="col-md-6">
+                                            <div class="card-body">
+                                                <h6 class="text-theme">Default Suggestions</h6>
+                                                <p>Default suggestions can be shown for empty queries by setting the minLength
+                                                    option to 0 and having the source return suggestions for empty queries..</p>
+                                                <div id="default-suggestions">
+                                                    <input class="default-suggestions form-control" type="text" placeholder="NFL Teams">
+                                                </div>
+                                            </div>
+                                            <!-- end inside card-body -->
+                                        </div>
+                                        <!-- end inside col -->
+
+                                        <div class="col-md-6">
+                                            <div class="card-body">
+                                                <h6 class="text-theme">Multiple Datasets</h6>
+                                                <p>Use multiple datasets like this</p>
+                                                <div id="multiple-datasets">
+                                                    <input class="multiple-datasets form-control" type="text" placeholder="NBA and NHL teams">
+                                                </div>
+                                            </div>
+                                            <!-- end inside card-body -->
+                                        </div>
+                                        <!-- end inside col -->
+
+                                        <div class="col-md-6">
+                                            <div class="card-body">
+                                                <h6 class="text-theme">Scrollable Dropdown Menu</h6>
+                                                <p>You can use scrollable drowdown</p>
+                                                <div id="scrollable-dropdown-menu">
+                                                    <input class="scrollable-dropdown-menu form-control" type="text" placeholder="Countries">
+                                                </div>
+                                            </div>
+                                            <!-- end inside card-body -->
+                                        </div>
+                                        <!-- end inside col -->
+
+                                    </div>
+                                    <!-- end inside row -->
+                                </div>
+                                <!-- end card-body -->
+                            </div>
+                            <!-- end card -->
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card card-accent-theme">
+                                <div class="card-body">
+                                    <h4 class="text-theme">Maxlength Control</h4>
+                                    <small>
+                                        <a href="https://github.com/mimo84/bootstrap-maxlength">Official Website</a>
+                                    </small>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="card-body">
+                                                <h6 class="text-theme">Input</h6>
+                                                <p>
+                                                    <code>max-length</code> set to 35. </p>
+                                                <div id="the-basics1">
+                                                    <input type="text" class="maxlength-input form-control" data-plugin="maxlength" data-placement="bottom-right-inside" maxlength="35"
+                                                        value="This input has a limit of 35 chars" placeholder="This input has a limit of 35 chars.">
+                                                </div>
+
+                                            </div>
+                                            <!-- end inside card-body -->
+                                        </div>
+                                        <!-- end inside col -->
+
+                                        <div class="col-md-6">
+                                            <div class="card-body">
+                                                <h6 class="text-theme">Text-Area</h6>
+                                                <p>
+                                                    <code>max-length</code> set to 100. </p>
+                                                <textarea class="maxlength-textarea form-control" data-plugin="maxlength" data-placement="bottom-right-inside" maxlength="100"
+                                                    rows="4" placeholder="This textarea has a limit of 100 chars."></textarea>
+                                            </div>
+                                            <!-- end inside card-body -->
+                                        </div>
+                                        <!-- end inside col -->
+
+                                    </div>
+                                    <!-- end inside row -->
+                                </div>
+                                <!-- end card-body -->
+                            </div>
+                            <!-- end card -->
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card card-accent-theme">
+                                <div class="card-body">
+                                    <h4 class="text-theme">Bootstrap Touchspin </h4>
+                                    <small>
+                                        <a href="https://www.virtuosoft.eu/code/bootstrap-touchspin/">Official Website</a>
+                                    </small>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="card-body">
+                                                <h6 class="text-theme">With Postfix</h6>
+                                                <input id="demo1" type="text" value="55" name="demo1">
+
+                                            </div>
+                                            <!-- end inside card-body -->
+                                        </div>
+                                        <!-- end inside col -->
+
+                                        <div class="col-md-6">
+                                            <div class="card-body">
+                                                <h6 class="text-theme">With Prefix</h6>
+                                                <form class="form-horizontal">
+                                                    <div class="form-group">
+                                                        <input id="demo2" type="text" value="0" name="demo2" class="col-md-8 form-control">
+                                                    </div>
+                                                </form>
+
+                                            </div>
+                                            <!-- end inside card-body -->
+                                        </div>
+                                        <!-- end inside col -->
+
+                                        <div class="col-md-6">
+                                            <div class="input-group">
+                                                <p class="text-theme">Vertical Button</p>
+                                                <input id="demo_vertical" type="text" value="" name="demo_vertical">
+
+                                            </div>
+                                            <!-- end inside card-body -->
+                                        </div>
+                                        <!-- end inside col -->
+
+                                        <div class="col-md-6">
+                                            <div class="card-body">
+                                                <h6 class="text-theme">Custom Icons</h6>
+                                                <input id="demo_vertical2" type="text" value="" name="demo_vertical2">
+
+                                            </div>
+                                            <!-- end inside card-body -->
+                                        </div>
+                                        <!-- end inside col -->
+
+                                    </div>
+                                    <!-- end inside row -->
+                                </div>
+                                <!-- end card-body -->
+                            </div>
+                            <!-- end card -->
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card card-accent-theme">
+                                <div class="card-body">
+                                    <h4 class="text-theme">Clockpicker</h4>
+                                    <small>
+                                        <a href="https://weareoutman.github.io/clockpicker/">Official Website</a>
+                                    </small>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="card-body">
+                                                <h6 class="text-theme">Default</h6>
+                                                <p>Use
+                                                    <code>data-plugin="clockpicker"</code> create it.</p>
+                                                <div class="input-group clockpicker">
+                                                    <input type="text" class="form-control" value="09:30">
+                                                    <span class="input-group-addon">
+                                                        <span class="mdi mdi-timer"></span>
+                                                    </span>
+                                                </div>
+
+                                            </div>
+                                            <!-- end inside card-body -->
+                                        </div>
+                                        <!-- end inside col -->
+
+                                        <div class="col-md-6">
+                                            <div class="card-body">
+                                                <h6 class="text-theme">Auto Close</h6>
+                                                <p>Add
+                                                    <code>data-autoclose="true"</code> to open the autoclose.</p>
+                                                <div class="input-group clockpicker" data-placement="left" data-align="top" data-autoclose="true">
+                                                    <input type="text" class="form-control" value="13:14">
+                                                    <span class="input-group-addon">
+                                                        <span class="mdi mdi-timer"></span>
+                                                    </span>
+                                                </div>
+
+                                            </div>
+                                            <!-- end inside card-body -->
+                                        </div>
+                                        <!-- end inside col -->
+
+
+                                    </div>
+                                    <!-- end inside row -->
+                                </div>
+                                <!-- end card-body -->
+                            </div>
+                            <!-- end card -->
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card card-accent-theme">
+                                <div class="card-body">
+                                    <h4 class="text-theme">jquery Timepicker</h4>
+                                    <small>
+                                        <a href="http://jonthornton.github.io/jquery-timepicker/">Official Website</a>
+                                    </small>
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="card-body">
+                                                <h6 class="text-theme">Basic</h6>
+                                                <p>Use
+                                                    <code>data-plugin="timepicker"</code> create a basic timepicker.</p>
+                                                <div class="input-group">
+                                                    <span class="input-group-addon">
+                                                        <i class="mdi mdi-clock" aria-hidden="true"></i>
+                                                    </span>
+                                                    <input type="text" class="form-control" data-plugin="timepicker" id="basicExample" />
+                                                </div>
+
+                                            </div>
+                                            <!-- end inside card-body -->
+                                        </div>
+                                        <!-- end inside col -->
+
+                                        <div class="col-md-4">
+                                            <div class="card-body">
+                                                <h6 class="text-theme">Duration</h6>
+                                                <p>Adding
+                                                    <code>data-min-time</code>,
+                                                    <code>data-max-time</code>,
+                                                    <code>data-show-duration="true"</code> to set the duration.</p>
+                                                <div class="input-group">
+                                                    <span class="input-group-addon">
+                                                        <i class="mdi mdi-clock" aria-hidden="true"></i>
+                                                    </span>
+                                                    <input type="text" class="form-control" data-plugin="timepicker" data-min-time="2:00pm" data-max-time="11:30pm" data-show-duration="true"
+                                                        id="durationExample" />
+                                                </div>
+
+                                            </div>
+                                            <!-- end inside card-body -->
+                                        </div>
+                                        <!-- end inside col -->
+
+                                        <div class="col-md-4">
+                                            <div class="card-body">
+                                                <h6 class="text-theme">Set Current time</h6>
+                                                <p>You can set current time.</p>
+
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control" id="setTimeExample" data-plugin="timepicker" />
+                                                    <span class="input-group-btn">
+                                                        <button type="button" class="btn btn-theme btn-sm" id="setTimeButton">set current time</button>
+                                                    </span>
+                                                </div>
+
+                                            </div>
+                                            <!-- end inside card-body -->
+                                        </div>
+                                        <!-- end inside col -->
+
+
+                                    </div>
+                                    <!-- end inside row -->
+                                </div>
+                                <!-- end card-body -->
+                            </div>
+                            <!-- end card -->
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card card-accent-theme">
+                                <div class="card-body">
+                                    <h4 class="text-theme">Bootstrap Datepicker </h4>
+                                    <small>
+                                        <a href="https://github.com/uxsolutions/bootstrap-datepicker">Official Website</a>
+                                    </small>
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="card-body">
+                                                <h6 class="text-theme">Basic Datepicker</h6>
+                                                <p>Add
+                                                    <code>data-plugin="datepicker"</code> to create a default datepicker. use
+                                                    <code>data-multidate="true"</code> to selecting multi dates.</p>
+                                                <div class="input-group date" data-provide="datepicker">
+                                                    <input type="text" class="form-control">
+                                                    <div class="input-group-addon">
+                                                        <span class="mdi mdi-calendar"></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- end inside card-body -->
+                                        </div>
+                                        <!-- end inside col -->
+
+                                        <div class="col-md-4">
+                                            <div class="card-body">
+                                                <h6 class="text-theme">Date Range</h6>
+                                                <p>Set
+                                                    <code>name="start"</code> and
+                                                    <code>name="end"</code> for date
+                                                    <div class="input-daterange" data-provide="datepicker">
+                                                        <div class="input-group">
+                                                            <div class="input-group-addon">
+                                                                From
+                                                            </div>
+                                                            <input type="text" class="form-control" name="start" />
+                                                        </div>
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon">to</span>
+                                                            <input type="text" class="form-control" name="end" />
+                                                        </div>
+                                                    </div>
+
+                                            </div>
+                                            <!-- end inside card-body -->
+                                        </div>
+                                        <!-- end inside col -->
+
+                                        <div class="col-md-4">
+                                            <div class="card-body">
+                                                <h6 class="text-theme">SetInline</h6>
+                                                <p>You also can set the datepicker to be inline and flat.</p>
+
+                                                <div id="inlineDatepicker" data-autoclose="false"></div>
+                                                <input type="hidden" id="inputHiddenInline" />
+                                            </div>
+
+                                        </div>
+                                        <!-- end inside card-body -->
+                                    </div>
+                                    <!-- end inside col -->
+
+
+                                </div>
+                                <!-- end inside row -->
+                            </div>
+                            <!-- end card-body -->
+                        </div>
+                        <!-- end card -->
+                    </div>
+                    <!-- end col -->
+                </div>
+                <!-- end row -->
+
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card card-accent-theme">
+                            <div class="card-body">
+                                <h4 class="text-theme">Jquery Strength </h4>
+                                <small>
+                                    <a href="https://github.com/amazingSurge/jquery-strength">Official Website</a>
+                                </small>
+                                <p>Use
+                                    <code>data-plugin="strength"</code> to make a password strength validation.
+                                </p>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="card-body">
+                                            <h6 class="text-theme">Default</h6>
+
+                                            <form>
+                                                <div class="form-group">
+                                                    <input type="password" class="password-input form-control" name="password" value="" />
+                                                </div>
+                                            </form>
+
+                                        </div>
+                                        <!-- end inside card-body -->
+                                    </div>
+                                    <!-- end inside col -->
+
+                                    <div class="col-md-6">
+                                        <div class="card-body">
+                                            <h6 class="text-theme">Show Password</h6>
+                                            <form>
+                                                <div class="form-group">
+                                                    <input type="password" class="password-input form-control" name="password" value="" />
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <!-- end inside card-body -->
+                                    </div>
+                                    <!-- end inside col -->
+
+                                </div>
+                                <!-- end inside row -->
+                            </div>
+                            <!-- end card-body -->
+                        </div>
+                        <!-- end card -->
+                    </div>
+                    <!-- end col -->
+                </div>
+                <!-- end row -->
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card card-accent-theme">
+                            <div class="card-body">
+                                <h4 class="text-theme">Jquery Knob </h4>
+                                <small>
+                                    <a href="http://anthonyterrien.com/knob/">Official Website</a>
+                                </small>
+                                <p>Use
+                                    <code>data-plugin="knob"</code> init plugin, and also can set options with attributes 'data-option'.</p>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card-body text-center">
+                                            <h6 class="text-theme">Disable display input</h6>
+                                            <input class="knob" data-width="150" data-displayInput=false value="35" data-thickness=.1>
+
+                                        </div>
+                                        <!-- end inside card-body -->
+                                    </div>
+                                    <!-- end inside col -->
+
+                                    <div class="col-md-4">
+                                        <div class="card-body text-center">
+                                            <h6 class="text-theme">Display previous value</h6>
+                                            <input class="knob" data-width="150" data-min="-100" data-displayPrevious=true value="-44" data-fgColor="#FF5252" data-thickness=.1>
+                                        </div>
+                                        <!-- end inside card-body -->
+                                    </div>
+                                    <!-- end inside col -->
+
+                                    <div class="col-md-4">
+                                        <div class="card-body text-center">
+                                            <h6 class="text-theme">Cursor Mode</h6>
+                                            <input class="knob" data-width="150" data-min="-100" value="35" data-cursor=true data-fgColor="#0358C7" data-thickness=.1>
+                                        </div>
+                                        <!-- end inside card-body -->
+                                    </div>
+                                    <!-- end inside col -->
+
+                                    <div class="col-md-4">
+                                        <div class="card-body text-center">
+                                            <h6 class="text-theme">Angle offset</h6>
+                                            <input class="knob" data-width="150" data-min="-100" value="29" data-fgColor="#7C4DFF" data-thickness=.1 data-angleOffset=90
+                                                data-linecap=round>
+                                        </div>
+                                        <!-- end inside card-body -->
+                                    </div>
+                                    <!-- end inside col -->
+                                    <div class="col-md-4">
+                                        <div class="card-body text-center">
+                                            <h6 class="text-theme">Angle offset Arc</h6>
+                                            <input class="knob" data-width="150" data-min="-100" value="-29" data-fgColor="#FFAB40" data-thickness=.1 data-angleOffset=-125
+                                                data-angleArc=250 data-rotation="anticlockwise">
+                                        </div>
+                                        <!-- end inside card-body -->
+                                    </div>
+                                    <!-- end inside col -->
+
+                                    <div class="col-md-4">
+                                        <div class="card-body text-center">
+                                            <h6 class="text-theme">4 digit Value Steps 1000</h6>
+                                            <input class="knob" data-width="150" data-displayPrevious=true data-min="-15000" data-max="15000" data-step="1000" value="-10000"
+                                                data-fgColor="#ff0084" data-thickness=.1>
+                                        </div>
+                                        <!-- end inside card-body -->
+                                    </div>
+                                    <!-- end inside col -->
+
+                                </div>
+                                <!-- end inside row -->
+                            </div>
+                            <!-- end card-body -->
+                        </div>
+                        <!-- end card -->
+                    </div>
+                    <!-- end col -->
+                </div>
+                <!-- end row -->
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card card-accent-theme">
+                            <div class="card-body">
+                                <h4 class="text-theme">Labelauty </h4>
+                                <small>
+                                    <a href="https://github.com/fntneves/jquery-labelauty">Official Website</a>
+                                </small>
+                                <p>Add
+                                    <code>data-plugin="labelauty"</code> to use it.</p>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="card-body">
+                                            <h6 class="text-theme">Labeled Checkbox</h6>
+                                            <div class="form-group">
+                                                <input type="checkbox" class="to-labelauty" name="inputLableautyCheckbox" data-plugin="labelauty" data-labelauty="Don't synchronize|Synchronize"
+                                                    checked/>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="checkbox" class="to-labelauty" name="inputLableautyCheckbox" data-plugin="labelauty" data-labelauty="I don't accept|I accept"
+                                                />
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="checkbox" class="to-labelauty" name="inputLableautyCheckbox" data-plugin="labelauty" data-labelauty="I am disabled!"
+                                                    disabled/>
+                                            </div>
+
+                                        </div>
+                                        <!-- end inside card-body -->
+                                    </div>
+                                    <!-- end inside col -->
+
+                                    <div class="col-md-6">
+                                        <div class="card-body">
+                                            <h6 class="text-theme">Labeled Radio</h6>
+                                            <div class="form-group">
+                                                <input type="radio" class="to-labelauty" name="inputLableautyRadio" data-plugin="labelauty" data-labelauty="Don't synchronize|Synchronize"
+                                                    checked/>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="radio" class="to-labelauty" name="inputLableautyRadio" data-plugin="labelauty" data-labelauty="I don't accept|I accept"
+                                                />
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="radio" class="to-labelauty" name="inputLableautyRadio" data-plugin="labelauty" data-labelauty="I am disabled!"
+                                                    disabled/>
+                                            </div>
+                                        </div>
+                                        <!-- end inside card-body -->
+                                    </div>
+                                    <!-- end inside col -->
+
+                                    <div class="col-md-6">
+                                        <div class="card-body">
+                                            <h6 class="text-theme">Non-Labeled Checkbox</h6>
+                                            <div class="form-group">
+                                                <input type="checkbox" class="to-labelauty-icon" name="inputLableautyNoLabeledCheckbox" data-plugin="labelauty" data-label="false"
+                                                />
+                                                <!-- <span>Unchecked</span> -->
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="checkbox" class="to-labelauty-icon" name="inputLableautyNoLabeledCheckbox" data-plugin="labelauty" data-label="false"
+                                                    checked/>
+                                                <!-- <span>Checked</span> -->
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="checkbox" class="to-labelauty-icon" name="inputLableautyNoLabeledCheckbox" data-plugin="labelauty" data-label="false"
+                                                    disabled checked/>
+                                                <!-- <span>Disabled Checked</span> -->
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="checkbox" class="to-labelauty-icon" name="inputLableautyNoLabeledCheckbox" data-plugin="labelauty" data-label="false"
+                                                    disabled/>
+                                                <!-- <span>Disabled Unchecked</span> -->
+                                            </div>
+                                        </div>
+                                        <!-- end inside card-body -->
+                                    </div>
+                                    <!-- end inside col -->
+
+                                    <div class="col-md-6">
+                                        <div class="card-body">
+                                            <h6 class="text-theme">Non-Labeled Radio</h6>
+                                            <div class="form-group">
+                                                <input type="radio" class="to-labelauty-icon" name="inputLableautyNoLabeledRadio" data-plugin="labelauty" data-label="false"
+                                                />
+
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="radio" class="to-labelauty-icon" name="inputLableautyNoLabeledRadio" data-plugin="labelauty" data-label="false"
+                                                    checked />
+
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="radio" class="to-labelauty-icon" name="inputLableautyNoLabeledRadio1" data-plugin="labelauty" data-label="false"
+                                                    disabled checked />
+
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="radio" class="to-labelauty-icon" name="inputLableautyNoLabeledRadio2" data-plugin="labelauty" data-label="false"
+                                                    disabled />
+
+                                            </div>
+                                        </div>
+                                        <!-- end inside card-body -->
+                                    </div>
+                                    <!-- end inside col -->
+
+                                </div>
+                                <!-- end inside row -->
+                            </div>
+                            <!-- end card-body -->
+                        </div>
+                        <!-- end card -->
+                    </div>
+                    <!-- end col -->
+                </div>
+                <!-- end row -->
+
+
+            </div>
+            <!-- end animated fadeIn -->
+
+            <!-- end container-fluid -->
+        </main>
+        <!-- end main -->
+
+        <aside class="aside-menu">
+            <div class="aside-header bg-theme text-uppercase">Service Panel</div>
+            <div class="aside-body">
+                <h6 class="text-theme">Light Sidebar</h6>
+                <ul class="theme-colors">
+                    <li class="theme-blue" onclick="swapStyleSheet('../../css/style-blue.css')"></li>
+                    <li class="theme-green" onclick="swapStyleSheet('../../css/style-green.css')"></li>
+                    <li class="theme-red" onclick="swapStyleSheet('../../css/style-red.css')"></li>
+                    <li class="theme-yellow" onclick="swapStyleSheet('../../css/style-yellow.css')"></li>
+                    <li class="theme-orange" onclick="swapStyleSheet('../../css/style-orange.css')"></li>
+                    <li class="theme-teal" onclick="swapStyleSheet('../../css/style-teal.css')"></li>
+                    <li class="theme-cyan" onclick="swapStyleSheet('../../css/style-cyan.css')"></li>
+                    <li class="theme-purple" onclick="swapStyleSheet('../../css/style-purple.css')"></li>
+                    <li class="theme-indigo" onclick="swapStyleSheet('../../css/style-indigo.css')"></li>
+                    <li class="theme-pink" onclick="swapStyleSheet('../../css/style-pink.css')"></li>
+                </ul>
+
+                <!-- <h6 class="text-theme">Social Colors</h6> -->
+                <ul class="theme-colors">
+                    <li class="theme-facebook" onclick="swapStyleSheet('../../css/style-facebook.css')"></li>
+                    <li class="theme-twitter" onclick="swapStyleSheet('../../css/style-twitter.css')"></li>
+                    <li class="theme-linkedin" onclick="swapStyleSheet('../../css/style-linkedin.css')"></li>
+                    <li class="theme-google-plus" onclick="swapStyleSheet('../../css/style-google-plus.css')"></li>
+                    <li class="theme-flickr" onclick="swapStyleSheet('../../css/style-flickr.css')"></li>
+                    <li class="theme-tumblr" onclick="swapStyleSheet('../../css/style-tumblr.css')"></li>
+                    <li class="theme-xing" onclick="swapStyleSheet('../../css/style-xing.css')"></li>
+                    <li class="theme-github" onclick="swapStyleSheet('../../css/style-github.css')"></li>
+                    <li class="theme-html5" onclick="swapStyleSheet('../../css/style-html5.css')"></li>
+                    <li class="theme-openid" onclick="swapStyleSheet('../../css/style-openid.css')"></li>
+                    <li class="theme-stack-overflow" onclick="swapStyleSheet('../../css/style-stack-overflow.css')"></li>
+                    <li class="theme-css3" onclick="swapStyleSheet('../../css/style-css3.css')"></li>
+                    <li class="theme-dribbble" onclick="swapStyleSheet('../../css/style-dribbble.css')"></li>
+                    <li class="theme-instagram" onclick="swapStyleSheet('../../css/style-instagram.css')"></li>
+                    <li class="theme-pinterest" onclick="swapStyleSheet('../../css/style-pinterest.css')"></li>
+                    <li class="theme-vk" onclick="swapStyleSheet('../../css/style-vk.css')"></li>
+                    <li class="theme-yahoo" onclick="swapStyleSheet('../../css/style-yahoo.css')"></li>
+                    <li class="theme-behance" onclick="swapStyleSheet('../../css/style-behance.css')"></li>
+                    <li class="theme-dropbox" onclick="swapStyleSheet('../../css/style-dropbox.css')"></li>
+                    <li class="theme-reddit" onclick="swapStyleSheet('../../css/style-reddit.css')"></li>
+                    <li class="theme-spotify" onclick="swapStyleSheet('../../css/style-spotify.css')"></li>
+                    <li class="theme-vine" onclick="swapStyleSheet('../../css/style-vine.css')"></li>
+                    <li class="theme-foursquare" onclick="swapStyleSheet('../../css/style-foursquare.css')"></li>
+                    <li class="theme-vimeo" onclick="swapStyleSheet('../../css/style-vimeo.css')"></li>
+
+                </ul>
+
+                <h6 class="text-theme">Dark Sidebar</h6>
+                <ul class="theme-colors">
+                    <li class="theme-blue" onclick="swapStyleSheetDark('../../css/style-blue.css')"></li>
+                    <li class="theme-green" onclick="swapStyleSheetDark('../../css/style-green.css')"></li>
+                    <li class="theme-red" onclick="swapStyleSheetDark('../../css/style-red.css')"></li>
+                    <li class="theme-yellow" onclick="swapStyleSheetDark('../../css/style-yellow.css')"></li>
+                    <li class="theme-orange" onclick="swapStyleSheetDark('../../css/style-orange.css')"></li>
+                    <li class="theme-teal" onclick="swapStyleSheetDark('../../css/style-teal.css')"></li>
+                    <li class="theme-cyan" onclick="swapStyleSheetDark('../../css/style-cyan.css')"></li>
+                    <li class="theme-purple" onclick="swapStyleSheetDark('../../css/style-purple.css')"></li>
+                    <li class="theme-indigo" onclick="swapStyleSheetDark('../../css/style-indigo.css')"></li>
+                    <li class="theme-pink" onclick="swapStyleSheetDark('../../css/style-pink.css')"></li>
+                </ul>
+
+                <!-- <h6 class="text-theme">Social Colors</h6> -->
+                <ul class="theme-colors">
+                    <li class="theme-facebook" onclick="swapStyleSheetDark('../../css/style-facebook.css')"></li>
+                    <li class="theme-twitter" onclick="swapStyleSheetDark('../../css/style-twitter.css')"></li>
+                    <li class="theme-linkedin" onclick="swapStyleSheetDark('../../css/style-linkedin.css')"></li>
+                    <li class="theme-google-plus" onclick="swapStyleSheetDark('../../css/style-google-plus.css')"></li>
+                    <li class="theme-flickr" onclick="swapStyleSheetDark('../../css/style-flickr.css')"></li>
+                    <li class="theme-tumblr" onclick="swapStyleSheetDark('../../css/style-tumblr.css')"></li>
+                    <li class="theme-xing" onclick="swapStyleSheetDark('../../css/style-xing.css')"></li>
+                    <li class="theme-github" onclick="swapStyleSheetDark('../../css/style-github.css')"></li>
+                    <li class="theme-html5" onclick="swapStyleSheetDark('../../css/style-html5.css')"></li>
+                    <li class="theme-openid" onclick="swapStyleSheetDark('../../css/style-openid.css')"></li>
+                    <li class="theme-stack-overflow" onclick="swapStyleSheetDark('../../css/style-stack-overflow.css')"></li>
+                    <li class="theme-css3" onclick="swapStyleSheetDark('../../css/style-css3.css')"></li>
+                    <li class="theme-dribbble" onclick="swapStyleSheetDark('../../css/style-dribbble.css')"></li>
+                    <li class="theme-instagram" onclick="swapStyleSheetDark('../../css/style-instagram.css')"></li>
+                    <li class="theme-pinterest" onclick="swapStyleSheetDark('../../css/style-pinterest.css')"></li>
+                    <li class="theme-vk" onclick="swapStyleSheetDark('../../css/style-vk.css')"></li>
+                    <li class="theme-yahoo" onclick="swapStyleSheetDark('../../css/style-yahoo.css')"></li>
+                    <li class="theme-behance" onclick="swapStyleSheetDark('../../css/style-behance.css')"></li>
+                    <li class="theme-dropbox" onclick="swapStyleSheetDark('../../css/style-dropbox.css')"></li>
+                    <li class="theme-reddit" onclick="swapStyleSheetDark('../../css/style-reddit.css')"></li>
+                    <li class="theme-spotify" onclick="swapStyleSheetDark('../../css/style-spotify.css')"></li>
+                    <li class="theme-vine" onclick="swapStyleSheetDark('../../css/style-vine.css')"></li>
+                    <li class="theme-foursquare" onclick="swapStyleSheetDark('../../css/style-foursquare.css')"></li>
+                    <li class="theme-vimeo" onclick="swapStyleSheetDark('../../css/style-vimeo.css')"></li>
+
+                </ul>
+            </div>
+
+        </aside>
+        <!-- end aside -->
+
+    </div>
+    <!-- end app-body -->
+
+    <footer class="app-footer">
+        <a href="#" class="text-theme">octAdmin</a> &copy; 2018 octaThemes.
+    </footer>
+
+
+    <!-- Bootstrap and necessary plugins -->
+    <script src="../../libs/jquery/dist/jquery.min.js"></script>
+    <script src="../../libs/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../../libs/bootstrap/bootstrap.min.js"></script>
+    <script src="../../libs/PACE/pace.min.js"></script>
+    <script src="../../libs/chart.js/dist/Chart.min.js"></script>
+    <script src="../../libs/nicescroll/jquery.nicescroll.min.js"></script>
+
+
+      <!-- jquery-loading -->
+      <script src="../../libs/jquery-loading/dist/jquery.loading.min.js"></script>
+    <!--select 2 -->
+    <script src="../../libs/select2/dist/js/select2.min.js"></script>
+
+    <!-- bootstrap tags input -->
+    <script src="../../libs/bootstrap-tagsinput/dist/tagsinput.js"></script>
+
+    <!-- multiselect -->
+    <script src="../../libs/multiselect/js/jquery.multi-select.js"></script>
+
+    <!-- typeahead -->
+    <script src="../../libs/typeahead/typeahead.js"></script>
+
+    <!-- max-length -->
+    <script src="../../libs/bootstrap-maxlength/src/bootstrap-maxlength.js"></script>
+
+    <!-- bootstrap touchspin -->
+    <script src="../../libs/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.js"></script>
+
+    <!-- clockpicker -->
+    <script src="../../libs/clockpicker/dist/bootstrap-clockpicker.min.js"></script>
+
+    <!-- timepicker -->
+    <script src="../../libs/timepicker/dist/jquery.timepicker.min.js"></script>
+
+    <!-- datepicker -->
+    <script src="../../libs/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+
+    <!-- slider-range -->
+    <script src="../../libs/sliderrange/dist/jquery-asRange.min.js"></script>
+
+    <!-- jquery-strength -->
+    <script src="../../libs/jquery-strength/dist/password_strength.js"></script>
+    <script src="../../libs/jquery-strength/dist/jquery-strength.js"></script>
+
+    <!-- jquery-knob -->
+    <script src="../../libs/jquery-knob/dist/jquery.knob.min.js"></script>
+
+    <!-- jquery-labelauty -->
+    <script src="../../libs/jquery-labelauty/source/jquery-labelauty.js"></script>
+
+
+
+
+    <!-- octadmin Main Script -->
+    <script src="../../js/app.js"></script>
+
+    <!-- form plugins example -->
+    <script src="../../js/form-plugins-example.js"></script>
+
+
+
+</body>
+
+</html>

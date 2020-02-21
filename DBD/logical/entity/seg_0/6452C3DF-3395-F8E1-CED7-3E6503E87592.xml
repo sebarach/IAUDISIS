@@ -1,0 +1,207 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6452C3DF-3395-F8E1-CED7-3E6503E87592" name="Tareas">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-09 14:21:34 UTC</createdTime>
+<ownerDesignName>DBD</ownerDesignName>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID Tarea" id="0450EC06-015E-8B93-0BD3-DE5BAD9EEE33">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-10 15:28:48 UTC</createdTime>
+<ownerDesignName>DBD</ownerDesignName>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NombreTarea" id="821845EF-0CFA-FCAA-9F1C-EFFD0719D4A4">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-10 15:28:54 UTC</createdTime>
+<ownerDesignName>DBD</ownerDesignName>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FechaIncio" id="0B2EA743-C6CC-3F20-3455-738E9A68FCD8">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-10 15:29:38 UTC</createdTime>
+<ownerDesignName>DBD</ownerDesignName>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FechaFin" id="3635D813-2FDA-473C-9077-431C9C0E366B">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-10 15:29:55 UTC</createdTime>
+<ownerDesignName>DBD</ownerDesignName>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Detalle" id="4C324658-15B7-F349-52C7-BCADE99D3946">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-10 15:29:58 UTC</createdTime>
+<ownerDesignName>DBD</ownerDesignName>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Activo" id="EE180950-BCA2-F538-1951-1E490DE759B4">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-10 15:30:40 UTC</createdTime>
+<ownerDesignName>DBD</ownerDesignName>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FechaRegistro" id="8E0BA2A5-7F5C-FCA0-2E70-AB4E991D8224">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-10 15:30:45 UTC</createdTime>
+<ownerDesignName>DBD</ownerDesignName>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id UserCreador" id="BA8AF60F-A2C5-5066-D126-5AB85F8DF645">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-10 15:30:49 UTC</createdTime>
+<ownerDesignName>DBD</ownerDesignName>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Jornadas id Jornada" id="76F384E7-9D51-BC5D-F314-ADFB53963B6A">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-13 16:04:53 UTC</createdTime>
+<generatorID>B2BE6372-E631-4428-CE6E-F7D646FA7FE1</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="true"/>
+</engineerTo>
+<referedAttribute>124181CF-601D-73DD-58F4-A19B5106ADC4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Locales ID Local" id="74474A47-7113-18FD-4E18-28201F21C0C9">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-13 16:05:57 UTC</createdTime>
+<generatorID>B2BE6372-E631-4428-CE6E-F7D646FA7FE1</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="true"/>
+</engineerTo>
+<referedAttribute>AA768624-1006-62D8-4143-47B3C05B4EA6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Locales Cadena id cadena" id="833D8938-9CE2-B6A4-CDC4-AE136C4110FE">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-13 16:05:57 UTC</createdTime>
+<generatorID>B2BE6372-E631-4428-CE6E-F7D646FA7FE1</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="true"/>
+</engineerTo>
+<referedAttribute>3DDBD12B-DB08-39E7-AE5A-F5BAB4207D9F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Comuna" id="3913CECF-0DA1-1BAE-F65B-9B73A7241542">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-13 18:11:06 UTC</createdTime>
+<generatorID>B2BE6372-E631-4428-CE6E-F7D646FA7FE1</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="true"/>
+</engineerTo>
+<referedAttribute>0B3E643F-02D9-2E2F-2080-02632A5C43B6</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Region" id="09B9B860-937A-B2F2-97C6-629D79B8601E">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-13 18:12:34 UTC</createdTime>
+<generatorID>B2BE6372-E631-4428-CE6E-F7D646FA7FE1</generatorID>
+<ownerDesignName>DBD</ownerDesignName>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="true"/>
+</engineerTo>
+<referedAttribute>2D048A7E-B51C-C756-3E5B-94AD970EB575</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BDA844EF-C982-7464-5F7D-CF020C8EDCE6" name="Tareas PK">
+<createdBy>Mario Bustos</createdBy>
+<createdTime>2018-08-10 20:10:51 UTC</createdTime>
+<ownerDesignName>DBD</ownerDesignName>
+<engineerTo>
+<item key="D268CA61-7CD6-387D-4971-BCF2BBE36FB8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0450EC06-015E-8B93-0BD3-DE5BAD9EEE33</attributeRef>
+<attributeRef>821845EF-0CFA-FCAA-9F1C-EFFD0719D4A4</attributeRef>
+<attributeRef>76F384E7-9D51-BC5D-F314-ADFB53963B6A</attributeRef>
+<attributeRef>74474A47-7113-18FD-4E18-28201F21C0C9</attributeRef>
+<attributeRef>833D8938-9CE2-B6A4-CDC4-AE136C4110FE</attributeRef>
+<attributeRef>3913CECF-0DA1-1BAE-F65B-9B73A7241542</attributeRef>
+<attributeRef>09B9B860-937A-B2F2-97C6-629D79B8601E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
